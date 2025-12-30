@@ -72,7 +72,7 @@ AccessibilityTree = list[AccessibilityTreeNode]
 DOMTree = list[DOMNode]
 
 
-Observation = str | npt.NDArray[np.uint8]
+Observation = str | npt.NDArray[np.uint8] | tuple[str, Any]
 
 
 class StateInfo(TypedDict):

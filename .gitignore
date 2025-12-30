@@ -1,0 +1,50 @@
+# --- API Keys & Secrets (CRITICAL) ---
+# Never commit your OpenRouter, Anthropic, or OpenAI keys
+.env
+.env.local
+.env.*.local
+config.json
+# If you store keys in a custom yaml
+credentials.yaml
+
+# --- Python Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+build/
+dist/
+*.egg-info/
+
+# --- Scraper & Web Crawling ---
+# Playwright/Crawl4AI browser binaries (if they download locally)
+.local-browsers/
+# Captured screenshots or downloaded PDFs during scraping
+screenshots/
+downloads/
+*.html
+*.log
+
+# --- Agent Trajectories & Research Data ---
+# Based on our talk about "../AgentOccam-Trajectories"
+# It is better to ignore these so you don't bloat your Git history
+*Trajectories/
+*trajectories/
+results/
+recordings/
+*.jsonl
+
+# --- IDE & System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs & Performance ---
+logs/
+*.log
+.coverage
+.pytest_cache/

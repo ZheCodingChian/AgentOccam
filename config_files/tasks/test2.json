@@ -1,0 +1,20 @@
+{
+  "sites": [
+    "custom-site"
+  ],
+  "task_id": "test2",
+  "require_login": false,
+  "storage_state": null,
+  "start_url": "https://www.mapletreeindustrialtrust.com/",
+  "geolocation": null,
+  "intent": "Extract the URL for the page that lists press release from most recent on Mapletree Industrial Trust website.",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": "mapletreeindustrialtrust.com"
+    }
+  }
+}

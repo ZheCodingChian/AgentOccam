@@ -11,7 +11,7 @@ DEFAULT_SYSTEM_PROMPT = "You are a helpful assistant."
 def call_deepseek(prompt, model_id="deepseek-v3.2", system_prompt=DEFAULT_SYSTEM_PROMPT):
     num_attempts = 0
     while True:
-        if num_attempts >= 10:
+        if num_attempts >= 5:
             raise ValueError("DeepSeek request failed.")
         try:
             client = OpenAI(
@@ -36,8 +36,8 @@ def call_deepseek(prompt, model_id="deepseek-v3.2", system_prompt=DEFAULT_SYSTEM
             return response.choices[0].message.content.strip()
         except Exception as e:
             print(e)
-            print("Sleeping for 10s...")
-            time.sleep(10)
+            print("Sleeping for 5s...")
+            time.sleep(5)
             num_attempts += 1
 
 

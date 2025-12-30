@@ -917,7 +917,7 @@ class TextObervationProcessor(ObservationProcessor):
 
         return "\n".join(clean_lines)
 
-    def process(self, page: Page, client: CDPSession, context: str) -> str:
+    def process(self, page: Page, client: CDPSession, context: str) -> tuple[str, TreeNode]:
         # get the tab info
         open_tabs = page.context.pages
         # try:
