@@ -14,6 +14,8 @@ def call_deepseek(prompt, model_id="deepseek-v3.2", system_prompt=DEFAULT_SYSTEM
         if num_attempts >= 5:
             raise ValueError("DeepSeek request failed.")
         try:
+            print(f"    [LLM] Calling DeepSeek via OpenRouter (model: {model_id}, prompt length: {len(prompt)} chars)...")
+            api_start = time.time()
             client = OpenAI(
                 base_url=OPENROUTER_BASE_URL,
                 api_key=OPENROUTER_API_KEY
@@ -25,14 +27,15 @@ def call_deepseek(prompt, model_id="deepseek-v3.2", system_prompt=DEFAULT_SYSTEM
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": prompt},
                 ],
-                temperature=0.95,
-                top_p=0.95,
+                temperature=1.0,
+                top_p=0.5,
                 frequency_penalty=0,
                 presence_penalty=0,
                 stop=None,
-                extra_body={"reasoning": {"enabled": True}}
             )
+            api_duration = time.time() - api_start
 
+            print(f"    [LLM] Response received ({len(response.choices[0].message.content)} chars) in {api_duration:.2f}s")
             return response.choices[0].message.content.strip()
         except Exception as e:
             print(e)

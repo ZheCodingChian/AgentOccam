@@ -57,17 +57,21 @@ class WebArenaEnvironmentWrapper():
     def get_sites(self):
         return self.config["sites"]
         
-    def observation(self): 
+    def observation(self):
+        print("  [Env] Extracting DOM observation from browser...")
         self.url = self.webarena_env.page.url
         if self.global_config and self.global_config.env.prune:
+            print("  [Env] Pruning DOM tree (may include LLM call)...")
             root_node = self.obs["text"][1]
             DOM_root_node = prune_tree(objective=self.objective, root_node=root_node, mode="node")
             DOM_str = translate_node_to_str(node=DOM_root_node, mode="concise")
+            print(f"  [Env] Observation ready (pruned, {len(DOM_str)} chars)")
             return {"text": DOM_str, "image": self.obs["image"], "node": DOM_root_node}
         else:
             browser_content = self.obs["text"][0]
-            browser_content = browser_content.split("\n")[:self.max_browser_rows] 
+            browser_content = browser_content.split("\n")[:self.max_browser_rows]
             browser_content = "\n".join(browser_content)
+            print(f"  [Env] Observation ready (unpruned, {len(browser_content)} chars)")
             return browser_content
     
     def done(self):
@@ -80,8 +84,9 @@ class WebArenaEnvironmentWrapper():
     
     def step(self, action):
         self.steps = self.steps + 1
-        print(f"[Step {self.steps}] {action}")
+        print(f"\n[Step {self.steps}] {action}")
         print("*"*100)
+        print("  [Env] Executing browser action...")
         if self.steps > self.max_steps:
             print(f"Steps {self.steps} exceeded maximum {self.max_steps}")
             self.is_done = True

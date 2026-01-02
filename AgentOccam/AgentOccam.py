@@ -1354,9 +1354,14 @@ class AgentOccam:
         
     def predict_action(self):
         self.critic.update_actor_basic_info(step=self.get_step(), planning_specifications=self.actor.get_planning_specifications(), navigation_specifications=self.actor.get_navigation_specifications(), interaction_history=self.actor.get_interaction_history(interaction_history_config=self.critic.config.interaction_history), previous_plans=self.actor.get_previous_plans(verbose=True))
+        if self.get_step() > 0:
+            print("  [Critic] Analyzing previous action...")
         criticism_elements = self.critic.get_criticism_elements() if not self.get_step()==0 else {}
+        print("  [Actor] Generating action candidates...")
         action_element_list = self.actor.predict_action(criticism_elements=criticism_elements)
         self.judge.update_actor_basic_info(step=self.get_step(), planning_specifications=self.actor.get_planning_specifications(), navigation_specifications=self.actor.get_navigation_specifications(), interaction_history=self.actor.get_interaction_history(interaction_history_config=self.judge.config.interaction_history), previous_plans=self.actor.get_previous_plans(verbose=True), planning_command=self.actor.config.planning_command, navigation_command=self.actor.config.navigation_command)
+        if self.judge.config.mode:
+            print("  [Judge] Evaluating action candidates...")
         selected_action_elements, judgement_elements = self.judge.judge(action_element_list)
         selected_action_elements = self.actor.finalize_action(selected_action_elements)
         return {**selected_action_elements, **{"critic:"+k: criticism_elements[k] for k in criticism_elements.keys()}, **{"judge:"+k: judgement_elements[k] for k in judgement_elements.keys()}}, action_element_list
@@ -1380,19 +1385,23 @@ class AgentOccam:
     def act(self, objective, env):
         self.objective = objective
         self.sites = env.get_sites()
+        print("[AgentOccam] Getting initial observation...")
         observation = env.observation()
         url = env.get_url()
         self.update_online_state(url=url, observation=observation)
+        print("[AgentOccam] Initializing Actor, Critic, Judge...")
         self.init_actor()
         self.init_critic()
         self.init_judge()
         while not env.done():
+            print("[AgentOccam] Processing observation from browser...")
             observation = env.observation()
             url = env.get_url()
             self.update_online_state(url=url, observation=observation)
             self.actor.update_online_state(url=url, observation=observation)
             self.critic.update_online_state(url=url, observation=observation)
             self.judge.update_online_state(url=url, observation=observation)
+            print("[AgentOccam] Calling Actor/Critic/Judge for next action...")
             action_elements, action_element_list = self.predict_action()
             action = action_elements["action"]
             navigation_action = action_elements["action"] if not action_elements.get("navigation action", "") else action_elements.get("navigation action", "")
