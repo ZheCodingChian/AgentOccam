@@ -1,0 +1,20 @@
+{
+  "sites": [
+    "custom-site"
+  ],
+  "task_id": "test8",
+  "require_login": false,
+  "storage_state": null,
+  "start_url": "https://www.capitaland-ascendasreit.com/en.html",
+  "geolocation": null,
+  "intent": "Extract all Singapore portfolio information including categories and property information of each categories",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "capitaland-ascendasreit.com"
+    }
+  }
+}

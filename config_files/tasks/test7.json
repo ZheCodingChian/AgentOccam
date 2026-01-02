@@ -1,0 +1,20 @@
+{
+  "sites": [
+    "custom-site"
+  ],
+  "task_id": "test7",
+  "require_login": false,
+  "storage_state": null,
+  "start_url": "https://mel-reit.co.jp/en/",
+  "geolocation": null,
+  "intent": "Navigate to find the page that lists recent property news. Extract the first news articles and return them in the following EXACT format:\n\n News Page URL: [URL of the housing news listing page]\n\nArticle:\nTitle: [article title]\nPublication Date: [date]\nFull article: [full article]",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "mel-reit.co.jp"
+    }
+  }
+}

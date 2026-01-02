@@ -1,0 +1,20 @@
+{
+  "sites": [
+    "custom-site"
+  ],
+  "task_id": "test4",
+  "require_login": false,
+  "storage_state": null,
+  "start_url": "https://www.mainichi.jp/",
+  "geolocation": null,
+  "intent": "Navigate to the Mainichi website and find the page that lists recent economy news. Extract the first 3 news articles and return them in the following EXACT format:\n\nEconomy News Page URL: [URL of the economy news listing page]\n\nArticle 1:\nTitle: [article title]\nPublication Date: [date]\nSummary: [brief summary]\n\nArticle 2:\nTitle: [article title]\nPublication Date: [date]\nURL: [article URL]\nSummary: [brief summary]\n\nArticle 3:\nTitle: [article title]\nPublication Date: [date]\nURL: [article URL]\nSummary: [brief summary]",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "mainichi.jp"
+    }
+  }
+}
