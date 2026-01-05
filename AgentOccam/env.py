@@ -66,7 +66,7 @@ class WebArenaEnvironmentWrapper():
             DOM_root_node = prune_tree(objective=self.objective, root_node=root_node, mode="node")
             DOM_str = translate_node_to_str(node=DOM_root_node, mode="concise")
             print(f"  [Env] Observation ready (pruned, {len(DOM_str)} chars)")
-            return {"text": DOM_str, "image": self.obs["image"], "node": DOM_root_node}
+            return {"text": DOM_str, "node": DOM_root_node}
         else:
             browser_content = self.obs["text"][0]
             browser_content = browser_content.split("\n")[:self.max_browser_rows]

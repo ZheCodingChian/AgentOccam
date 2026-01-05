@@ -32,7 +32,6 @@ from .actions import (
     create_type_action,
     is_equivalent,
 )
-from .async_envs import AsyncScriptBrowserEnv
 from .envs import ScriptBrowserEnv
 from .processors import ObservationMetadata
 from .trajectory import Trajectory
@@ -40,7 +39,6 @@ from .utils import DetachedPage, StateInfo
 
 __all__ = [
     "ScriptBrowserEnv",
-    "AsyncScriptBrowserEnv",
     "DetachedPage",
     "StateInfo",
     "ObservationMetadata",

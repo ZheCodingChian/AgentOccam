@@ -1,27 +1,14 @@
 from dataclasses import dataclass
-from io import BytesIO
 from typing import Any, Dict, TypedDict, Union
 
 import numpy as np
 import numpy.typing as npt
-from PIL import Image
 
 
 @dataclass
 class DetachedPage:
     url: str
     content: str  # html
-
-
-def png_bytes_to_numpy(png: bytes) -> npt.NDArray[np.uint8]:
-    """Convert png bytes to numpy array
-
-    Example:
-
-    >>> fig = go.Figure(go.Scatter(x=[1], y=[1]))
-    >>> plt.imshow(png_bytes_to_numpy(fig.to_image('png')))
-    """
-    return np.array(Image.open(BytesIO(png)))
 
 
 class AccessibilityTreeNode(TypedDict):

@@ -167,14 +167,6 @@ class Agent:
                 return self.previous_interactions["observation"][idx]
             return self.online_interaction["observation"]
         
-    def get_observation_image(self, idx=None):
-        if isinstance(self.online_interaction["observation"], dict):
-            if idx:
-                return self.previous_interactions["observation"][idx]["image"]
-            return self.online_interaction["observation"]["image"]
-        elif isinstance(self.online_interaction["observation"], str):
-            return None
-        
     def get_observation_node(self, idx=None):
         if isinstance(self.online_interaction["observation"], dict):
             if idx != None:
@@ -459,19 +451,19 @@ class Actor(Agent):
             if self.get_observation_node_str() and self.get_observation_node_str(i) and not self.get_observation_node_str() == self.get_observation_node_str(i):
                 if self.previous_interactions["observation highlight"][i] and mode == "highlight" and len(translate_node_to_str(self.previous_interactions["observation highlight"][i], mode="name_only", retained_ids=self.previous_interactions["retained element ids"][i]).split()) < 200:
                     try:
-                        previous_observation.append({"text": translate_node_to_str(self.previous_interactions["observation highlight"][i], mode="name_only", retained_ids=self.previous_interactions["retained element ids"][i]), "image": self.get_observation_image(i)})
+                        previous_observation.append({"text": translate_node_to_str(self.previous_interactions["observation highlight"][i], mode="name_only", retained_ids=self.previous_interactions["retained element ids"][i])})
                     except:
                         print(i, self.previous_interactions["observation"][i]["text"])
                         raise ValueError("Cannot translate highlight node to text.")
                 else:
-                    previous_observation.append({"text": self.previous_interactions["observation summary"][i], "image": self.get_observation_image(i)})
+                    previous_observation.append({"text": self.previous_interactions["observation summary"][i]})
             elif not self.get_observation_node() or mode == "full":
                 if len(self.get_observation_text(i).split()) < 200:
-                    previous_observation.append({"text": self.get_observation_text(i), "image": self.get_observation_image(i)})
+                    previous_observation.append({"text": self.get_observation_text(i)})
                 else:
-                    previous_observation.append({"text": self.previous_interactions["observation summary"][i], "image": self.get_observation_image(i)})
+                    previous_observation.append({"text": self.previous_interactions["observation summary"][i]})
             else:
-                previous_observation.append({"text": "The same as the CURRENT OBSERVATION (see below CURRENT OBSERVATION section).", "image": self.get_observation_image(i)})
+                previous_observation.append({"text": "The same as the CURRENT OBSERVATION (see below CURRENT OBSERVATION section)."})
 
         previous_observation_summary = [self.previous_interactions["observation summary"][i] for i in self.active_node.steps_taken]
 
@@ -481,45 +473,23 @@ class Actor(Agent):
             elif isinstance(obs, str):
                 return obs
 
-        def get_image(obs):
-            if isinstance(obs, dict):
-                return obs["image"]
-            elif isinstance(obs, str):
-                return obs
-
         if interaction_history_config.step_num == "all":
             textual_observations = [get_text(obs) for obs in previous_observation] if interaction_history_config.verbose else previous_observation_summary
-            visual_observations = [get_image(obs) for obs in previous_observation]
         else:
             textual_observations = previous_observation_summary[:-interaction_history_config.step_num]
-            visual_observations = [None] * len(previous_observation_summary[:-interaction_history_config.step_num])
             textual_observations += [get_text(obs) for obs in previous_observation][-interaction_history_config.step_num:] if interaction_history_config.verbose else previous_observation_summary[-interaction_history_config.step_num:]
-            visual_observations += [get_image(obs) for obs in previous_observation][-interaction_history_config.step_num:]
 
         plans = [self.previous_interactions["plan"][i] for i in self.active_node.steps_taken]
         reasons = [self.previous_interactions["reason"][i] for i in self.active_node.steps_taken]
         actions = [self.previous_interactions["action"][i] for i in self.active_node.steps_taken]
-            
-        if "image" in interaction_history_config.type:
-            message_list = []
-            for step, (obs, vi_obs, plan, reason, action) in enumerate(zip(textual_observations, visual_observations, plans, reasons, actions)):
-                message_list.append(("text", f"<step_{step}_interaction>\n"))
-                if vi_obs:
-                    message_list.append(("text", "VISUAL OBSERVATION:\n"))
-                    message_list.append(("image", vi_obs))
-                if self.active_node.id != 0:
-                    message_list.append(("text", f"TEXTUAL OBSERVATION:\n{obs}\nACTIVE PLAN:\n{plan}\nREASON FOR ACTION:\n{reason}\nACTION:\n{action}\n</step_{step}_interaction>\n"))
-                else:
-                    message_list.append(("text", f"TEXTUAL OBSERVATION:\n{obs}\nREASON FOR ACTION:\n{reason}\nACTION:\n{action}\n</step_{step}_interaction>\n"))
-            return self.prune_message_list(message_list=message_list)
-        else:
-            message = ""
-            for step, (obs, plan, reason, action) in enumerate(zip(textual_observations, plans, reasons, actions)):
-                if self.active_node.id != 0:
-                    message += f"<step_{step}_interaction>\nOBSERVATION:\n{obs}\nACTIVE PLAN:\n{plan}\nREASON FOR ACTION:\n{reason}\nACTION:\n{action}\n</step_{step}_interaction>\n" # f"<step_{step}_interaction>\nOBSERVATION:\n{obs}\nACTIVE PLAN:\n{plan}\nREASON FOR ACTION:\n{reason}\nACTION:\n{action}\n</step_{step}_interaction>\n"
-                else:
-                    message += f"<step_{step}_interaction>\nOBSERVATION:\n{obs}\nREASON FOR ACTION:\n{reason}\nACTION:\n{action}\n</step_{step}_interaction>\n" # f"<step_{step}_interaction>\nOBSERVATION:\n{obs}\nREASON FOR ACTION:\n{reason}\nACTION:\n{action}\n</step_{step}_interaction>\n"
-            return self.prune_message_list(message_list=[("text", message)])
+
+        message = ""
+        for step, (obs, plan, reason, action) in enumerate(zip(textual_observations, plans, reasons, actions)):
+            if self.active_node.id != 0:
+                message += f"<step_{step}_interaction>\nOBSERVATION:\n{obs}\nACTIVE PLAN:\n{plan}\nREASON FOR ACTION:\n{reason}\nACTION:\n{action}\n</step_{step}_interaction>\n"
+            else:
+                message += f"<step_{step}_interaction>\nOBSERVATION:\n{obs}\nREASON FOR ACTION:\n{reason}\nACTION:\n{action}\n</step_{step}_interaction>\n"
+        return self.prune_message_list(message_list=[("text", message)])
         
     def pre_process_atomic_actions(self, atomic_action_list=["combobox"]):
         if self.get_observation_node() and "combobox" in atomic_action_list:
@@ -534,14 +504,11 @@ class Actor(Agent):
             "previous plans": self.get_previous_plans(verbose=True),
             "interaction history": self.get_interaction_history(),
             "current observation": self.get_observation_text(),
-            "current visual observation": self.get_observation_image()
         }
         input_list = []
         for input_type in self.config.input:
             input_content = None
-            if input_type == "current visual observation":
-                continue
-            elif input_type in INPUT_TYPE_TO_CONTENT_MAP.keys():
+            if input_type in INPUT_TYPE_TO_CONTENT_MAP.keys():
                 input_content = INPUT_TYPE_TO_CONTENT_MAP[input_type]
             elif input_type.startswith("critic: ") and criticism_elements and input_type[len("critic: "):] in criticism_elements.keys() and criticism_elements[input_type[len("critic: "):]]:
                 input_type = input_type[len("critic: "):]
@@ -553,13 +520,8 @@ class Actor(Agent):
                 input_list.append(("text", f"{input_type.upper()}:\n"))
                 input_list += input_content if len(input_content) > 0 else ["N/A"]
 
-        if "image" in self.config.current_observation.type:
-            input_type = "current visual observation"
-            input_list.append(("text", f"{input_type.upper()}:\n"))
-            input_list.append(("image", INPUT_TYPE_TO_CONTENT_MAP["current visual observation"]))
-
         return self.prune_message_list(message_list=[("text", input_prefix)] + input_list + [("text", input_suffix)])
-    
+
     def get_planning_specifications(self):
         if self.planning_specifications:
             return self.planning_specifications
@@ -1075,25 +1037,17 @@ class Critic(Agent):
             "previous plans": self.actor_basic_info_dict["previous_plans"],
             "interaction history": self.actor_basic_info_dict["interaction_history"],
             "current observation": self.get_observation_text(),
-            "current visual observation": self.get_observation_image()
         }
         input_list = []
         for input_type in self.config.input:
             input_content = None
-            if input_type == "current visual observation":
-                continue
-            elif input_type in INPUT_TYPE_TO_CONTENT_MAP.keys():
+            if input_type in INPUT_TYPE_TO_CONTENT_MAP.keys():
                 input_content = INPUT_TYPE_TO_CONTENT_MAP[input_type]
             if input_content and isinstance(input_content, str):
                 input_list.append(("text", f"{input_type.upper()}:\n{input_content}\n"))
             elif input_content and isinstance(input_content, list):
                 input_list.append(("text", f"{input_type.upper()}:\n"))
                 input_list += input_content if len(input_content) > 0 else ["N/A"]
-
-        if "image" in self.config.current_observation.type:
-            input_type = "current visual observation"
-            input_list.append(("text", f"{input_type.upper()}:\n"))
-            input_list.append(("image", INPUT_TYPE_TO_CONTENT_MAP["current visual observation"]))
 
         return self.prune_message_list(message_list=[("text", input_prefix)] + input_list + [("text", input_suffix)])
 
@@ -1153,15 +1107,12 @@ class Judge(Agent):
             "previous plans": self.actor_basic_info_dict["previous_plans"],
             "interaction history": self.actor_basic_info_dict["interaction_history"],
             "current observation": self.get_observation_text(),
-            "current visual observation": self.get_observation_image(),
             "action choices": "\n\n".join(["|\taction [{}]:\n{}\n|\treason for action [{}]:\n{}".format(i, action_element["action"], i, action_element.get("reason", "N/A")) for i, action_element in enumerate(action_element_list)])
         }
         input_list = []
         for input_type in self.config.input:
             input_content = None
-            if input_type == "current visual observation":
-                continue
-            elif input_type in INPUT_TYPE_TO_CONTENT_MAP.keys():
+            if input_type in INPUT_TYPE_TO_CONTENT_MAP.keys():
                 input_content = INPUT_TYPE_TO_CONTENT_MAP[input_type]
             if input_content and isinstance(input_content, str):
                 input_list.append(("text", f"{input_type.upper()}:\n{input_content}\n"))
@@ -1169,13 +1120,8 @@ class Judge(Agent):
                 input_list.append(("text", f"{input_type.upper()}:\n"))
                 input_list += input_content if len(input_content) > 0 else ["N/A"]
 
-        if "image" in self.config.current_observation.type:
-            input_type = "current visual observation"
-            input_list.append(("text", f"{input_type.upper()}:\n"))
-            input_list.append(("image", INPUT_TYPE_TO_CONTENT_MAP["current visual observation"]))
-
         return self.prune_message_list(message_list=[("text", input_prefix)] + input_list + [("text", input_suffix)])
-    
+
     def verbose(self, instruction, online_input, model_response):
         VERBOSE_TO_CONTENT_MAP = {
             "url": self.online_interaction["url"],

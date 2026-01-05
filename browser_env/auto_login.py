@@ -97,7 +97,6 @@ def renew_comb(comb: list[str], auth_folder: str = "./.auth") -> None:
             username = ACCOUNTS["gitlab"]["username"]
             password = ACCOUNTS["gitlab"]["password"]
             page.goto(f"{GITLAB}/users/sign_in")
-            page.screenshot(path="debug.png")
             page.get_by_test_id("username-field").click()
             page.get_by_test_id("username-field").fill(username)
             page.get_by_test_id("username-field").press("Tab")

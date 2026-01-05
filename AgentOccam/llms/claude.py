@@ -1,9 +1,5 @@
 import boto3
 import json
-import numpy as np
-from PIL import Image
-import base64
-import io
 import time
 
 DEFAULT_SYSTEM_PROMPT = '''You are an AI assistant. Your goal is to provide informative and substantive responses to queries.'''
@@ -46,62 +42,15 @@ def call_claude(prompt, model_id="anthropic.claude-3-sonnet-20240229-v1:0", syst
     
 
 def arrange_message_for_claude(item_list):
-    def image_path_to_bytes(file_path):
-        with open(file_path, "rb") as image_file:
-            image_bytes = image_file.read()
-        return image_bytes
-    combined_item_list = []
-    previous_item_is_text = False
     text_buffer = ""
     for item in item_list:
-        if item[0] == "image":
-            if len(text_buffer) > 0:
-                combined_item_list.append(("text", text_buffer))
-                text_buffer = ""
-            combined_item_list.append(item)
-            previous_item_is_text = False
-        else:
-            if previous_item_is_text:
-                text_buffer += item[1]
-            else:
-                text_buffer = item[1]
-            previous_item_is_text = True
-    if item_list[-1][0] != "image" and len(text_buffer) > 0:
-        combined_item_list.append(("text", text_buffer))
-    content = []
-    for item in combined_item_list:
-        item_type = item[0]
-        if item_type == "text":
-            content.append({
-                "type": "text",
-                "text": item[1]
-            })
-        elif item_type == "image":
-            if isinstance(item[1], str):
-                media_type = "image/png" # "image/jpeg"
-                image_bytes = image_path_to_bytes(item[1])
-                image_data = base64.b64encode(image_bytes).decode("utf-8")
-            elif isinstance(item[1], np.ndarray):
-                media_type = "image/jpeg"
-                image = Image.fromarray(item[1]).convert("RGB")
-                width, height = image.size
-                image = image.resize((int(0.5*width), int(0.5*height)), Image.LANCZOS)
-                image_bytes = io.BytesIO()
-                image.save(image_bytes, format='JPEG')
-                image_bytes = image_bytes.getvalue()
-                image_data = base64.b64encode(image_bytes).decode("utf-8")
-            content.append({
-                "type": "image",
-                "source": {
-                    "type": "base64",
-                    "media_type": media_type,
-                    "data": image_data,
-                },
-            })
+        if item[0] == "text":
+            text_buffer += item[1]
+
     messages = [
         {
             "role": "user",
-            "content": content
+            "content": [{"type": "text", "text": text_buffer}]
         }
     ]
     return messages

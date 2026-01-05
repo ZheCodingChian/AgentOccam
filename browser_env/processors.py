@@ -24,7 +24,6 @@ from .utils import (
     DOMNode,
     DOMTree,
     Observation,
-    png_bytes_to_numpy,
 )
 
 from .html_tools import HtmlParser, basic_attrs, print_html_object
@@ -1041,23 +1040,6 @@ class TextObervationProcessor(ObservationProcessor):
         )
 
 
-class ImageObservationProcessor(ObservationProcessor):
-    def __init__(self, observation_type: str, current_viewport_only: bool):
-        self.observation_type = observation_type
-        self.current_viewport_only = current_viewport_only
-        self.observation_tag = "image"
-        self.meta_data = create_empty_metadata()
-
-    def process(self, page: Page, client: CDPSession, context: str) -> npt.NDArray[np.uint8]:
-        try:
-            screenshot = png_bytes_to_numpy(page.screenshot(full_page=(not self.current_viewport_only)))
-            screenshot = screenshot[:2*screenshot.shape[1], :, :]
-        except:
-            page.wait_for_event("load")
-            screenshot = png_bytes_to_numpy(page.screenshot(full_page=(not self.current_viewport_only)))
-        return screenshot
-
-
 class ObservationHandler:
     """Main entry point to access all observation processor"""
 
@@ -1065,16 +1047,12 @@ class ObservationHandler:
         self,
         main_observation_type: str,
         text_observation_type: str,
-        image_observation_type: str,
         current_viewport_only: bool,
         viewport_size: ViewportSize,
     ) -> None:
         self.main_observation_type = main_observation_type
         self.text_processor = TextObervationProcessor(
             text_observation_type, current_viewport_only, viewport_size
-        )
-        self.image_processor = ImageObservationProcessor(
-            image_observation_type, current_viewport_only
         )
         self.viewport_size = viewport_size
 
@@ -1085,33 +1063,17 @@ class ObservationHandler:
             charset=ASCII_CHARSET + FREQ_UNICODE_CHARSET,
         )
 
-        image_space = spaces.Box(
-            # Each position stores the RGB values. Note the swapped axes (height first).
-            np.zeros(
-                (self.viewport_size["height"], self.viewport_size["width"], 3),
-                dtype=np.uint8,
-            ),
-            np.ones(
-                (self.viewport_size["height"], self.viewport_size["width"], 3),
-                dtype=np.uint8,
-            )
-            * 255.0,
-            dtype=np.uint8,
-        )
-
-        return spaces.Dict({"text": text_space, "image": image_space})
+        return spaces.Dict({"text": text_space})
 
     def get_observation(
         self, page: Page, client: CDPSession, context: str = '',
     ) -> dict[str, Observation]:
         text_obs = self.text_processor.process(page, client, context)
-        image_obs = self.image_processor.process(page, client, context)
-        return {"text": text_obs, "image": image_obs}
+        return {"text": text_obs}
 
     def get_observation_metadata(self) -> dict[str, ObservationMetadata]:
         return {
             "text": self.text_processor.meta_data,
-            "image": self.image_processor.meta_data,
         }
 
     @property

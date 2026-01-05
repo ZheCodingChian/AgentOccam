@@ -1,11 +1,6 @@
 import openai
 from openai import OpenAI, AzureOpenAI
 import time
-import numpy as np
-from PIL import Image
-import base64
-import io
-import requests
 import os
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", None)
 AZURE_ENDPOINT = os.environ.get("AZURE_ENDPOINT", None)
@@ -50,54 +45,12 @@ def call_gpt(prompt, model_id="gpt-3.5-turbo", system_prompt=DEFAULT_SYSTEM_PROM
             num_attempts += 1
 
 def arrange_message_for_gpt(item_list):
-    def image_path_to_bytes(file_path):
-        with open(file_path, "rb") as image_file:
-            image_bytes = image_file.read()
-        return image_bytes
-    combined_item_list = []
-    previous_item_is_text = False
     text_buffer = ""
     for item in item_list:
-        if item[0] == "image":
-            if len(text_buffer) > 0:
-                combined_item_list.append(("text", text_buffer))
-                text_buffer = ""
-            combined_item_list.append(item)
-            previous_item_is_text = False
-        else:
-            if previous_item_is_text:
-                text_buffer += item[1]
-            else:
-                text_buffer = item[1]
-            previous_item_is_text = True
-    if item_list[-1][0] != "image" and len(text_buffer) > 0:
-        combined_item_list.append(("text", text_buffer))
-    content = []
-    for item in combined_item_list:
-        item_type = item[0]
-        if item_type == "text":
-            content.append({
-                "type": "text",
-                "text": item[1]
-            })
-        elif item_type == "image":
-            if isinstance(item[1], str):
-                image_bytes = image_path_to_bytes(item[1])
-                image_data = base64.b64encode(image_bytes).decode("utf-8")
-            elif isinstance(item[1], np.ndarray):
-                image = Image.fromarray(item[1]).convert("RGB")
-                width, height = image.size
-                image = image.resize((int(0.5*width), int(0.5*height)), Image.LANCZOS)
-                image_bytes = io.BytesIO()
-                image.save(image_bytes, format='JPEG')
-                image_bytes = image_bytes.getvalue()
-                image_data = base64.b64encode(image_bytes).decode("utf-8")
-            content.append({
-                "type": "image_url",
-                "image_url": {
-                    "url": f"data:image/jpeg;base64,{image_data}"
-                },
-            })
+        if item[0] == "text":
+            text_buffer += item[1]
+
+    content = [{"type": "text", "text": text_buffer}]
     messages = [
         {
             "role": "user",

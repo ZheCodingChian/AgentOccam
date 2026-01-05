@@ -1,11 +1,7 @@
-import base64
-import io
 import json
 import re
 from pathlib import Path
 from typing import Any
-
-from PIL import Image
 
 from agent.prompts import *
 from browser_env import (
@@ -227,7 +223,7 @@ def get_action_description(
 
 
 class RenderHelper(object):
-    """Helper class to render text and image observations and meta data in the trajectory"""
+    """Helper class to render text observations and meta data in the trajectory"""
 
     def __init__(
         self, config_file: str, result_dir: str, action_set_tag: str
@@ -256,7 +252,6 @@ class RenderHelper(object):
         action: Action,
         state_info: StateInfo,
         meta_data: dict[str, Any],
-        render_screenshot: bool = False,
     ) -> None:
         """Render the trajectory"""
         # text observation
@@ -266,17 +261,6 @@ class RenderHelper(object):
         new_content = f"<h2>New Page</h2>\n"
         new_content += f"<h3 class='url'><a href={state_info['info']['page'].url}>URL: {state_info['info']['page'].url}</a></h3>\n"
         new_content += f"<div class='state_obv'><pre>{text_obs}</pre><div>\n"
-
-        if render_screenshot:
-            # image observation
-            img_obs = observation["image"]
-            image = Image.fromarray(img_obs)
-            byte_io = io.BytesIO()
-            image.save(byte_io, format="PNG")
-            byte_io.seek(0)
-            image_bytes = base64.b64encode(byte_io.read())
-            image_str = image_bytes.decode("utf-8")
-            new_content += f"<img src='data:image/png;base64,{image_str}' style='width:50vw; height:auto;'/>\n"
 
         # meta data
         new_content += f"<div class='prev_action' style='background-color:pink'>{meta_data['action_history'][-1]}</div>\n"
