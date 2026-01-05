@@ -7,7 +7,6 @@ from AgentOccam.llms.titan import call_titan, call_titan_with_messages, arrange_
 from AgentOccam.llms.gpt import call_gpt, call_gpt_with_messages, arrange_message_for_gpt
 from AgentOccam.llms.gemini import call_gemini, call_gemini_with_messages, arrange_message_for_gemini
 from AgentOccam.llms.deepseek import call_deepseek, call_deepseek_with_messages, arrange_message_for_deepseek
-from AgentOccam.utils import CURRENT_DIR, HOMEPAGE_URL
 
 from typing import Dict
 import re
@@ -19,6 +18,9 @@ import json
 
 import warnings
 warnings.filterwarnings("ignore")
+
+
+CURRENT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 DEFAULT_DOCUMENTED_INTERACTION_ELEMENTS = ["observation", "action"]
@@ -398,8 +400,6 @@ class Actor(Agent):
                     return True
             case "go_back":
                 return True
-            case "go_home":
-                return True
             case "note":
                 return True
             case "stop":
@@ -666,12 +666,7 @@ class Actor(Agent):
         else:
             self.active_node.steps_taken.append(self.get_step())
         return None
-    
-    def go_home(self, action):
-        if "go_home" in action:
-            return f"goto [{HOMEPAGE_URL}] [1]"
-        return None
-    
+
     def parse_action(self, action_str):
         try:
             DOM_root_node = self.get_observation_node()
@@ -973,9 +968,6 @@ class Actor(Agent):
             action_elements["navigation action"] = navigation_action
         action = self.take_note(action)
         action_elements["action"] = action
-        navigation_action = self.go_home(action=action)
-        if navigation_action:
-            action_elements["navigation action"] = navigation_action
         return action_elements
 
 class Critic(Agent):
@@ -1271,8 +1263,6 @@ class AgentOccam:
     
     def init_actor(self):
         self.config.actor.others = self.config.others
-        if len(self.sites) > 1:
-            self.config.actor.navigation_command += ["go_home"]
         self.actor = Actor(
             config=self.config.actor,
             objective=self.objective,
