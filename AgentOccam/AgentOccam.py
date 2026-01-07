@@ -162,8 +162,31 @@ class Agent:
     def get_observation_text(self, idx=None):
         if isinstance(self.online_interaction["observation"], dict):
             if idx:
-                return self.previous_interactions["observation"][idx]["text"]
-            return self.online_interaction["observation"]["text"]
+                obs_text = self.previous_interactions["observation"][idx]["text"]
+            else:
+                obs_text = self.online_interaction["observation"]["text"]
+
+            # Add compact tab info if page is available
+            if not idx and "page" in self.online_interaction["observation"]:
+                try:
+                    page = self.online_interaction["observation"]["page"]
+                    open_tabs = page.context.pages
+                    current_tab_idx = open_tabs.index(page)
+
+                    tab_lines = []
+                    for idx_tab in range(len(open_tabs)):
+                        title = open_tabs[idx_tab].title()
+                        if idx_tab == current_tab_idx:
+                            tab_lines.append(f'{idx_tab}. "{title}" <-- current tab')
+                        else:
+                            tab_lines.append(f'{idx_tab}. "{title}"')
+
+                    tab_info = "\n".join(tab_lines)
+                    obs_text = f"Opened tabs:\n{tab_info}\n\n{obs_text}"
+                except Exception:
+                    pass  # If tab info fails, just return observation without it
+
+            return obs_text
         elif isinstance(self.online_interaction["observation"], str):
             if idx:
                 return self.previous_interactions["observation"][idx]
@@ -411,6 +434,10 @@ class Actor(Agent):
             case "goto":
                 return True
             case "scroll":
+                return True
+            case "tab_focus":
+                return True
+            case "close_tab":
                 return True
 
     def are_valid_actions(self, actions):

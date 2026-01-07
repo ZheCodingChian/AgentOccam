@@ -942,13 +942,13 @@ class TextObervationProcessor(ObservationProcessor):
                 if idx == current_tab_idx:
                     tab_titles[
                         idx
-                    ] = f"{idx+1}. {open_tabs[idx].title()} <-- current tab"
+                    ] = f"{idx}. {open_tabs[idx].title()} <-- current tab"
                 else:
-                    tab_titles[idx] = f"{idx+1}. {open_tabs[idx].title()}"
+                    tab_titles[idx] = f"{idx}. {open_tabs[idx].title()}"
             tab_title_str = "\n".join(tab_titles)
         except Exception:
             tab_title_str = "\n".join(
-                [f"{idx+1}. Default" for idx in range(len(open_tabs))]
+                [f"{idx}. Default" for idx in range(len(open_tabs))]
             )
 
         
@@ -1016,7 +1016,7 @@ class TextObervationProcessor(ObservationProcessor):
             )
 
         self.browser_config = browser_info["config"]
-        # content = f"{tab_title_str}\n\n{content}"
+        content = f"OPEN TABS:\n{tab_title_str}\n\n{content}"
         return (content, node_root)
 
     def get_node_info_by_element_id(self, AXTreeId):

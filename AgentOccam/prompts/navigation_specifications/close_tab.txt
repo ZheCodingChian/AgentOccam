@@ -1,0 +1,1 @@
+close_tab: Close the current tab and switch to another open tab. If no tabs remain, a new blank tab will be created. E.g., `close_tab`

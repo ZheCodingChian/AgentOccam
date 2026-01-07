@@ -1,0 +1,137 @@
+
+====================================================================================================
+Network Activity Log
+Started: 2026-01-07 14:11:52
+====================================================================================================
+
+[2026-01-07 14:11:57.465] NETWORK REQUEST #1
+Method: POST
+URL: https://graph.instagram.com/logging_client_events
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "x-web-session-id": "a5f1tz:wn956f:khnxmt",
+  "referer": "https://www.instagram.com/",
+  "sec-ch-ua": "\"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "x-asbd-id": "359341",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+  "accept": "*/*",
+  "content-type": "application/x-www-form-urlencoded"
+}
+Body: access_token=936619743392459%7C3cdb3f896252a1db29679cb4554db266&message=%7B%22app_id%22%3A%22936619743392459%22%2C%22app_uid%22%3A%220%22%2C%22app_ver%22%3A%221.0.0%22%2C%22claims%22%3A%5B%5D%2C%22data%22%3A%5B%7B%22extra%22%3A%7B%22event_name%22%3A%22view%22%2C%22is_copyright_blocked%22%3Afalse%2C%22media_id%22%3A%223779456630325724526%22%2C%22media_type%22%3A%22video%22%2C%22owner_id%22%3A%222138744962%22%2C%22implementation%22%3A%22video%22%2C%22referrer%22%3A%22https%3A%2F%2Fwww.edgeprop.sg%... [TRUNCATED - Total size: 1539 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 14:11:57.466] NETWORK REQUEST #2
+Method: POST
+URL: https://graph.instagram.com/logging_client_events
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "x-web-session-id": "a5f1tz:wn956f:loprwc",
+  "referer": "https://www.instagram.com/",
+  "sec-ch-ua": "\"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "x-asbd-id": "359341",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+  "accept": "*/*",
+  "content-type": "application/x-www-form-urlencoded"
+}
+Body: access_token=936619743392459%7C3cdb3f896252a1db29679cb4554db266&message=%7B%22app_id%22%3A%22936619743392459%22%2C%22app_uid%22%3A%220%22%2C%22app_ver%22%3A%221.0.0%22%2C%22claims%22%3A%5B%5D%2C%22data%22%3A%5B%7B%22extra%22%3A%7B%22event_name%22%3A%22view%22%2C%22is_copyright_blocked%22%3Afalse%2C%22media_id%22%3A%223779456630325724526%22%2C%22media_type%22%3A%22video%22%2C%22owner_id%22%3A%222138744962%22%2C%22implementation%22%3A%22video%22%2C%22referrer%22%3A%22https%3A%2F%2Fwww.edgeprop.sg%... [TRUNCATED - Total size: 1539 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 14:11:57.466] NETWORK RESPONSE #1 (Request #1)
+Status: 200 
+URL: https://graph.instagram.com/logging_client_events
+Headers: {
+  "x-stack": "www",
+  "x-fb-trace-id": "Aw3ayRyEnmB",
+  "x-fb-aed": "700",
+  "facebook-api-version": "v18.0",
+  "x-content-type-options": "nosniff",
+  "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "date": "Wed, 07 Jan 2026 06:11:53 GMT",
+  "content-type": "application/json; charset=UTF-8",
+  "vary": "Origin",
+  "x-fb-debug": "6cqX9rmx7/TPTJYH79EPOIQvJVe7tZtcRwlI2peTa5igvTPSpJEtOAwr/SiGcK2r8hRKQun9+SLhSlLytX8sww==",
+  "priority": "u=1,i",
+  "strict-transport-security": "max-age=31536000; preload; includeSubDomains",
+  "x-fb-rev": "1031708965",
+  "cache-control": "private, no-cache, no-store, must-revalidate",
+  "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=9, rtx=0, c=224, mss=1232, tbw=1067038, tp=897, tpl=0, uplat=170, ullat=0",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "x-fb-request-id": "ATV_emPxqIV0AcuwHIRElPR",
+  "access-control-allow-origin": "*",
+  "content-length": "137"
+}
+Body: {
+   "checksum": "",
+   "config": "",
+   "config_owner_id": "",
+   "app_data": "{}",
+   "qpl_version": "",
+   "client_debug_config": ""
+}
+====================================================================================================
+
+[2026-01-07 14:11:57.470] NETWORK RESPONSE #2 (Request #1)
+Status: 200 
+URL: https://graph.instagram.com/logging_client_events
+Headers: {
+  "x-stack": "www",
+  "x-fb-trace-id": "FE01FJ5FVW/",
+  "x-fb-aed": "700",
+  "facebook-api-version": "v18.0",
+  "x-content-type-options": "nosniff",
+  "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "date": "Wed, 07 Jan 2026 06:11:53 GMT",
+  "content-type": "application/json; charset=UTF-8",
+  "vary": "Origin",
+  "x-fb-debug": "lVubXhQ9chtxQg1UmJEcpGT9vhs1LIEoF21RrC6aC59rjtIGf2YBNcVvC/+aAVQhMKfr5JvJpQSnmpRG0ClZRw==",
+  "priority": "u=1,i",
+  "strict-transport-security": "max-age=31536000; preload; includeSubDomains",
+  "x-fb-rev": "1031708965",
+  "cache-control": "private, no-cache, no-store, must-revalidate",
+  "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=9, rtx=0, c=224, mss=1232, tbw=1067438, tp=898, tpl=0, uplat=172, ullat=0",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "x-fb-request-id": "AjiyqF2resmbOzl7nQMt-mu",
+  "access-control-allow-origin": "*",
+  "content-length": "137"
+}
+Body: {
+   "checksum": "",
+   "config": "",
+   "config_owner_id": "",
+   "app_data": "{}",
+   "qpl_version": "",
+   "client_debug_config": ""
+}
+====================================================================================================
+
+
+====================================================================================================
+[2026-01-07 14:12:30.111] ACTION #1
+Action: click [519]
+Element: link "View All" [ID: 519]
+====================================================================================================
+
+[2026-01-07 14:12:30.109] NETWORK RESPONSE #3
+Status: 200 
+URL: https://www.facebook.com/tr/?id=1684483305119944&ev=SubscribedButtonClick&dl=https%3A%2F%2Fwww.edgeprop.sg%2Fproperty-news&rl=&if=false&ts=1767766349947&cd[buttonFeatures]=%7B%22classList%22%3A%22jsx-2149425482%20view-all-btn%22%2C%22destination%22%3A%22https%3A%2F%2Fwww.edgeprop.sg%2Fproperty-news%2Flatest%22%2C%22id%22%3A%22%22%2C%22imageUrl%22%3A%22%22%2C%22innerText%22%3A%22View%20All%22%2C%22numChildButtons%22%3A0%2C%22tag%22%3A%22a%22%2C%22type%22%3Anull%2C%22name%22%3A%22%22%7D&cd[buttonText]=View%20All&cd[formFeatures]=%5B%5D&cd[pageFeatures]=%7B%22title%22%3A%22Singapore%20Property%20News%20-%20Latest%2C%20Breaking%2C%20In-Depth%20%7C%20EdgeProp%20Singapore%22%7D&cd[parameters]=%5B%7B%22extractorID%22%3A%22346501619570581%22%2C%22jsonLD%22%3A%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22%40type%22%3A%22Product%22%2C%22offers%22%3A%7B%22priceCurrency%22%3A%22SGD%22%7D%7D%7D%2C%7B%22extractorID%22%3A%222382091032118706%22%2C%22jsonLD%22%3A%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22%40type%22%3A%22Product%22%2C%22offers%22%3A%7B%7D%7D%7D%2C%7B%22extractorID%22%3A%22357035218304158%22%2C%22jsonLD%22%3A%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22%40type%22%3A%22Product%22%2C%22offers%22%3A%7B%7D%7D%7D%2C%7B%22extractorID%22%3A%22459790111271163%22%2C%22jsonLD%22%3A%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22%40type%22%3A%22Product%22%2C%22offers%22%3A%7B%7D%7D%7D%5D&sw=1920&sh=1080&v=2.9.248&r=stable&ec=1&o=4126&fbp=fb.1.1767766310970.64638300465747330&cs_est=true&ler=empty&cdl=API_unavailable&pmd[description]=Stay%20updated%20with%20the%20latest%2C%20breaking%20%26%20in-depth%20property%20news%20on%20HDB%2C%20condo%2C%20landed%2C%20commercial%20%26%20industrial%20property%20in%20Singapore%20%E2%80%94%20only%20on%20EdgeProp.sg.&plt=403.10000002384186&it=1767766310947&coo=false&es=automatic&tm=3&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=mr2&rqm=GET
+Headers: {
+  "strict-transport-security": "max-age=31536000; includeSubDomains",
+  "x-fb-connection-quality": "UNKNOWN; q=-1, rtt=-1, rtx=0, c=20, mss=1232, tbw=2333, tp=5, tpl=0, uplat=0, ullat=0",
+  "cross-origin-resource-policy": "cross-origin",
+  "access-control-allow-credentials": "true",
+  "access-control-allow-origin": "",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "content-length": "0",
+  "date": "Wed, 07 Jan 2026 06:12:30 GMT",
+  "content-type": "text/plain",
+  "server": "proxygen-bolt",
+  "priority": "u=3,i"
+}
+====================================================================================================
+

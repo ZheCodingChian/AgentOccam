@@ -1,0 +1,1 @@
+tab_focus [tab_number]: Switch to a different open tab. Tab numbers are shown in the OPEN TABS section at the top of the observation (0-indexed). E.g., `tab_focus [0]` to switch to the first tab, `tab_focus [1]` for the second tab.

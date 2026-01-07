@@ -28,7 +28,7 @@ agent:
       type: ["text"]
     output: ["interaction history summary", "observation description", "reason", "action", "observation highlight"]
     planning_command: ["branch", "prune"]
-    navigation_command: ["click", "type", "stop", "note", "go_back"]
+    navigation_command: ["click", "type", "stop", "note", "go_back", "tab_focus", "close_tab"]
     play: ["step", "objective", "previous plans", "observation description", "reason", "action"]
     trash: ["objective", "step", "url", "instruction", "online input", "response"]
   critic:
@@ -69,6 +69,6 @@ env:
   fullpage: True
   prune: true
   max_browser_rows: 500
-  headless: True
-  task_ids: ["test10"]
+  headless: False
+  task_ids: ["test12"]
   

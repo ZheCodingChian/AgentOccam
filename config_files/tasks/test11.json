@@ -1,0 +1,20 @@
+{
+  "sites": [
+    "custom-site"
+  ],
+  "task_id": "test11",
+  "require_login": false,
+  "storage_state": null,
+    "start_url": "https://www.edgeprop.sg/",
+  "geolocation": null,
+  "intent": "Navigate to the index page of property news section  displaying latest property news and click on a pagination button to load more news. Extract the first news headline after clicking a pagination button.",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "https://www.edgeprop.sg/"
+    }
+  }
+}

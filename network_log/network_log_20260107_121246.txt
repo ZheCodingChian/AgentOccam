@@ -1,0 +1,3394 @@
+
+====================================================================================================
+Network Activity Log
+Started: 2026-01-07 12:12:46
+====================================================================================================
+
+[2026-01-07 12:12:51.141] NETWORK REQUEST #1
+Method: GET
+URL: https://maps.googleapis.com/maps-api-v3/api/js/63/5d/common.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:12:51.142] NETWORK REQUEST #2
+Method: GET
+URL: https://maps.googleapis.com/maps-api-v3/api/js/63/5d/util.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:12:51.148] NETWORK REQUEST #3
+Method: POST
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:12:51.142] NETWORK RESPONSE #1 (Request #1)
+Status: 200 
+URL: https://maps.googleapis.com/maps-api-v3/api/js/63/5d/common.js
+Headers: {
+  "content-encoding": "br",
+  "age": "447347",
+  "report-to": "{\"group\":\"maps-api-js\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/maps-api-js\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Fri, 01 Jan 2027 23:57:02 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Thu, 01 Jan 2026 23:57:02 GMT",
+  "last-modified": "Wed, 10 Dec 2025 09:57:43 GMT",
+  "content-type": "text/javascript",
+  "vary": "Accept-Encoding, Origin",
+  "cache-control": "public, max-age=31536000",
+  "timing-allow-origin": "*",
+  "cross-origin-opener-policy": "same-origin; report-to=\"maps-api-js\"",
+  "cross-origin-resource-policy": "cross-origin",
+  "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/maps-api-js",
+  "accept-ranges": "bytes",
+  "content-length": "37762",
+  "x-xss-protection": "0",
+  "server": "sffe"
+}
+Body: google.maps.__gjsload__('common', function(_){var Jia,Kia,Lia,Mia,xv,Oia,Pia,Qia,Sia,zv,Gv,Kv,Lv,Mv,Nv,Ov,Pv,Qv,Via,Xia,Yia,Zia,$ia,Wv,$v,bja,cja,dja,eja,fja,dw,gja,gw,hja,iw,jja,kja,lja,ow,pja,Fw,qja,rja,sja,tja,Iw,Hw,wja,vja,uja,Qw,Rw,Sw,xja,yja,zja,Aja,Cja,Eja,Fja,Gja,Hja,Ija,Jja,Lja,Mja,Rja,Sja,Tja,Xw,Uja,Yw,Vja,Zw,Wja,$w,cx,ex,Yja,Zja,$ja,bka,dka,Fx,Mx,jka,Qx,lka,nka,oka,dy,rka,ska,tka,fy,ly,wka,my,py,xka,qy,yka,ty,Jka,Qka,Uka,Vka,Wka,Xka,Yka,hz,bla,iz,cla,dla,fla,hla,gla,jla,ila,ela,kla,ml... [TRUNCATED - Total size: 128083 chars]
+====================================================================================================
+
+[2026-01-07 12:12:51.146] NETWORK RESPONSE #2 (Request #2)
+Status: 200 
+URL: https://maps.googleapis.com/maps-api-v3/api/js/63/5d/util.js
+Headers: {
+  "content-encoding": "br",
+  "age": "447346",
+  "report-to": "{\"group\":\"maps-api-js\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/maps-api-js\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Fri, 01 Jan 2027 23:57:03 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Thu, 01 Jan 2026 23:57:03 GMT",
+  "last-modified": "Wed, 10 Dec 2025 09:57:43 GMT",
+  "content-type": "text/javascript",
+  "vary": "Accept-Encoding, Origin",
+  "cache-control": "public, max-age=31536000",
+  "timing-allow-origin": "*",
+  "cross-origin-opener-policy": "same-origin; report-to=\"maps-api-js\"",
+  "cross-origin-resource-policy": "cross-origin",
+  "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/maps-api-js",
+  "accept-ranges": "bytes",
+  "content-length": "71825",
+  "x-xss-protection": "0",
+  "server": "sffe"
+}
+Body: google.maps.__gjsload__('util', function(_){/*
+
+ Copyright 2024 Google, Inc
+ SPDX-License-Identifier: MIT
+*/
+var xAa,yAa,AAa,DAa,EAa,IAa,JAa,MAa,RAa,SAa,RI,WAa,$Aa,UI,bBa,iJ,gBa,jBa,oJ,kBa,pJ,rJ,lBa,mBa,nBa,oBa,sJ,qBa,pBa,rBa,tBa,vBa,xBa,BBa,zBa,CBa,ABa,tJ,uJ,FBa,GBa,vJ,wJ,zJ,AJ,BJ,IBa,DJ,EJ,JBa,FJ,KBa,GJ,HJ,LBa,IJ,JJ,MBa,KJ,SBa,WBa,YBa,ZBa,$Ba,MJ,NJ,OJ,PJ,QJ,aCa,RJ,SJ,TJ,bCa,cCa,dCa,UJ,VJ,WJ,eCa,fCa,XJ,YJ,gCa,mCa,nCa,pCa,qCa,rCa,sCa,tCa,uCa,vCa,wCa,xCa,yCa,zCa,ACa,BCa,CCa,dK,fK,gK,hK,jK,kK,iK,l... [TRUNCATED - Total size: 316911 chars]
+====================================================================================================
+
+[2026-01-07 12:12:51.148] NETWORK RESPONSE #3 (Request #3)
+Status: 204 
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "cache-control": "no-cache, no-store, must-revalidate",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "access-control-allow-credentials": "true",
+  "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:67:0",
+  "report-to": "{\"group\":\"ascnsrsgac:67:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:67:0\"}],}",
+  "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+  "access-control-allow-origin": "https://www.edgeprop.sg",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsgac:67:0",
+  "content-length": "0",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 07 Jan 2026 04:12:50 GMT",
+  "content-type": "text/plain",
+  "server": "Golfe2"
+}
+====================================================================================================
+
+[2026-01-07 12:12:51.961] NETWORK REQUEST #4
+Method: POST
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:12:51.980] NETWORK RESPONSE #4 (Request #3)
+Status: 204 
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "cache-control": "no-cache, no-store, must-revalidate",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "access-control-allow-credentials": "true",
+  "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:67:0",
+  "report-to": "{\"group\":\"ascnsrsgac:67:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:67:0\"}],}",
+  "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+  "access-control-allow-origin": "https://www.edgeprop.sg",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsgac:67:0",
+  "content-length": "0",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 07 Jan 2026 04:12:52 GMT",
+  "content-type": "text/plain",
+  "server": "Golfe2"
+}
+====================================================================================================
+
+[2026-01-07 12:13:11.044] NETWORK REQUEST #5
+Method: POST
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.046] NETWORK REQUEST #6
+Method: POST
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.048] NETWORK REQUEST #7
+Method: POST
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.050] NETWORK REQUEST #8
+Method: POST
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.052] NETWORK REQUEST #9
+Method: POST
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.054] NETWORK REQUEST #10
+Method: POST
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.055] NETWORK REQUEST #11
+Method: POST
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150pav873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.057] NETWORK REQUEST #12
+Method: POST
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150pav873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.045] NETWORK RESPONSE #5 (Request #3)
+Status: 204 
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "cache-control": "no-cache, no-store, must-revalidate",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "access-control-allow-credentials": "true",
+  "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:67:0",
+  "report-to": "{\"group\":\"ascnsrsgac:67:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:67:0\"}],}",
+  "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+  "access-control-allow-origin": "https://www.edgeprop.sg",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsgac:67:0",
+  "content-length": "0",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 07 Jan 2026 04:12:55 GMT",
+  "content-type": "text/plain",
+  "server": "Golfe2"
+}
+====================================================================================================
+
+[2026-01-07 12:13:11.046] NETWORK RESPONSE #6 (Request #3)
+Status: 204 
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "cache-control": "no-cache, no-store, must-revalidate",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "access-control-allow-credentials": "true",
+  "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:67:0",
+  "report-to": "{\"group\":\"ascnsrsgac:67:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:67:0\"}],}",
+  "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+  "access-control-allow-origin": "https://www.edgeprop.sg",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsgac:67:0",
+  "content-length": "0",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 07 Jan 2026 04:12:55 GMT",
+  "content-type": "text/plain",
+  "server": "Golfe2"
+}
+====================================================================================================
+
+[2026-01-07 12:13:11.049] NETWORK RESPONSE #7 (Request #3)
+Status: 204 
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "cache-control": "no-cache, no-store, must-revalidate",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "access-control-allow-credentials": "true",
+  "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:67:0",
+  "report-to": "{\"group\":\"ascnsrsgac:67:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:67:0\"}],}",
+  "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+  "access-control-allow-origin": "https://www.edgeprop.sg",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsgac:67:0",
+  "content-length": "0",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 07 Jan 2026 04:12:57 GMT",
+  "content-type": "text/plain",
+  "server": "Golfe2"
+}
+====================================================================================================
+
+[2026-01-07 12:13:11.050] NETWORK RESPONSE #8 (Request #3)
+Status: 204 
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "cache-control": "no-cache, no-store, must-revalidate",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "access-control-allow-credentials": "true",
+  "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:67:0",
+  "report-to": "{\"group\":\"ascnsrsgac:67:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:67:0\"}],}",
+  "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+  "access-control-allow-origin": "https://www.edgeprop.sg",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsgac:67:0",
+  "content-length": "0",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 07 Jan 2026 04:12:59 GMT",
+  "content-type": "text/plain",
+  "server": "Golfe2"
+}
+====================================================================================================
+
+[2026-01-07 12:13:11.053] NETWORK RESPONSE #9 (Request #3)
+Status: 204 
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "cache-control": "no-cache, no-store, must-revalidate",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "access-control-allow-credentials": "true",
+  "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:67:0",
+  "report-to": "{\"group\":\"ascnsrsgac:67:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:67:0\"}],}",
+  "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+  "access-control-allow-origin": "https://www.edgeprop.sg",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsgac:67:0",
+  "content-length": "0",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 07 Jan 2026 04:13:01 GMT",
+  "content-type": "text/plain",
+  "server": "Golfe2"
+}
+====================================================================================================
+
+[2026-01-07 12:13:11.054] NETWORK RESPONSE #10 (Request #3)
+Status: 204 
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150p7v873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "cache-control": "no-cache, no-store, must-revalidate",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "access-control-allow-credentials": "true",
+  "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:67:0",
+  "report-to": "{\"group\":\"ascnsrsgac:67:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:67:0\"}],}",
+  "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+  "access-control-allow-origin": "https://www.edgeprop.sg",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsgac:67:0",
+  "content-length": "0",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 07 Jan 2026 04:13:04 GMT",
+  "content-type": "text/plain",
+  "server": "Golfe2"
+}
+====================================================================================================
+
+[2026-01-07 12:13:11.056] NETWORK RESPONSE #11 (Request #11)
+Status: 204 
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150pav873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "cache-control": "no-cache, no-store, must-revalidate",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "access-control-allow-credentials": "true",
+  "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:67:0",
+  "report-to": "{\"group\":\"ascnsrsgac:67:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:67:0\"}],}",
+  "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+  "access-control-allow-origin": "https://www.edgeprop.sg",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsgac:67:0",
+  "content-length": "0",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 07 Jan 2026 04:13:07 GMT",
+  "content-type": "text/plain",
+  "server": "Golfe2"
+}
+====================================================================================================
+
+[2026-01-07 12:13:11.058] NETWORK RESPONSE #12 (Request #11)
+Status: 204 
+URL: https://www.google.com/ccm/form-data/942613164?gtm=45je6150pav873971427za20gxec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115583767~115616985~115938465~115938468~116682875&npa=0&frm=0&pscdl=noapi&auid=280569916.1767759164&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&ec_mode=a&em=tv.1
+Headers: {
+  "cache-control": "no-cache, no-store, must-revalidate",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "access-control-allow-credentials": "true",
+  "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:67:0",
+  "report-to": "{\"group\":\"ascnsrsgac:67:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:67:0\"}],}",
+  "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+  "access-control-allow-origin": "https://www.edgeprop.sg",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsgac:67:0",
+  "content-length": "0",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 07 Jan 2026 04:13:10 GMT",
+  "content-type": "text/plain",
+  "server": "Golfe2"
+}
+====================================================================================================
+
+[2026-01-07 12:13:11.358] NETWORK REQUEST #13
+Method: GET
+URL: https://www.edgeprop.sg/property-news
+Headers: {
+  "referer": "https://www.edgeprop.sg/",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.363] NETWORK REQUEST #14
+Method: GET
+URL: https://www.edgeprop.sg/buddy/embed.js?t=1767759180000&source=web-homepage
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.649] NETWORK REQUEST #15
+Method: GET
+URL: https://www.edgeprop.sg/header_assets_news/glider.min.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.649] NETWORK REQUEST #16
+Method: GET
+URL: https://sg.tepcdn.com/lib/crypto.min.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.649] NETWORK REQUEST #17
+Method: GET
+URL: https://sg.tepcdn.com/lib/encrypt.min.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.650] NETWORK REQUEST #18
+Method: GET
+URL: https://platform-api.sharethis.com/js/sharethis.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.650] NETWORK REQUEST #19
+Method: GET
+URL: https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.653] NETWORK REQUEST #20
+Method: GET
+URL: https://www.google.com/recaptcha/api.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.654] NETWORK REQUEST #21
+Method: GET
+URL: https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.min.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.654] NETWORK REQUEST #22
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/main-1e87cc96f92bb8f9fc38.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.654] NETWORK REQUEST #23
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/webpack-d7b2fb72fb7257504a38.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.654] NETWORK REQUEST #24
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/framework.59f086ea4fc2731a4c69.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.655] NETWORK REQUEST #25
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/commons.c77e64b5b422711f8e64.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.655] NETWORK REQUEST #26
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/bb7174912f6cf44c7417d3222220d4d75017823c.82100941cef1d67efda8.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.655] NETWORK REQUEST #27
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/pages/_app-f720cb7dec5ea12bb880.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.655] NETWORK REQUEST #28
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/29107295.296b2544786d53842dfc.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.656] NETWORK REQUEST #29
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/473fee82.ded049a00e349cb75f52.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.656] NETWORK REQUEST #30
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/c1a500a3.0bf891044df1106592c6.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.657] NETWORK REQUEST #31
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/d7f8a05d.2f363189736996e4ef91.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.657] NETWORK REQUEST #32
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/541bb4794e9eb6deeeae2bfbd4459690b9e67440.2354973775ddb45d9480.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.657] NETWORK REQUEST #33
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/541bb4794e9eb6deeeae2bfbd4459690b9e67440_CSS.19830e50427f38e47434.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.657] NETWORK REQUEST #34
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/75910f299a873e286001a929efb4eb603a0a7bf5.0e41f9370eb698a55071.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.657] NETWORK REQUEST #35
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/75910f299a873e286001a929efb4eb603a0a7bf5_CSS.7b37a38a8911fc5fb44b.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.658] NETWORK REQUEST #36
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/6723b171a046e0dc81911074e4a549406f853255.d7e99ad991d55549d487.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.658] NETWORK REQUEST #37
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/styles.1c630bc29168ba98c6fa.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.658] NETWORK REQUEST #38
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/pages/property-news-eb8eca0a037d90896712.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.404] NETWORK RESPONSE #13 (Request #14)
+Status: 200 
+URL: https://www.edgeprop.sg/buddy/embed.js?t=1767759180000&source=web-homepage
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "max-age=7200",
+  "content-encoding": "gzip",
+  "cf-cache-status": "MISS",
+  "etag": "\"d6a-6475fd8bd1700-gzip\"",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f02eea8835c-SIN",
+  "accept-ranges": "bytes",
+  "content-length": "1118",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "text/javascript",
+  "last-modified": "Fri, 02 Jan 2026 04:07:24 GMT",
+  "server": "cloudflare",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: [Unable to retrieve response body: Response.text: Protocol error (Network.getResponseBody): No resource with given identifier found]
+====================================================================================================
+
+
+====================================================================================================
+[2026-01-07 12:13:11.659] ACTION #1
+Action: click [1735]
+Element: link "Property News" [ID: 1735]
+====================================================================================================
+
+[2026-01-07 12:13:16.674] NETWORK REQUEST #39
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/T2gnSByL8HGAJXL1ZmKfO/_buildManifest.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.675] NETWORK REQUEST #40
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/T2gnSByL8HGAJXL1ZmKfO/_ssgManifest.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:11.651] NETWORK RESPONSE #15 (Request #19)
+Status: 200 
+URL: https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+Headers: {
+  "content-encoding": "gzip",
+  "age": "96654",
+  "report-to": "{\"group\":\"hosted-libraries-pushers\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/hosted-libraries-pushers\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Wed, 06 Jan 2027 01:21:49 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Tue, 06 Jan 2026 01:21:49 GMT",
+  "last-modified": "Fri, 08 May 2020 07:05:03 GMT",
+  "content-type": "text/javascript; charset=UTF-8",
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+  "timing-allow-origin": "*",
+  "cross-origin-opener-policy": "same-origin; report-to=\"hosted-libraries-pushers\"",
+  "cross-origin-resource-policy": "cross-origin",
+  "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/hosted-libraries-pushers",
+  "accept-ranges": "bytes",
+  "access-control-allow-origin": "*",
+  "content-length": "31021",
+  "x-xss-protection": "0",
+  "server": "sffe"
+}
+Body: /*! jQuery v3.5.1 | (c) JS Foundation and other contributors | jquery.org/license */
+!function(e,t){"use strict";"object"==typeof module&&"object"==typeof module.exports?module.exports=e.document?t(e,!0):function(e){if(!e.document)throw new Error("jQuery requires a window with a document");return t(e)}:t(e)}("undefined"!=typeof window?window:this,function(C,e){"use strict";var t=[],r=Object.getPrototypeOf,s=t.slice,g=t.flat?function(e){return t.flat.call(e)}:function(e){return t.concat.apply([],... [TRUNCATED - Total size: 89476 chars]
+====================================================================================================
+
+[2026-01-07 12:13:11.629] NETWORK RESPONSE #14 (Request #13)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news
+Headers: {
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-cache-status": "DYNAMIC",
+  "cf-ray": "9ba09f02eea3835c-SIN",
+  "content-encoding": "br",
+  "content-type": "text/html; charset=utf-8",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "server": "cloudflare",
+  "vary": "Accept-Encoding",
+  "x-powered-by": "Next.js"
+}
+Body: <!DOCTYPE html><html lang="en"><head><title class="jsx-2852825007">Singapore Property News - Latest, Breaking, In-Depth | EdgeProp Singapore</title><meta charSet="utf-8" class="jsx-2852825007"/><meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=yes" class="jsx-2852825007"/><meta name="HandheldFriendly" content="true" class="jsx-2852825007"/><meta name="title" content="Singapore Property News - Latest, Breaking, In-Depth | EdgeProp Singapore" cl... [TRUNCATED - Total size: 321981 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.706] NETWORK REQUEST #41
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/css/541bb4794e9eb6deeeae2bfbd4459690b9e67440_CSS.3ce2f98b.chunk.css
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.706] NETWORK REQUEST #42
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/css/75910f299a873e286001a929efb4eb603a0a7bf5_CSS.f3110738.chunk.css
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.706] NETWORK REQUEST #43
+Method: GET
+URL: https://www.edgeprop.sg/property-news/_next/static/css/styles.2ae40465.chunk.css
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.706] NETWORK REQUEST #44
+Method: GET
+URL: https://www.gstatic.com/recaptcha/releases/9TiwnJFHeuIw_s0wSd3fiKfN/recaptcha__en.js
+Headers: {
+  "origin": "https://www.edgeprop.sg",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.708] NETWORK REQUEST #45
+Method: GET
+URL: https://www.edgeprop.sg/proxy/news?secure-url=JSBA0anyyj8nVhT38OTNjjidx5xXuBos56PSRiFoR24%2Famwml4jjdQcNXwz%2FLxiNpL%2FcqwB9DZRdHNczZXbsLQ%3D%3D%2520e673deb0e17ff6a1ed8b53ef76d7b5d6%25204cce8b21471a86da
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.708] NETWORK REQUEST #46
+Method: GET
+URL: https://static.hotjar.com/c/hotjar-672842.js?sv=6
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.709] NETWORK REQUEST #47
+Method: GET
+URL: https://accounts.google.com/gsi/client
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.709] NETWORK REQUEST #48
+Method: GET
+URL: https://www.instagram.com/reel/DRzU8fmj0Vu/embed/captioned
+Headers: {
+  "referer": "https://www.edgeprop.sg/",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.709] NETWORK REQUEST #49
+Method: GET
+URL: https://www.instagram.com/reel/DRzU8fmj0Vu/embed/captioned
+Headers: {
+  "referer": "https://www.edgeprop.sg/",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.713] NETWORK REQUEST #50
+Method: GET
+URL: https://amplify.outbrain.com/cp/obtp.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.713] NETWORK REQUEST #51
+Method: GET
+URL: https://diffuser-cdn.app-us1.com/diffuser/diffuser.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.727] NETWORK REQUEST #52
+Method: GET
+URL: https://prism.app-us1.com/?a=66914972&u=https%3A%2F%2Fwww.edgeprop.sg%2Fproperty-news&r=https%3A%2F%2Fwww.edgeprop.sg%2F&t=572420a2-565b-40d5-8559-e4e87021d020
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.728] NETWORK REQUEST #53
+Method: GET
+URL: https://www.edgeprop.sg/proxy/news?secure-url=4SuQpXc9WZz70IfIfb3wM54lcEITRD2aBvfA0uW3dp%2FiIIKpNBo8UtqXkwhP%2FOu1ZSZ7K%2BY8dkOPlAl9qgWZapT%2BbiwyI7QxdBzOfl%2BNfMM%3D%2520029e688f924ccd25443081c113daa3cd%2520c05cae024435dd1c
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/property-news",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.729] NETWORK REQUEST #54
+Method: GET
+URL: https://www.instagram.com/reel/DRzU8fmj0Vu/embed/captioned/
+Headers: {
+  "referer": "https://www.edgeprop.sg/",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.730] NETWORK REQUEST #55
+Method: GET
+URL: https://www.instagram.com/reel/DRzU8fmj0Vu/embed/captioned/
+Headers: {
+  "referer": "https://www.edgeprop.sg/",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.730] NETWORK REQUEST #56
+Method: GET
+URL: https://trackcmp.net/t_prism_sitemessages.php?trackid=66914972&prismid=572420a2-565b-40d5-8559-e4e87021d020&url=https%3A%2F%2Fwww.edgeprop.sg%2Fproperty-news
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.732] NETWORK REQUEST #57
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yf/r/aZUh82_UR0Y.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.736] NETWORK REQUEST #58
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yS/r/ldlUDUZRIYN.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.736] NETWORK REQUEST #59
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yE/r/BNjsmPha55c.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.736] NETWORK REQUEST #60
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4iD-c4/yZ/l/en_US-j/dNysorlgj12.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.736] NETWORK REQUEST #61
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yb/r/nlS2_J6KkjC.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.737] NETWORK REQUEST #62
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yX/r/ZV52d0FT1nO.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.737] NETWORK REQUEST #63
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yR/r/QBd1mr0sv2q.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.737] NETWORK REQUEST #64
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yk/r/ENCs-J3zJMl.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.737] NETWORK REQUEST #65
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yI/r/UNViX7Cuc1c.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.737] NETWORK REQUEST #66
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yO/r/6lkSJlUP6Qx.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.738] NETWORK REQUEST #67
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yQ/r/54-Y6GVTLN_.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.738] NETWORK REQUEST #68
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yG/r/Goa0NR2DqeE.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.738] NETWORK REQUEST #69
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4iPc24/y3/l/en_US-j/j9A-2-e8kky.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.738] NETWORK REQUEST #70
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/ye/r/RclLFW0eVbq.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.738] NETWORK REQUEST #71
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yP/r/3iQ7m4Ii_pv.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.738] NETWORK REQUEST #72
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/y6/r/zphJBa8nmlT.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.739] NETWORK REQUEST #73
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/ya/r/wBhwp_UcxUj.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.739] NETWORK REQUEST #74
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yy/r/ngITBLle4hB.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.739] NETWORK REQUEST #75
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4ie0_4/yr/l/en_US-j/Y7g0bCDiRWi.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.739] NETWORK REQUEST #76
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yW/r/BiJ4EcG_zOo.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.739] NETWORK REQUEST #77
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4isjK4/yH/l/en_US-j/EBRa7zq5oUk.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.739] NETWORK REQUEST #78
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/y4/r/FIiMVkXwLqE.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.739] NETWORK REQUEST #79
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4i7M54/ym/l/en_US-j/K3fFfaYn0w2.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.740] NETWORK REQUEST #80
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yo/r/UPsrUjXueQb.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.740] NETWORK REQUEST #81
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yM/r/zy7Q2l5DQ6Z.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.740] NETWORK REQUEST #82
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yR/r/BWE3MZiKKNi.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.740] NETWORK REQUEST #83
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/y5/r/Hxv3wl3M3uH.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.740] NETWORK REQUEST #84
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yp/r/6BZZeseisp8.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.740] NETWORK REQUEST #85
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yN/r/GFA2A4NX96O.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.740] NETWORK REQUEST #86
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yt/r/7sYA24ei9VO.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.740] NETWORK REQUEST #87
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yV/r/VXcgv49U9TX.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.740] NETWORK REQUEST #88
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4ihVQ4/y_/l/en_US-j/vw1h9pbSv6z.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.741] NETWORK REQUEST #89
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4iYTg4/ya/l/en_US-j/26llFLPtIQT.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.753] NETWORK REQUEST #90
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yf/r/aZUh82_UR0Y.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.753] NETWORK REQUEST #91
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yS/r/ldlUDUZRIYN.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.754] NETWORK REQUEST #92
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yE/r/BNjsmPha55c.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.756] NETWORK REQUEST #93
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4iD-c4/yZ/l/en_US-j/dNysorlgj12.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.756] NETWORK REQUEST #94
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yb/r/nlS2_J6KkjC.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.756] NETWORK REQUEST #95
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yX/r/ZV52d0FT1nO.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.756] NETWORK REQUEST #96
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yR/r/QBd1mr0sv2q.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.757] NETWORK REQUEST #97
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yk/r/ENCs-J3zJMl.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.757] NETWORK REQUEST #98
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yI/r/UNViX7Cuc1c.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.757] NETWORK REQUEST #99
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yO/r/6lkSJlUP6Qx.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.757] NETWORK REQUEST #100
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yQ/r/54-Y6GVTLN_.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.758] NETWORK REQUEST #101
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yG/r/Goa0NR2DqeE.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.758] NETWORK REQUEST #102
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4iPc24/y3/l/en_US-j/j9A-2-e8kky.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.758] NETWORK REQUEST #103
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/ye/r/RclLFW0eVbq.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.758] NETWORK REQUEST #104
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yP/r/3iQ7m4Ii_pv.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.759] NETWORK REQUEST #105
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/y6/r/zphJBa8nmlT.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.759] NETWORK REQUEST #106
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/ya/r/wBhwp_UcxUj.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.759] NETWORK REQUEST #107
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yy/r/ngITBLle4hB.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.759] NETWORK REQUEST #108
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4ie0_4/yr/l/en_US-j/Y7g0bCDiRWi.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.760] NETWORK REQUEST #109
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yW/r/BiJ4EcG_zOo.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.760] NETWORK REQUEST #110
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4isjK4/yH/l/en_US-j/EBRa7zq5oUk.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.760] NETWORK REQUEST #111
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/y4/r/FIiMVkXwLqE.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.760] NETWORK REQUEST #112
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4i7M54/ym/l/en_US-j/K3fFfaYn0w2.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.761] NETWORK REQUEST #113
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yo/r/UPsrUjXueQb.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.761] NETWORK REQUEST #114
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yM/r/zy7Q2l5DQ6Z.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.761] NETWORK REQUEST #115
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yR/r/BWE3MZiKKNi.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.761] NETWORK REQUEST #116
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/y5/r/Hxv3wl3M3uH.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.762] NETWORK REQUEST #117
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yp/r/6BZZeseisp8.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.762] NETWORK REQUEST #118
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yN/r/GFA2A4NX96O.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.762] NETWORK REQUEST #119
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yt/r/7sYA24ei9VO.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.762] NETWORK REQUEST #120
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4/yV/r/VXcgv49U9TX.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.763] NETWORK REQUEST #121
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4ihVQ4/y_/l/en_US-j/vw1h9pbSv6z.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.763] NETWORK REQUEST #122
+Method: GET
+URL: https://static.cdninstagram.com/rsrc.php/v4iYTg4/ya/l/en_US-j/26llFLPtIQT.js
+Headers: {
+  "origin": "https://www.instagram.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.764] NETWORK REQUEST #123
+Method: GET
+URL: https://static.hotjar.com/c/hotjar-672842.js?sv=7
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.764] NETWORK REQUEST #124
+Method: GET
+URL: https://clientcdn.pushengage.com/core/0531e61f66862d815ccd5d06d3dd76fd.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.edgeprop.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.764] NETWORK REQUEST #125
+Method: POST
+URL: https://graph.instagram.com/logging_client_events
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "x-web-session-id": "bcchsf:uu29pa:dvfk8v",
+  "referer": "https://www.instagram.com/",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "x-asbd-id": "359341",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "accept": "*/*",
+  "content-type": "application/x-www-form-urlencoded"
+}
+Body: access_token=936619743392459%7C3cdb3f896252a1db29679cb4554db266&message=%7B%22app_id%22%3A%22936619743392459%22%2C%22app_uid%22%3A%220%22%2C%22app_ver%22%3A%221.0.0%22%2C%22claims%22%3A%5B%5D%2C%22data%22%3A%5B%7B%22extra%22%3A%7B%22event_name%22%3A%22view%22%2C%22is_copyright_blocked%22%3Afalse%2C%22media_id%22%3A%223779456630325724526%22%2C%22media_type%22%3A%22video%22%2C%22owner_id%22%3A%222138744962%22%2C%22implementation%22%3A%22video%22%2C%22referrer%22%3A%22https%3A%2F%2Fwww.edgeprop.sg%... [TRUNCATED - Total size: 1547 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.765] NETWORK REQUEST #126
+Method: POST
+URL: https://graph.instagram.com/logging_client_events
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "x-web-session-id": "bcchsf:uu29pa:ujjq4k",
+  "referer": "https://www.instagram.com/",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "x-asbd-id": "359341",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "accept": "*/*",
+  "content-type": "application/x-www-form-urlencoded"
+}
+Body: access_token=936619743392459%7C3cdb3f896252a1db29679cb4554db266&message=%7B%22app_id%22%3A%22936619743392459%22%2C%22app_uid%22%3A%220%22%2C%22app_ver%22%3A%221.0.0%22%2C%22claims%22%3A%5B%5D%2C%22data%22%3A%5B%7B%22extra%22%3A%7B%22event_name%22%3A%22view%22%2C%22is_copyright_blocked%22%3Afalse%2C%22media_id%22%3A%223779456630325724526%22%2C%22media_type%22%3A%22video%22%2C%22owner_id%22%3A%222138744962%22%2C%22implementation%22%3A%22video%22%2C%22referrer%22%3A%22https%3A%2F%2Fwww.edgeprop.sg%... [TRUNCATED - Total size: 1548 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:13:16.667] NETWORK RESPONSE #16 (Request #17)
+Status: 200 
+URL: https://sg.tepcdn.com/lib/encrypt.min.js
+Headers: {
+  "vary": "accept-encoding",
+  "x-amz-version-id": "lGpeWi0DZhqmDaMBK9E6jwr_MY.DzqLi",
+  "etag": "\"5064238bc5c3759d666657d2d824b3ce\"",
+  "age": "84686",
+  "via": "1.1 5aaa604653747b98d1b097483fcbffbc.cloudfront.net (CloudFront)",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "609",
+  "x-amz-cf-id": "KtFWdSeWlPlA0sOqoo1Biz_QRnZ3OFBXIcUEHAyxC9sOxHdoi0edEw==",
+  "date": "Tue, 06 Jan 2026 04:41:19 GMT",
+  "content-type": "application/javascript",
+  "last-modified": "Mon, 22 Jan 2024 06:47:02 GMT",
+  "server": "AmazonS3",
+  "x-amz-cf-pop": "SIN2-P4",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: window.edgepropEncryption=function(){var r={stringify:function(r){var t={ct:r.ciphertext.toString(CryptoJS.enc.Base64)};return r.iv&&(t.iv=r.iv.toString()),r.salt&&(t.s=r.salt.toString()),JSON.stringify(t)},parse:function(r){var t=JSON.parse(r),e=CryptoJS.lib.CipherParams.create({ciphertext:CryptoJS.enc.Base64.parse(t.ct)});return t.iv&&(e.iv=CryptoJS.enc.Hex.parse(t.iv)),t.s&&(e.salt=CryptoJS.enc.Hex.parse(t.s)),e}};return{encryptURL:function t(e){var n=CryptoJS.AES.encrypt(JSON.stringify(e),"m... [TRUNCATED - Total size: 609 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.669] NETWORK RESPONSE #17 (Request #16)
+Status: 200 
+URL: https://sg.tepcdn.com/lib/crypto.min.js
+Headers: {
+  "vary": "accept-encoding",
+  "content-encoding": "gzip",
+  "etag": "W/\"de2b809020d78e795b6999db5cd4735c\"",
+  "x-amz-version-id": "YehzaCNBlYOocD056UT30JF.9A0lLfnc",
+  "age": "81305",
+  "via": "1.1 5aaa604653747b98d1b097483fcbffbc.cloudfront.net (CloudFront)",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "iRaX1ibx0a5Oy_Ea-MU6bPezQWg5PrwFWowgFnZnwzn_pMJJuhFwCQ==",
+  "date": "Tue, 06 Jan 2026 05:37:39 GMT",
+  "content-type": "application/javascript",
+  "last-modified": "Wed, 22 Nov 2023 06:19:42 GMT",
+  "server": "AmazonS3",
+  "x-amz-cf-pop": "SIN2-P4",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: !function($,x){"object"==typeof exports?module.exports=exports=x():"function"==typeof define&&define.amd?define([],x):$.CryptoJS=x()}(this,function(){var $,x,_,e,t,r,i,f,n,c,a,o,s,h,d,l,u,v,p,b,y,g,B,w,k,S,m,H,z,C,A,D,E,F,R,M,P,W,O,K,X,L,j,I,U,N,T,Z,q,G,J,Q,V,Y,$$,$x,$_,$e,$t,$r,$i,$f,$n,$c,$6,$a,$o,$0,$2,$s,$h,$d,$l,$4,$1,$3,$u,$v,$8,$p,$5,$b,$y,$g,$7,$B,$w,$k,$S,$m,$H,$z,$C,$A,$D,$E,$F,$R,$M,$P,$W,$O,$K,$X,$L,$j,$I,$U,$N,$T,$Z,$q,$G,$J,$9,$Q,$V,$Y,x$,xx=xx||($=Math,x=Object.create||function(){... [TRUNCATED - Total size: 48239 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.670] NETWORK RESPONSE #18 (Request #21)
+Status: 200 
+URL: https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.min.js
+Headers: {
+  "access-control-expose-headers": "*",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "age": "348663",
+  "access-control-allow-methods": "GET, HEAD, OPTIONS",
+  "x-content-type-options": "nosniff",
+  "expires": "Thu, 07 Jan 2027 04:12:44 GMT",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "server-timing": "cfExtPri",
+  "date": "Wed, 07 Jan 2026 04:12:44 GMT",
+  "content-type": "text/javascript; charset=utf-8",
+  "last-modified": "Mon, 17 Nov 2025 13:16:34 GMT",
+  "vary": "accept-encoding",
+  "fly-request-id": "01KA8ZBH47RC5ZYG3KGMEP4NQ4-sin",
+  "access-control-allow-headers": "*",
+  "priority": "u=1,i=?0",
+  "cache-control": "public, max-age=31536000",
+  "cross-origin-resource-policy": "cross-origin",
+  "via": "1.1 fly.io",
+  "cf-ray": "9ba09e5c4efad738-SIN",
+  "content-digest": "sha256=:OqbVjZdNBS1rrUlOFb/xA8UY4UjlkFTABlZGELQRA9I=:",
+  "access-control-allow-origin": "*",
+  "server": "cloudflare"
+}
+Body: /*!
+ * Flickity PACKAGED v2.3.0
+ * Touch, responsive, flickable carousels
+ *
+ * Licensed GPLv3 for open source use
+ * or Flickity Commercial License for commercial use
+ *
+ * https://flickity.metafizzy.co
+ * Copyright 2015-2021 Metafizzy
+ */
+(function(e,i){if(typeof define=="function"&&define.amd){define("jquery-bridget/jquery-bridget",["jquery"],function(t){return i(e,t)})}else if(typeof module=="object"&&module.exports){module.exports=i(e,require("jquery"))}else{e.jQueryBridget=i(e,e.jQuery)}})... [TRUNCATED - Total size: 57654 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.681] NETWORK RESPONSE #19
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/simple-crop/m-h_628,w_1200,g_cm/6049747/89455366/80f582fa-83aa-4bb5-bba6-64964cdfb700.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "MISS",
+  "age": "68699",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b9a11b8ca591bd5-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "260349",
+  "x-amz-cf-id": "bAMifQ-l1H44JRlDsSpL35FEOnBi-z-qWHAi0mTl_WUI2LK9RNEPMA==",
+  "date": "Tue, 06 Jan 2026 09:08:12 GMT",
+  "last-modified": "Tue, 06 Jan 2026 09:08:12 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.683] NETWORK RESPONSE #20 (Request #23)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/webpack-d7b2fb72fb7257504a38.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"603-19b69c1c040\"",
+  "age": "713018",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c872835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Mon, 29 Dec 2025 10:57:44 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: !function(e){function r(r){for(var n,l,f=r[0],i=r[1],a=r[2],c=0,s=[];c<f.length;c++)l=f[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in i)Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,f=1;f<t.length;f++){var i=t[f];0!==o[i]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={0:0},u=[];function l(r){if(n[r])retur... [TRUNCATED - Total size: 1539 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.684] NETWORK RESPONSE #21 (Request #22)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/main-1e87cc96f92bb8f9fc38.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"54d9-19b4a9f8170\"",
+  "age": "1056963",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c871835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Tue, 23 Dec 2025 09:52:06 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: _N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[20],{"0sNQ":function(e,t){"trimStart"in String.prototype||(String.prototype.trimStart=String.prototype.trimLeft),"trimEnd"in String.prototype||(String.prototype.trimEnd=String.prototype.trimRight),"description"in Symbol.prototype||Object.defineProperty(Symbol.prototype,"description",{get:function(){return/\((.+)\)/.exec(this)[1]}}),Array.prototype.flat||(Array.prototype.flat=function(e,t){return t=this.concat.apply([],this),e>1&&t... [TRUNCATED - Total size: 21721 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.685] NETWORK RESPONSE #22 (Request #27)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/pages/_app-f720cb7dec5ea12bb880.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"1c09-19b4a9f8170\"",
+  "age": "964119",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c879835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Tue, 23 Dec 2025 09:52:06 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: _N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[21],{0:function(t,n,r){r("GcxT"),t.exports=r("nOHt")},"1TCz":function(t,n,r){"use strict";r.r(n),r.d(n,"default",(function(){return _}));var e=r("HaE+"),o=r("1OyB"),c=r("vuIU"),u=r("md7G"),i=r("foSv"),a=r("Ji7U"),f=r("q1tI"),p=r.n(f),l=r("8Bbg"),s=r.n(l),v=r("EdAj"),y=r("MS1z"),b=r("OcYQ"),h=p.a.createElement;function d(){var t,n,r="function"==typeof Symbol?Symbol:{},e=r.iterator||"@@iterator",o=r.toStringTag||"@@toStringTag";func... [TRUNCATED - Total size: 7177 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.686] NETWORK RESPONSE #23 (Request #25)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/commons.c77e64b5b422711f8e64.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"7b21-19b4a9f8170\"",
+  "age": "883359",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c877835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Tue, 23 Dec 2025 09:52:06 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: (window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[1],{"/GRZ":function(t,e){t.exports=function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}},"/jkW":function(t,e,r){"use strict";e.__esModule=!0,e.isDynamicRoute=function(t){return n.test(t)};var n=/\/\[[^/]+?\](?=\/|$)/},"0Bsm":function(t,e,r){"use strict";var n=r("AroE");e.__esModule=!0,e.default=function(t){function e(e){return o.default.createElement(t,Object.assign({router:(0,a.useRouter)()},e))... [TRUNCATED - Total size: 31521 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.688] NETWORK RESPONSE #24 (Request #24)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/framework.59f086ea4fc2731a4c69.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"24606-19b69c1c040\"",
+  "age": "444725",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c876835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Mon, 29 Dec 2025 10:57:44 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: (window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[2],{"+wdc":function(e,t,n){"use strict";var r,l,i,o,a;if("undefined"===typeof window||"function"!==typeof MessageChannel){var u=null,c=null,s=function(){if(null!==u)try{var e=t.unstable_now();u(!0,e),u=null}catch(n){throw setTimeout(s,0),n}},f=Date.now();t.unstable_now=function(){return Date.now()-f},r=function(e){null!==u?setTimeout(r,0,e):(u=e,setTimeout(s,0))},l=function(e,t){c=setTimeout(e,t)},i=function(){clearTimeout(c)},o=functi... [TRUNCATED - Total size: 148998 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.689] NETWORK RESPONSE #25 (Request #15)
+Status: 200 
+URL: https://www.edgeprop.sg/header_assets_news/glider.min.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=7200",
+  "content-encoding": "gzip",
+  "cf-cache-status": "REVALIDATED",
+  "etag": "W/\"1eff-19b699c7d30\"",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c86e835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Mon, 29 Dec 2025 10:17:02 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: /* @preserve
+    _____ __ _     __                _
+   / ___// /(_)___/ /___  ____      (_)___
+  / (_ // // // _  // -_)/ __/_    / /(_-<
+  \___//_//_/ \_,_/ \__//_/  (_)__/ //___/
+                              |___/
+
+  Version: 1.7.3
+  Author: Nick Piscitelli (pickykneee)
+  Website: https://nickpiscitelli.com
+  Documentation: http://nickpiscitelli.github.io/Glider.js
+  License: MIT License
+  Release Date: October 25th, 2018
+
+*/
+!function(e){"function"==typeof define&&define.amd?define(e):"objec... [TRUNCATED - Total size: 7935 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.690] NETWORK RESPONSE #26
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/simple-crop/m-h_628,w_1200,g_cm/6049741/89455340/1d0f05e8-8af0-44fe-904d-819ef6d8e452.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "HIT",
+  "age": "73736",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b99a9e6ed99895e-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "279073",
+  "x-amz-cf-id": "Cq2lx7t9bmiG4NXAqOxFGMjs48S2eqgpsVmN1BMP3_b3jmlNauazqg==",
+  "date": "Tue, 06 Jan 2026 07:57:17 GMT",
+  "last-modified": "Tue, 06 Jan 2026 07:44:14 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.690] NETWORK RESPONSE #27
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/simple-crop/m-h_628,w_1200,g_cm/6049740/89455235/23686fa0-2216-48bf-9603-424fab59f4e5.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "MISS",
+  "age": "75516",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b996b534c67b403-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "220763",
+  "x-amz-cf-id": "fRsWffGtiihBWReFP-xWZV-7EXoCB1QEVQ90soK2cvtkH5h899moiw==",
+  "date": "Tue, 06 Jan 2026 07:14:35 GMT",
+  "last-modified": "Tue, 06 Jan 2026 07:14:35 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.691] NETWORK RESPONSE #28 (Request #28)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/29107295.296b2544786d53842dfc.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"1207c-19b4a9f8170\"",
+  "age": "1057271",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c87b835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Tue, 23 Dec 2025 09:52:06 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: (window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[4],{LvDl:function(n,t,r){(function(n,e){var u;(function(){var i="Expected a function",f="__lodash_placeholder__",o=[["ary",128],["bind",1],["bindKey",2],["curry",8],["curryRight",16],["flip",512],["partial",32],["partialRight",64],["rearg",256]],a="[object Arguments]",c="[object Array]",l="[object Boolean]",s="[object Date]",d="[object Error]",h="[object Function]",p="[object GeneratorFunction]",v="[object Map]",_="[object Number]",g="... [TRUNCATED - Total size: 73852 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.692] NETWORK RESPONSE #29 (Request #35)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/75910f299a873e286001a929efb4eb603a0a7bf5_CSS.7b37a38a8911fc5fb44b.js
+Headers: {
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"46-19b4a9f8170-gzip\"",
+  "age": "1057758",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "vary": "Accept-Encoding",
+  "last-modified": "Tue, 23 Dec 2025 09:52:06 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token",
+  "cache-control": "public, max-age=31536000, immutable",
+  "cf-ray": "9ba09f04c886835c-SIN",
+  "accept-ranges": "bytes",
+  "content-length": "69",
+  "x-powered-by": "Express",
+  "server": "cloudflare"
+}
+Body: (window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[12],[]]);
+====================================================================================================
+
+[2026-01-07 12:13:16.693] NETWORK RESPONSE #30 (Request #33)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/541bb4794e9eb6deeeae2bfbd4459690b9e67440_CSS.19830e50427f38e47434.js
+Headers: {
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"45-19b4a9f8170-gzip\"",
+  "age": "1057537",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "vary": "Accept-Encoding",
+  "last-modified": "Tue, 23 Dec 2025 09:52:06 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token",
+  "cache-control": "public, max-age=31536000, immutable",
+  "cf-ray": "9ba09f04c882835c-SIN",
+  "accept-ranges": "bytes",
+  "content-length": "68",
+  "x-powered-by": "Express",
+  "server": "cloudflare"
+}
+Body: (window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[7],[]]);
+====================================================================================================
+
+[2026-01-07 12:13:16.694] NETWORK RESPONSE #31 (Request #29)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/473fee82.ded049a00e349cb75f52.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"212f7-19b69c1c040\"",
+  "age": "753223",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c87c835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Mon, 29 Dec 2025 10:57:44 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: (window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[5],{"9w1X":function(e,t,i){"use strict";var s=i("+P9B"),o=i.n(s),n=(i("LGkk"),i("rVaU")),a=i.n(n),r=i("1OyB"),p=i("vuIU"),l=i("md7G"),d=i("foSv"),h=i("Ji7U"),c=i("rePB"),u=i("MX0m"),g=i.n(u),m=i("q1tI"),x=i.n(m),f=i("OcYQ"),_=i.n(f),b=i("iEUx"),v=i("X6rI"),y=i("ltYT"),C=i("esHY"),w=i("ofql"),k=i("C4yT"),S=i("e/U2"),j=i("/+0q"),N=i("d9y6"),P=i("tumb"),E=i("c5AB"),O=i("m7Zo"),F=i("6nVk"),T=i("MS9s"),U=i("eX4+"),L=i("PdW1"),q=i("x5Jw"),A=... [TRUNCATED - Total size: 135927 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.694] NETWORK RESPONSE #32 (Request #30)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/c1a500a3.0bf891044df1106592c6.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"1d63a-19b69c1c040\"",
+  "age": "616797",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c87e835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Mon, 29 Dec 2025 10:57:44 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: (window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[8],{"/lgt":function(t,i,e){"use strict";e("pJsf");var o=e("g4D/"),n=e.n(o),s=e("KQm4"),a=(e("/xgg"),e("aOJk")),r=e.n(a),l=(e("93XW"),e("d1El")),p=e.n(l),h=e("1OyB"),d=e("vuIU"),c=e("md7G"),x=e("foSv"),g=e("Ji7U"),m=e("rePB"),b=e("MX0m"),f=e.n(b),u=e("q1tI"),y=e.n(u),w=e("nOHt"),j=e.n(w),k=e("17x9"),v=e.n(k),N=e("yrAA"),C=e("d9y6"),S=e("ZkHU"),z=e("ACqB"),L=e("tumb"),T=e("Tito"),F=e("6nVk"),_=e("nVv0"),O=e("c5AB"),W=e("3YQI"),D=e("jZra"... [TRUNCATED - Total size: 120378 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.695] NETWORK RESPONSE #33 (Request #31)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/d7f8a05d.2f363189736996e4ef91.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"172dd-19b4a9f8170\"",
+  "age": "1131239",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c87f835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Tue, 23 Dec 2025 09:52:06 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: (window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[9],{gSsY:function(A,C,g){"use strict";g.d(C,"a",(function(){return Q})),g.d(C,"b",(function(){return n})),g.d(C,"q",(function(){return t})),g.d(C,"v",(function(){return i})),g.d(C,"r",(function(){return e})),g.d(C,"w",(function(){return o})),g.d(C,"d",(function(){return r})),g.d(C,"s",(function(){return f})),g.d(C,"f",(function(){return v})),g.d(C,"c",(function(){return w})),g.d(C,"x",(function(){return d})),g.d(C,"y",(function(){retur... [TRUNCATED - Total size: 94941 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.696] NETWORK RESPONSE #34 (Request #34)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/75910f299a873e286001a929efb4eb603a0a7bf5.0e41f9370eb698a55071.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"b9fc-19b4a9f8170\"",
+  "age": "1144066",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c884835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Tue, 23 Dec 2025 09:52:06 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: (window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[11],{"+QRC":function(e,t,n){"use strict";var r=n("E9nw"),o={"text/plain":"Text","text/html":"Url",default:"Text"};e.exports=function(e,t){var n,a,l,u,c,i,f=!1;t||(t={}),n=t.debug||!1;try{if(l=r(),u=document.createRange(),c=document.getSelection(),(i=document.createElement("span")).textContent=e,i.ariaHidden="true",i.style.all="unset",i.style.position="fixed",i.style.top=0,i.style.clip="rect(0, 0, 0, 0)",i.style.whiteSpace="pre",i.style... [TRUNCATED - Total size: 47612 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.696] NETWORK RESPONSE #35 (Request #26)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/bb7174912f6cf44c7417d3222220d4d75017823c.82100941cef1d67efda8.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"d0c8-19b4a9f8170\"",
+  "age": "876740",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c878835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Tue, 23 Dec 2025 09:52:06 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: (window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[3],{"+hYg":function(e){e.exports=JSON.parse('[{"language_status":"cn","content":{"Free Tools":"\u514d\u8d39\u5de5\u5177","OCBC Affordability Calculator":"OCBC\u8eab\u4ef7\u8ba1\u7b97\u5668","Understand how much you can afford before buying a property":"\u7b80\u5355\u8ba1\u7b97\u51fa\u4f60\u80fd\u8d37\u591a\u5c11\u94b1","En Bloc Calculator":"\u96c6\u4f53\u51fa\u552e\u6d4b\u8bd5\u5668","Find out if your condo will be the next en-bloc":"\... [TRUNCATED - Total size: 53448 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.697] NETWORK RESPONSE #36 (Request #37)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/styles.1c630bc29168ba98c6fa.js
+Headers: {
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"ec-19b4a9f8170-gzip\"",
+  "age": "1124540",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "vary": "Accept-Encoding",
+  "last-modified": "Tue, 23 Dec 2025 09:52:06 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token",
+  "cache-control": "public, max-age=31536000, immutable",
+  "cf-ray": "9ba09f04c889835c-SIN",
+  "accept-ranges": "bytes",
+  "content-length": "132",
+  "x-powered-by": "Express",
+  "server": "cloudflare"
+}
+Body: (window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[10],{"3Qrg":function(n,o,c){},"K/SL":function(n,o,c){},Ljrm:function(n,o,c){},M9t7:function(n,o,c){},OBCE:function(n,o,c){},"Wv/4":function(n,o,c){},fcTV:function(n,o,c){}}]);
+====================================================================================================
+
+[2026-01-07 12:13:16.698] NETWORK RESPONSE #37 (Request #36)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/6723b171a046e0dc81911074e4a549406f853255.d7e99ad991d55549d487.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"1393d-19b4a9f8170\"",
+  "age": "958792",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c888835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Tue, 23 Dec 2025 09:52:06 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: (window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[15],{"+hxy":function(e,t,n){"use strict";var i=n("284h").default,r=n("TqRt").default;Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o=r(n("pVnL")),a=r(n("lSNA")),s=r(n("TSYQ")),l=r(n("+04X")),d=i(n("q1tI")),u=n("vgIT"),c=r(n("b6Tb"));t.default=function(e){var t=e.prefixCls,n=e.className,i=e.active,r=e.block,f=void 0!==r&&r,p=e.size,h=void 0===p?"default":p,g=(0,d.useContext(u.ConfigContext).getPrefixCls)("skeleto... [TRUNCATED - Total size: 80189 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.698] NETWORK RESPONSE #38 (Request #38)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/pages/property-news-eb8eca0a037d90896712.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"17a5f-19b69c1c040\"",
+  "age": "752972",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c88a835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Mon, 29 Dec 2025 10:57:44 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: _N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[23],{BudH:function(e,t,i){"use strict";i.r(t);var n=i("HaE+"),a=i("1OyB"),r=i("vuIU"),o=i("md7G"),l=i("foSv"),s=i("Ji7U"),c=i("rePB"),d=i("MX0m"),p=i.n(d),u=i("q1tI"),m=i.n(u),f=i("nOHt"),g=i.n(f),h=i("17x9"),x=i.n(h),v=i("Mj6V"),b=i.n(v),y=i("OcYQ"),w=i.n(y),j=i("TyQG"),k=i("Lg1U"),O=i("fHeW"),S=i("MS1z"),N=i("a03p"),E=i("eI0R"),C=(i("lSEL"),i("UIqZ")),A=i.n(C),_=(i("cUip"),i("iJl9")),P=i.n(_),D=i("KQm4"),T=i("kMCw"),F=i("KoT9"),... [TRUNCATED - Total size: 96863 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.701] NETWORK RESPONSE #39
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/simple-crop/m-h_628,w_1200,g_cm/6049694/89454995/4e992820-ded7-4f21-abf0-ffe1827b473f.png
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "HIT",
+  "age": "78721",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b991e780972f8ce-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "236336",
+  "x-amz-cf-id": "DMaqz8wsajHqJO4gXAJ08ZsQcrhCtTOZqsSTo0Pq4OHHm0Ax4hSLlg==",
+  "date": "Tue, 06 Jan 2026 06:22:06 GMT",
+  "last-modified": "Tue, 06 Jan 2026 06:21:09 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.702] NETWORK RESPONSE #40
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/simple-crop/m-h_628,w_1200,g_cm/6050020/89457815/ea89c23a-4a8c-468d-aa87-ab133eb723ae.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "MISS",
+  "age": "25435",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b9e31fcfa5f8bc6-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "197853",
+  "x-amz-cf-id": "MLc9UPaddfOAP4DVJyNn7wdUMzEJBbDfyiKRzPTdRZgH9zWrHKKwWw==",
+  "date": "Tue, 06 Jan 2026 21:09:16 GMT",
+  "last-modified": "Tue, 06 Jan 2026 21:09:16 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.702] NETWORK RESPONSE #41 (Request #20)
+Status: 200 
+URL: https://www.google.com/recaptcha/api.js
+Headers: {
+  "cache-control": "private, max-age=300",
+  "content-encoding": "gzip",
+  "cross-origin-resource-policy": "cross-origin",
+  "report-to": "{\"group\":\"coop_38fac9d5b82543fc4729580d18ff2d3d\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Wed, 07 Jan 2026 04:12:44 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_38fac9d5b82543fc4729580d18ff2d3d\"",
+  "date": "Wed, 07 Jan 2026 04:12:44 GMT",
+  "x-xss-protection": "0",
+  "content-type": "text/javascript; charset=utf-8",
+  "server": "ESF",
+  "x-frame-options": "SAMEORIGIN"
+}
+Body: /* PLEASE DO NOT COPY AND PASTE THIS CODE. */(function(){var w=window,C='___grecaptcha_cfg',cfg=w[C]=w[C]||{},N='grecaptcha';var gr=w[N]=w[N]||{};gr.ready=gr.ready||function(f){(cfg['fns']=cfg['fns']||[]).push(f);};w['__recaptcha_api']='https://www.google.com/recaptcha/api2/';(cfg['render']=cfg['render']||[]).push('onload');(cfg['clr']=cfg['clr']||[]).push('true');(cfg['anchor-ms']=cfg['anchor-ms']||[]).push(20000);(cfg['execute-ms']=cfg['execute-ms']||[]).push(30000);w['__google_recaptcha_clien... [TRUNCATED - Total size: 1589 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.703] NETWORK RESPONSE #42
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/simple-crop/m-h_628,w_1200,g_cm/6049748/89455381/ee39f49f-3da7-4e05-a36d-08042d670f31.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "MISS",
+  "age": "65374",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b9a62eade1aa12b-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "158232",
+  "x-amz-cf-id": "9CIJXlNUlXuTiMUq25K9T1TKnXzmVGP5bPqYn9hX3cbyn-pM7gGSVg==",
+  "date": "Tue, 06 Jan 2026 10:03:37 GMT",
+  "last-modified": "Tue, 06 Jan 2026 10:03:37 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.704] NETWORK RESPONSE #43 (Request #32)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/chunks/541bb4794e9eb6deeeae2bfbd4459690b9e67440.2354973775ddb45d9480.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"162864-19b69c1c040\"",
+  "age": "753163",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f04c881835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Mon, 29 Dec 2025 10:57:44 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: (window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[6],{"+04X":function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=function(e,t){var n=Object.assign({},e);Array.isArray(t)&&t.forEach((function(e){delete n[e]}));return n}},"+6XX":function(e,t,n){var o=n("y1pI");e.exports=function(e){return o(this.__data__,e)>-1}},"+P9B":function(e,t,n){"use strict";var o=n("TqRt"),i=n("cDf5");Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var a=o(n("... [TRUNCATED - Total size: 1452132 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.705] NETWORK RESPONSE #44 (Request #39)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/T2gnSByL8HGAJXL1ZmKfO/_buildManifest.js
+Headers: {
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000, immutable",
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"9e0-19b69c1c040\"",
+  "age": "753161",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f0508be835c-SIN",
+  "accept-ranges": "bytes",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "x-powered-by": "Express",
+  "server": "cloudflare",
+  "last-modified": "Mon, 29 Dec 2025 10:57:44 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: self.__BUILD_MANIFEST = (function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){return {__rewrites:[],"/_error":["static\u002Fchunks\u002Fpages\u002F_error-1a8fbcc51ce6f7007126.js"],"/property-news":[a,b,c,d,e,f,g,j,k,l,o,h,i,"static\u002Fchunks\u002Fpages\u002Fproperty-news-eb8eca0a037d90896712.js"],"/property-news-author":[a,b,c,d,"static\u002Fchunks\u002F75fc9c18.2e7a49ca9135ac5fdc92.js",e,f,g,m,n,h,i,"static\u002Fchunks\u002Fpages\u002Fproperty-news-author-860382bcd8310ef47ce9.js"],"/property-news-detail... [TRUNCATED - Total size: 2528 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.705] NETWORK RESPONSE #45 (Request #40)
+Status: 200 
+URL: https://www.edgeprop.sg/property-news/_next/static/T2gnSByL8HGAJXL1ZmKfO/_ssgManifest.js
+Headers: {
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"4c-19b69c1c040-gzip\"",
+  "age": "753163",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT",
+  "date": "Wed, 07 Jan 2026 04:13:11 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "vary": "Accept-Encoding",
+  "last-modified": "Mon, 29 Dec 2025 10:57:44 GMT",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token",
+  "cache-control": "public, max-age=31536000, immutable",
+  "cf-ray": "9ba09f0508c1835c-SIN",
+  "accept-ranges": "bytes",
+  "content-length": "60",
+  "x-powered-by": "Express",
+  "server": "cloudflare"
+}
+Body: self.__SSG_MANIFEST=new Set;self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
+====================================================================================================
+
+[2026-01-07 12:13:16.729] NETWORK RESPONSE #66 (Request #48)
+Status: 301 
+URL: https://www.instagram.com/reel/DRzU8fmj0Vu/embed/captioned
+Headers: {
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "content-length": "0",
+  "content-type": "text/html; charset=\"utf-8\"",
+  "date": "Wed, 07 Jan 2026 04:13:12 GMT",
+  "location": "https://www.instagram.com/reel/DRzU8fmj0Vu/embed/captioned/",
+  "strict-transport-security": "max-age=31536000; preload; includeSubDomains",
+  "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=8, rtx=0, c=17, mss=1380, tbw=4860, tp=-1, tpl=-1, uplat=165, ullat=0",
+  "x-fb-debug": "rTdOAatW5wzK+X98XkPiIlka1x/a3YfW/GtXicBdPR8SpTjX2S+2yUlvpNbbpaE5vzp5NX/QGL/1jwvUPdFp8A==",
+  "x-stack": "www"
+}
+Body: [Unable to retrieve response body: Response.text: Response body is unavailable for redirect responses]
+====================================================================================================
+
+[2026-01-07 12:13:16.729] NETWORK RESPONSE #67 (Request #48)
+Status: 301 
+URL: https://www.instagram.com/reel/DRzU8fmj0Vu/embed/captioned
+Headers: {
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "content-length": "0",
+  "content-type": "text/html; charset=\"utf-8\"",
+  "date": "Wed, 07 Jan 2026 04:13:12 GMT",
+  "location": "https://www.instagram.com/reel/DRzU8fmj0Vu/embed/captioned/",
+  "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=8, rtx=0, c=17, mss=1380, tbw=4860, tp=-1, tpl=-1, uplat=165, ullat=0",
+  "x-fb-debug": "rTdOAatW5wzK+X98XkPiIlka1x/a3YfW/GtXicBdPR8SpTjX2S+2yUlvpNbbpaE5vzp5NX/QGL/1jwvUPdFp8A==",
+  "x-stack": "www"
+}
+Body: [Unable to retrieve response body: Response.text: Response body is unavailable for redirect responses]
+====================================================================================================
+
+[2026-01-07 12:13:16.712] NETWORK RESPONSE #46 (Request #44)
+Status: 200 
+URL: https://www.gstatic.com/recaptcha/releases/9TiwnJFHeuIw_s0wSd3fiKfN/recaptcha__en.js
+Headers: {
+  "content-encoding": "gzip",
+  "age": "110663",
+  "report-to": "{\"group\":\"recaptcha-scs\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha-scs\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Tue, 05 Jan 2027 21:28:21 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Mon, 05 Jan 2026 21:28:21 GMT",
+  "last-modified": "Mon, 05 Jan 2026 05:02:41 GMT",
+  "content-type": "text/javascript",
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000",
+  "timing-allow-origin": "*",
+  "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"recaptcha-scs\"",
+  "cross-origin-resource-policy": "cross-origin",
+  "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/recaptcha-scs",
+  "accept-ranges": "bytes",
+  "access-control-allow-origin": "*",
+  "content-length": "363821",
+  "x-xss-protection": "0",
+  "server": "sffe"
+}
+Body: (function(){/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+
+ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the ... [TRUNCATED - Total size: 851814 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.731] NETWORK RESPONSE #69 (Request #54)
+Status: 200 
+URL: https://www.instagram.com/reel/DRzU8fmj0Vu/embed/captioned/
+Headers: {
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "cache-control": "private, no-cache, no-store, must-revalidate",
+  "content-encoding": "zstd",
+  "content-security-policy": "default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-t8PE7VEt' blob: 'self' 'wasm-unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self';font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
+  "content-type": "text/html; charset=\"utf-8\"",
+  "cross-origin-opener-policy": "same-origin-allow-popups",
+  "cross-origin-resource-policy": "same-origin",
+  "date": "Wed, 07 Jan 2026 04:13:12 GMT",
+  "document-policy": "force-load-at-top\ninclude-js-call-stacks-in-crash-reports",
+  "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+  "origin-agent-cluster": "?1",
+  "origin-trial": "ArDvqjFKr1fHThlSM8Kkp74sxlOCFTeqYJMXCGqCG/VJmcYlO/0UavmpqPDit2KppDf1THInNpwA36GmtgPOug8AAAB2eyJvcmlnaW4iOiJodHRwczovL3d3dy5pbnN0YWdyYW0uY29tOjQ0MyIsImZlYXR1cmUiOiJDcmFzaFJlcG9ydGluZ1N0b3JhZ2VBUEkiLCJleHBpcnkiOjE3NzY3Mjk2MDAsImlzU3ViZG9tYWluIjp0cnVlfQ==",
+  "permissions-policy": "accelerometer=(self), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(self), gyroscope=(self), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(self), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\"",
+  "pragma": "no-cache",
+  "report-to": "{\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coop\\/?minimize=0\"}],\"group\":\"coop_report\",\"include_subdomains\":true}, {\"max_age\":259200,\"endpoints\":[{\"url\":\"https:\\/\\/www.instagram.com\\/error\\/ig_web_error_reports\\/?device_level=unknown&brsid=7592467917161185807&cpp=C3&cv=1031704701&st=1767759192234\"}]}, {\"max_age\":21600,\"endpoints\":[{\"url\":\"https:\\/\\/www.instagram.com\\/error\\/ig_web_error_reports\\/\"}],\"group\":\"permissions_policy\"}",
+  "reporting-endpoints": "coop_report=\"https://www.facebook.com/browser_reporting/coop/?minimize=0\", default=\"https://www.instagram.com/error/ig_web_error_reports/?device_level=unknown&brsid=7592467917161185807&cpp=C3&cv=1031704701&st=1767759192234\", permissions_policy=\"https://www.instagram.com/error/ig_web_error_reports/\"",
+  "strict-transport-security": "max-age=31536000; preload; includeSubDomains",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=8, rtx=0, c=18, mss=1380, tbw=5280, tp=-1, tpl=-1, uplat=426, ullat=0",
+  "x-fb-debug": "nAPi3aBNXSDY47cnvVpdJcvUJ5rzETZLMKIebZEWJipLMzOmvQrlBNdJqYW1nNJpH/lS0QcBKJH0ghhapG7OWA==",
+  "x-stack": "www",
+  "x-xss-protection": "0"
+}
+Body: <!DOCTYPE html>
+<html lang="en" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><meta name="referrer" content="origin-when-crossorigin" id="meta_referrer" /><script nonce="t8PE7VEt">function envFlush(e){function t(t){for(var n in e)t[n]=e[n]}window.requireLazy?window.requireLazy(["Env"],t):(window.Env=window.Env||{},t(window.Env))}envFlush({"useTrustedTypes":false,"isTrustedTypesReportOnly":false,"ajaxpipe_token":"AXnoQArYfvnbFK0Ircs","stack_trace_limit":30,"timesliceBufferSize":5000,... [TRUNCATED - Total size: 157403 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.712] NETWORK RESPONSE #47 (Request #47)
+Status: 200 
+URL: https://accounts.google.com/gsi/client
+Headers: {
+  "content-security-policy": "require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http, script-src 'report-sample' 'nonce-c7Np4xjIcFGGbRtNO-QlGA' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http",
+  "cache-control": "private, max-age=1800",
+  "content-encoding": "gzip",
+  "cross-origin-resource-policy": "cross-origin",
+  "report-to": "{\"group\":\"coop_dd7de8473bddc59c6b748810a67a39b1\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/dd7de8473bddc59c6b748810a67a39b1\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Wed, 07 Jan 2026 04:12:44 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_dd7de8473bddc59c6b748810a67a39b1\"",
+  "date": "Wed, 07 Jan 2026 04:12:44 GMT",
+  "x-xss-protection": "0",
+  "content-type": "application/javascript; charset=utf-8",
+  "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+  "server": "ESF",
+  "x-frame-options": "SAMEORIGIN"
+}
+Body: "use strict";this.default_gsi=this.default_gsi||{};(function(_){var window=this;
+try{
+_._F_toggles_initialize=function(a){(typeof globalThis!=="undefined"?globalThis:typeof self!=="undefined"?self:this)._F_toggles_default_gsi=a||[]};(0,_._F_toggles_initialize)([0x20800000, 0x15311, ]);
+var ba,ca,da,t,ea,ka,la,ma;_.aa=typeof Object.create=="function"?Object.create:function(a){var b=function(){};b.prototype=a;return new b};ba=typeof Object.defineProperties=="function"?Object.defineProperty:functio... [TRUNCATED - Total size: 244830 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.713] NETWORK RESPONSE #48
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6041049/89374507/dddb547a-b0fe-4051-a656-656a6b6fb63b.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "EXPIRED",
+  "age": "7038",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b9ff32c1c3b3d81-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "106244",
+  "x-amz-cf-id": "GsxlvyRqPSfYhLThSViFMv9IOnuvWMX18XZs9CPh_7WoiEcAqD6o7w==",
+  "date": "Wed, 07 Jan 2026 02:15:53 GMT",
+  "last-modified": "Wed, 07 Jan 2026 02:15:53 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.714] NETWORK RESPONSE #49
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6038545/89357708/e6fb7afa-27db-4591-8704-9d00159af005.png
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "EXPIRED",
+  "age": "1452",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9ba07b8caeb1ce51-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "81122",
+  "x-amz-cf-id": "N9rdiUKD6ZeGo1uA3ncfZcCFho0SAdwRfzsOMKZmOReQaqGbWj5-rw==",
+  "date": "Wed, 07 Jan 2026 03:48:59 GMT",
+  "last-modified": "Wed, 07 Jan 2026 03:48:59 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.715] NETWORK RESPONSE #50
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6037638/89349735/c5efb0f6-df89-4420-afa5-7ad040a64d3f.png
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "EXPIRED",
+  "age": "70361",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b99e93318fca047-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "62839",
+  "x-amz-cf-id": "LQOcgINqcOxG3D-BfZERZ1erveMjAVTOE27S0c-T-YfM3nuTRBJn1g==",
+  "date": "Tue, 06 Jan 2026 08:40:30 GMT",
+  "last-modified": "Tue, 06 Jan 2026 08:40:30 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.716] NETWORK RESPONSE #51
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6035810/89334028/9774f1b7-80f0-417e-9216-04206f7ce35b.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "EXPIRED",
+  "age": "85600",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b987527a961ce53-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "102160",
+  "x-amz-cf-id": "j9onLs4U7WfGTMJOAqedvVkUFm9hDgxhkpp6V7FFYdIreckvtL8KWg==",
+  "date": "Tue, 06 Jan 2026 04:26:31 GMT",
+  "last-modified": "Tue, 06 Jan 2026 04:26:31 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.717] NETWORK RESPONSE #52
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6029083/89275428/7b61dd9b-4a27-47af-b396-9c08f5aafe70.png
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "EXPIRED",
+  "age": "10600",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b9f9c37584b49c8-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "72852",
+  "x-amz-cf-id": "tiBinkPeObD_nSJJEi_0vxOzQXwLNHEm_adHx19MuTb5pInNioyqbg==",
+  "date": "Wed, 07 Jan 2026 01:16:31 GMT",
+  "last-modified": "Wed, 07 Jan 2026 01:16:31 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.718] NETWORK RESPONSE #53
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6019796/89307655/3e7f8a91-1278-4d26-8582-5ecfe26b70d7.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "EXPIRED",
+  "age": "42552",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b9c90253ae73df5-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "55965",
+  "x-amz-cf-id": "NuwSlIxKDUAEPZT7wfDt-tbPhqJtPKoNPHGc-57KtT9V06xAzNPO6A==",
+  "date": "Tue, 06 Jan 2026 16:23:59 GMT",
+  "last-modified": "Tue, 06 Jan 2026 16:23:59 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.719] NETWORK RESPONSE #54
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6019623/89167709/afec7986-ceaa-4055-9de2-7d8273e65d9c.png
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "EXPIRED",
+  "age": "42552",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b9c90254be8f8d0-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "65440",
+  "x-amz-cf-id": "tkqmYJ7Px-nFwTafW49mPqo_KfwuAsn4hizRKv7PQfL90zuXeF32Ig==",
+  "date": "Tue, 06 Jan 2026 16:23:59 GMT",
+  "last-modified": "Tue, 06 Jan 2026 16:23:59 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.720] NETWORK RESPONSE #55
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6018555/89157793/f02b49c1-9835-4d68-b293-bb02cf044231.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "EXPIRED",
+  "age": "50645",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b9bca913b1afd23-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "62977",
+  "x-amz-cf-id": "b1qHrp1ETR23mMotpu6FQwt7FFtJ_I6-mQ5zQK2TcJQcxeiUpxo_yg==",
+  "date": "Tue, 06 Jan 2026 14:09:06 GMT",
+  "last-modified": "Tue, 06 Jan 2026 14:09:06 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.720] NETWORK RESPONSE #56
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6013960/89116705/ad371e42-9dd8-4414-8e59-8213e7769171.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "EXPIRED",
+  "age": "71297",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b99d25a39a287e9-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "59585",
+  "x-amz-cf-id": "__h27bIYKuZBPnrQPT1Pvqku13N3_VX8l5WurZ29ZaoG4JSwe_UrGg==",
+  "date": "Tue, 06 Jan 2026 08:24:54 GMT",
+  "last-modified": "Tue, 06 Jan 2026 08:24:54 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.721] NETWORK RESPONSE #57
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6049680/89454915/a47758d0-9996-43ee-b955-4677a4485389.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "MISS",
+  "age": "25436",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b9e32002bd4f408-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "89356",
+  "x-amz-cf-id": "L-b-jv90aoRGRnfz69uhlCGFd8PtPW531wjkqvWSxnHskfxSo6V8XQ==",
+  "date": "Tue, 06 Jan 2026 21:09:15 GMT",
+  "last-modified": "Tue, 06 Jan 2026 21:09:15 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.721] NETWORK RESPONSE #58
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6049088/89449257/4b820ac0-1c4c-4a16-a0ce-33b0a3fe1a38.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "EXPIRED",
+  "age": "71482",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b99cdd80a8aeba1-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "53816",
+  "x-amz-cf-id": "Znv3jZfxi14r3vYRi5LcrEKvIsf-hkjc0zCfjVnL9mDYwDS8_dtnjw==",
+  "date": "Tue, 06 Jan 2026 08:21:49 GMT",
+  "last-modified": "Tue, 06 Jan 2026 08:21:49 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.722] NETWORK RESPONSE #59
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6049208/89450050/cb1a1844-692d-498d-bdd7-7960dbd5c71d.png
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "MISS",
+  "age": "73736",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b9996ce8a67a02f-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "50127",
+  "x-amz-cf-id": "-0TeKmoM9BhpQOGgbXTui4tmxnhrJqbEffHSJ-Giu35k9xb-Bz8QPw==",
+  "date": "Tue, 06 Jan 2026 07:44:15 GMT",
+  "last-modified": "Tue, 06 Jan 2026 07:44:15 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.722] NETWORK RESPONSE #60
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6047222/89433118/a3a32fac-b818-438c-a60a-183f705ac5b8.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "EXPIRED",
+  "age": "83815",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b98a0bb4acf7974-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "75589",
+  "x-amz-cf-id": "wKdo6vrRsxcZoug-NQubVZbz5kaAwKNDMgil-eKXh8jr5-VBS_kB6A==",
+  "date": "Tue, 06 Jan 2026 04:56:16 GMT",
+  "last-modified": "Tue, 06 Jan 2026 04:56:16 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.723] NETWORK RESPONSE #61
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/6046946/89430514/5b45fd66-eafb-45d3-91fd-2e2bc95c31f3.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "EXPIRED",
+  "age": "17971",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b9ee845cd265fce-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "59117",
+  "x-amz-cf-id": "frmch2R7DbyyZ84A5SdmY4ZlpguKaPSRnlEkQ1ROIyFd2vbqdmmxhw==",
+  "date": "Tue, 06 Jan 2026 23:13:40 GMT",
+  "last-modified": "Tue, 06 Jan 2026 23:13:40 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.723] NETWORK RESPONSE #62
+Status: 200 
+URL: https://img.tepcdn.com/img-v2/a/m-h_280,w_535,g_cm/5909213/88387514/d7d6624b-7939-4c90-aa1f-6797a0c66d5e.jpg
+Headers: {
+  "cache-control": "max-age=86400",
+  "cf-cache-status": "EXPIRED",
+  "age": "67795",
+  "via": "1.1 232031fac04f24237bcfd12ed41173fc.cloudfront.net (CloudFront)",
+  "cf-ray": "9b9a27d86ab2411c-SIN",
+  "accept-ranges": "bytes",
+  "x-cache": "Hit from cloudfront",
+  "content-length": "23750",
+  "x-amz-cf-id": "Zvpgk4Ynq4aCFm-khKCRp0TpQeXiX8j5bNv2TgKfpXw7t6ASW7sk3g==",
+  "date": "Tue, 06 Jan 2026 09:23:16 GMT",
+  "last-modified": "Tue, 06 Jan 2026 09:23:16 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "cloudflare",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+====================================================================================================
+
+[2026-01-07 12:13:16.724] NETWORK RESPONSE #63 (Request #51)
+Status: 200 
+URL: https://diffuser-cdn.app-us1.com/diffuser/diffuser.js
+Headers: {
+  "content-encoding": "gzip",
+  "cf-cache-status": "HIT",
+  "etag": "W/\"274303dc8790bba62abecc91ffe4b219\"",
+  "age": "77",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "3UuDRVNWPpgPfvycfecOLSd-jdxZlZ0g6F_hPMZhsoKTSssRGInq2w==",
+  "date": "Wed, 07 Jan 2026 04:12:45 GMT",
+  "content-type": "application/javascript",
+  "last-modified": "Mon, 30 Jun 2025 16:13:30 GMT",
+  "vary": "accept-encoding",
+  "cache-control": "public, max-age=300",
+  "via": "1.1 5ea68ce5bef1d36a6ddbd05326ec4050.cloudfront.net (CloudFront)",
+  "cf-ray": "9ba09e606b5d7d50-SIN",
+  "x-amz-cf-pop": "SIN2-P5",
+  "server": "cloudflare",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: !function(e){var t={};function __webpack_require__(r){if(t[r])return t[r].exports;var n=t[r]={i:r,l:!1,exports:{}};return e[r].call(n.exports,n,n.exports,__webpack_require__),n.l=!0,n.exports}__webpack_require__.m=e,__webpack_require__.c=t,__webpack_require__.d=function(e,t,r){__webpack_require__.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},__webpack_require__.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),O... [TRUNCATED - Total size: 33373 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.728] NETWORK RESPONSE #64 (Request #45)
+Status: 200 
+URL: https://www.edgeprop.sg/proxy/news?secure-url=JSBA0anyyj8nVhT38OTNjjidx5xXuBos56PSRiFoR24%2Famwml4jjdQcNXwz%2FLxiNpL%2FcqwB9DZRdHNczZXbsLQ%3D%3D%2520e673deb0e17ff6a1ed8b53ef76d7b5d6%25204cce8b21471a86da
+Headers: {
+  "cache-control": "no-store, no-cache, must-revalidate",
+  "content-encoding": "br",
+  "cf-cache-status": "DYNAMIC",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT, POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f058927835c-SIN",
+  "date": "Wed, 07 Jan 2026 04:13:12 GMT",
+  "content-type": "text/html; charset=UTF-8",
+  "vary": "Accept-Encoding",
+  "server": "cloudflare",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token, x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+Body: {"error":"No events found","results":[],"performance":0.2354199886322,"memcache":true}
+====================================================================================================
+
+[2026-01-07 12:13:16.728] NETWORK RESPONSE #65 (Request #53)
+Status: 200 
+URL: https://www.edgeprop.sg/proxy/news?secure-url=4SuQpXc9WZz70IfIfb3wM54lcEITRD2aBvfA0uW3dp%2FiIIKpNBo8UtqXkwhP%2FOu1ZSZ7K%2BY8dkOPlAl9qgWZapT%2BbiwyI7QxdBzOfl%2BNfMM%3D%2520029e688f924ccd25443081c113daa3cd%2520c05cae024435dd1c
+Headers: {
+  "cache-control": "no-store, no-cache, must-revalidate",
+  "content-encoding": "br",
+  "cf-cache-status": "DYNAMIC",
+  "access-control-allow-methods": "POST, GET, OPTIONS, DELETE, PUT, POST, GET, OPTIONS, DELETE, PUT",
+  "cf-ray": "9ba09f068a22835c-SIN",
+  "date": "Wed, 07 Jan 2026 04:13:12 GMT",
+  "content-type": "text/html; charset=UTF-8",
+  "server": "cloudflare",
+  "access-control-allow-headers": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token, x-requested-with, Content-Type, origin, authorization, accept, client-security-token, x-api-token"
+}
+====================================================================================================
+
+[2026-01-07 12:13:16.730] NETWORK RESPONSE #68 (Request #52)
+Status: 200 
+URL: https://prism.app-us1.com/?a=66914972&u=https%3A%2F%2Fwww.edgeprop.sg%2Fproperty-news&r=https%3A%2F%2Fwww.edgeprop.sg%2F&t=572420a2-565b-40d5-8559-e4e87021d020
+Headers: {
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+  "cache-control": "no-cache, private",
+  "content-encoding": "gzip",
+  "cf-cache-status": "DYNAMIC",
+  "x-envoy-upstream-service-time": "61",
+  "cf-ray": "9ba09f063988f928-SIN",
+  "date": "Wed, 07 Jan 2026 04:13:12 GMT",
+  "content-type": "application/javascript",
+  "x-powered-by": "PHP/8.1.33",
+  "server": "cloudflare"
+}
+Body: window.visitorGlobalObject=window.visitorGlobalObject||window.prismGlobalObject;window.visitorGlobalObject.setVisitorId('572420a2-565b-40d5-8559-e4e87021d020', '66914972');window.visitorGlobalObject.setWhitelistedServices('tracking', '66914972');
+====================================================================================================
+
+[2026-01-07 12:13:16.732] NETWORK RESPONSE #70 (Request #56)
+Status: 200 
+URL: https://trackcmp.net/t_prism_sitemessages.php?trackid=66914972&prismid=572420a2-565b-40d5-8559-e4e87021d020&url=https%3A%2F%2Fwww.edgeprop.sg%2Fproperty-news
+Headers: {
+  "cache-control": "no-cache, private",
+  "x-privacy-policy": "You can find our privacy policy here: https://www.activecampaign.com/help/privacy-policy/",
+  "cf-cache-status": "DYNAMIC",
+  "x-envoy-upstream-service-time": "10",
+  "via": "0.0 Caddy",
+  "cf-ray": "9ba09f086c557e17-SIN",
+  "content-length": "0",
+  "p3p": "CP=\"NON BUS INT NAV COM ADM CON CUR IVA IVD OTP PSA PSD TEL SAM\"",
+  "date": "Wed, 07 Jan 2026 04:13:12 GMT",
+  "content-type": "text/javascript;charset=UTF-8",
+  "x-powered-by": "PHP/8.1.34",
+  "server": "cloudflare"
+}
+====================================================================================================
+
+[2026-01-07 12:13:16.750] NETWORK RESPONSE #71 (Request #54)
+Status: 200 
+URL: https://www.instagram.com/reel/DRzU8fmj0Vu/embed/captioned/
+Headers: {
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "cache-control": "private, no-cache, no-store, must-revalidate",
+  "content-encoding": "zstd",
+  "content-security-policy": "default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-YZdip45Q' blob: 'self' 'wasm-unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self';font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
+  "content-type": "text/html; charset=\"utf-8\"",
+  "cross-origin-opener-policy": "same-origin-allow-popups",
+  "cross-origin-resource-policy": "same-origin",
+  "date": "Wed, 07 Jan 2026 04:13:12 GMT",
+  "document-policy": "force-load-at-top\ninclude-js-call-stacks-in-crash-reports",
+  "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+  "origin-agent-cluster": "?1",
+  "origin-trial": "ArDvqjFKr1fHThlSM8Kkp74sxlOCFTeqYJMXCGqCG/VJmcYlO/0UavmpqPDit2KppDf1THInNpwA36GmtgPOug8AAAB2eyJvcmlnaW4iOiJodHRwczovL3d3dy5pbnN0YWdyYW0uY29tOjQ0MyIsImZlYXR1cmUiOiJDcmFzaFJlcG9ydGluZ1N0b3JhZ2VBUEkiLCJleHBpcnkiOjE3NzY3Mjk2MDAsImlzU3ViZG9tYWluIjp0cnVlfQ==",
+  "permissions-policy": "accelerometer=(self), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(self), gyroscope=(self), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(self), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\"",
+  "pragma": "no-cache",
+  "priority": "u=0,i",
+  "report-to": "{\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coop\\/?minimize=0\"}],\"group\":\"coop_report\",\"include_subdomains\":true}, {\"max_age\":259200,\"endpoints\":[{\"url\":\"https:\\/\\/www.instagram.com\\/error\\/ig_web_error_reports\\/?device_level=unknown&brsid=7592467918739892061&cpp=C3&cv=1031704701&st=1767759192673\"}]}, {\"max_age\":21600,\"endpoints\":[{\"url\":\"https:\\/\\/www.instagram.com\\/error\\/ig_web_error_reports\\/\"}],\"group\":\"permissions_policy\"}",
+  "reporting-endpoints": "coop_report=\"https://www.facebook.com/browser_reporting/coop/?minimize=0\", default=\"https://www.instagram.com/error/ig_web_error_reports/?device_level=unknown&brsid=7592467918739892061&cpp=C3&cv=1031704701&st=1767759192673\", permissions_policy=\"https://www.instagram.com/error/ig_web_error_reports/\"",
+  "strict-transport-security": "max-age=31536000; preload; includeSubDomains",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=7, rtx=0, c=34, mss=1232, tbw=5596, tp=11, tpl=0, uplat=410, ullat=0",
+  "x-fb-debug": "LYGXT8zOnPJEtGZGByRZpVCl2EzFiVP0XjgISbpl/agrfYMdgF1HYKBLphMLBIpgx00tCg28ZoTswUcqPt8PVw==",
+  "x-stack": "www",
+  "x-xss-protection": "0"
+}
+Body: <!DOCTYPE html>
+<html lang="en" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><meta name="referrer" content="origin-when-crossorigin" id="meta_referrer" /><script nonce="YZdip45Q">function envFlush(e){function t(t){for(var n in e)t[n]=e[n]}window.requireLazy?window.requireLazy(["Env"],t):(window.Env=window.Env||{},t(window.Env))}envFlush({"useTrustedTypes":false,"isTrustedTypesReportOnly":false,"ajaxpipe_token":"AXnoQArYfvnbFK0IRxg","stack_trace_limit":30,"timesliceBufferSize":5000,... [TRUNCATED - Total size: 157403 chars]
+====================================================================================================
+
+[2026-01-07 12:13:16.765] NETWORK RESPONSE #72 (Request #125)
+Status: 200 
+URL: https://graph.instagram.com/logging_client_events
+Headers: {
+  "x-stack": "www",
+  "x-fb-trace-id": "HWRu00OQYCY",
+  "x-fb-aed": "700",
+  "facebook-api-version": "v18.0",
+  "x-content-type-options": "nosniff",
+  "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "date": "Wed, 07 Jan 2026 04:13:15 GMT",
+  "content-type": "application/json; charset=UTF-8",
+  "vary": "Origin",
+  "x-fb-debug": "24saXTkddqXhDzA/+g8a5hBUmSbHupRAoh6jc0lMtwusL1nhcsTu8drxo1ZC4V7HTuZ6WVS7TJqnxqqllXA1TQ==",
+  "priority": "u=1,i",
+  "strict-transport-security": "max-age=31536000; preload; includeSubDomains",
+  "x-fb-rev": "1031704701",
+  "cache-control": "private, no-cache, no-store, must-revalidate",
+  "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=7, rtx=0, c=34, mss=1232, tbw=5350, tp=13, tpl=0, uplat=170, ullat=0",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "x-fb-request-id": "Axs8gB909p0La1YY-2MGBmX",
+  "access-control-allow-origin": "*",
+  "content-length": "137"
+}
+Body: {
+   "checksum": "",
+   "config": "",
+   "config_owner_id": "",
+   "app_data": "{}",
+   "qpl_version": "",
+   "client_debug_config": ""
+}
+====================================================================================================
+
+[2026-01-07 12:13:16.765] NETWORK RESPONSE #73 (Request #125)
+Status: 200 
+URL: https://graph.instagram.com/logging_client_events
+Headers: {
+  "x-stack": "www",
+  "x-fb-trace-id": "EvsZJMznmGi",
+  "x-fb-aed": "700",
+  "facebook-api-version": "v18.0",
+  "x-content-type-options": "nosniff",
+  "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "date": "Wed, 07 Jan 2026 04:13:15 GMT",
+  "content-type": "application/json; charset=UTF-8",
+  "vary": "Origin",
+  "x-fb-debug": "kcxP58hKGQZAQicgqmj6r2BqV2dz4FbtSLDnwkD0sVoHrguDQ2jt+1zA6A55AIJXmoNUFLTOF5pvzdykRJREtw==",
+  "priority": "u=1,i",
+  "strict-transport-security": "max-age=31536000; preload; includeSubDomains",
+  "x-fb-rev": "1031704701",
+  "cache-control": "private, no-cache, no-store, must-revalidate",
+  "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=7, rtx=0, c=34, mss=1232, tbw=6070, tp=14, tpl=0, uplat=176, ullat=0",
+  "pragma": "no-cache",
+  "cross-origin-resource-policy": "cross-origin",
+  "x-fb-request-id": "A8eDaQZu6CMaHFU-g3t_is2",
+  "access-control-allow-origin": "*",
+  "content-length": "137"
+}
+Body: {
+   "checksum": "",
+   "config": "",
+   "config_owner_id": "",
+   "app_data": "{}",
+   "qpl_version": "",
+   "client_debug_config": ""
+}
+====================================================================================================
+
+
+====================================================================================================
+[2026-01-07 12:13:51.996] ACTION #2
+Action: click [3419]
+Element: link "View All" [ID: 3419]
+====================================================================================================
+
+[2026-01-07 12:14:49.436] NETWORK REQUEST #127
+Method: POST
+URL: https://www.instagram.com/ajax/bz?__a=1&__ccg=EXCELLENT&__dyn=7xeUmwkHwt8K2Wmh0cm5U4e1Fx-ewSwMxW4E2qwJw5ux609vCwjE0AC0yE1VohwnU6a0HU9k2C0iK0D82Ixe0EUjw4FwmE2ewnE2Lw6OyES1Twoob82ZwrU6qE15E6O0M86PhA6bwn98aU7u1rwea4o1oE&__hs=20460.BP%3ADEFAULT.2.0...0&__hsi=7592467917161185807&__req=1&__rev=1031704701&__s=%3Auu29pa%3Advfk8v&__spin_b=trunk&__spin_r=1031704701&__spin_t=1767759192&__user=0&dpr=2&jazoest=2971&lsd=AdGaBAwRvQk
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/reel/DRzU8fmj0Vu/embed/captioned/",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "x-asbd-id": "359341",
+  "x-fb-lsd": "AdGaBAwRvQk",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryfX0xBqVo0jfhPUp5"
+}
+Body: ------WebKitFormBoundaryfX0xBqVo0jfhPUp5
+Content-Disposition: form-data; name="ts"
+
+1767759258721
+------WebKitFormBoundaryfX0xBqVo0jfhPUp5
+Content-Disposition: form-data; name="q"
+
+[{"app_id":"936619743392459","posts":"qwaAW1sicWV4Iix7ImwiOiJKe1wicWVpZFwiOlwiXCIsXCJ1GQsAdAULBGZiBRggZ2tzXCI6W10sATGQXCI6bnVsbH0ifSwxNzY3NzU5MTk4NzE4LjI5OTgsMCw3MV0sW/5oAG5oAAA0/mUA/mUA/mUASmUASGZhbGNvOm9kc193ZWJfYmF0Y2ghpxhlIjoie1wiBRAkXCI6e1wiNTU4OAkKIGluc3RhZ3JhbQkPsHdlYi5hcHBfaWQuc2FtZS45MzY2MTk3NDMzOTI0NT... [TRUNCATED - Total size: 1049 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-07 12:14:49.437] NETWORK REQUEST #128
+Method: POST
+URL: https://www.instagram.com/ajax/bz?__a=1&__ccg=EXCELLENT&__dyn=7xeUmwkHwt8K2Wmh0cm5U4e1Fx-ewSwMxW4E2qwJw5ux609vCwjE0AC0yE1VohwnU6a0HU9k2C0iK0D82Ixe0EUjw4FwmE2ewnE2Lw6OyES1Twoob82ZwrU6qE15E6O0M86PhA6bwn98aU7u1rwea4o1oE&__hs=20460.BP%3ADEFAULT.2.0...0&__hsi=7592467918739892061&__req=1&__rev=1031704701&__s=%3Auu29pa%3Aujjq4k&__spin_b=trunk&__spin_r=1031704701&__spin_t=1767759192&__user=0&dpr=2&jazoest=2915&lsd=AdGphc4h8GQ
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.instagram.com/reel/DRzU8fmj0Vu/embed/captioned/",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "x-asbd-id": "359341",
+  "x-fb-lsd": "AdGphc4h8GQ",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundarycj1DsXQuO9ZUytAS"
+}
+Body: ------WebKitFormBoundarycj1DsXQuO9ZUytAS
+Content-Disposition: form-data; name="ts"
+
+1767759258945
+------WebKitFormBoundarycj1DsXQuO9ZUytAS
+Content-Disposition: form-data; name="q"
+
+[{"app_id":"936619743392459","posts":"pgaAW1sicWV4Iix7ImwiOiJKe1wicWVpZFwiOlwiXCIsXCJ1GQsAdAULBGZiBRggZ2tzXCI6W10sATF4XCI6bnVsbH0ifSwxNzY3NzU5MTk4OTQ0LDAsNzFdLP5jAG5jAAQuMf5lAP5lAP5lAEplAEhmYWxjbzpvZHNfd2ViX2JhdGNoIaIYZSI6IntcIgUQJFwiOntcIjU1ODgJCiBpbnN0YWdyYW0JD7B3ZWIuYXBwX2lkLnNhbWUuOTM2NjE5NzQzMzkyNDU5LmNsaW... [TRUNCATED - Total size: 1045 chars]
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+[2026-01-07 12:14:49.737] ACTION #3
+Action: click [3419]
+Element: link "View All" [ID: 3419]
+====================================================================================================
+
+
+====================================================================================================
+[2026-01-07 12:15:44.918] ACTION #4
+Action: click [4587]
+Element: link "View All" [ID: 4587]
+====================================================================================================
+

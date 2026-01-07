@@ -1412,6 +1412,9 @@ def execute_action(
         case ActionTypes.PAGE_FOCUS:
             page = browser_ctx.pages[action["page_number"]]
             page.bring_to_front()
+            # Ensure the page has a client attribute for CDP operations
+            if not hasattr(page, 'client') or page.client is None:
+                page.client = page.context.new_cdp_session(page)  # type: ignore[attr-defined]
         case ActionTypes.NEW_TAB:
             page = browser_ctx.new_page()
             page.client = page.context.new_cdp_session(page)  # type: ignore[attr-defined]
@@ -1430,8 +1433,12 @@ def execute_action(
             page.close()
             if len(browser_ctx.pages) > 0:
                 page = browser_ctx.pages[-1]
+                # Ensure the page has a client attribute for CDP operations
+                if not hasattr(page, 'client') or page.client is None:
+                    page.client = page.context.new_cdp_session(page)  # type: ignore[attr-defined]
             else:
                 page = browser_ctx.new_page()
+                page.client = page.context.new_cdp_session(page)  # type: ignore[attr-defined]
 
         case ActionTypes.SELECT_OPTION:
             if action["pw_code"]:
@@ -1551,6 +1558,9 @@ async def aexecute_action(
         case ActionTypes.PAGE_FOCUS:
             page = browser_ctx.pages[action["page_number"]]
             await page.bring_to_front()
+            # Ensure the page has a client attribute for CDP operations
+            if not hasattr(page, 'client') or page.client is None:
+                page.client = page.context.new_cdp_session(page)  # type: ignore[attr-defined]
         case ActionTypes.NEW_TAB:
             page = await browser_ctx.new_page()
         case ActionTypes.GO_BACK:
@@ -1563,8 +1573,12 @@ async def aexecute_action(
             await page.close()
             if len(browser_ctx.pages) > 0:
                 page = browser_ctx.pages[-1]
+                # Ensure the page has a client attribute for CDP operations
+                if not hasattr(page, 'client') or page.client is None:
+                    page.client = page.context.new_cdp_session(page)  # type: ignore[attr-defined]
             else:
                 page = await browser_ctx.new_page()
+                page.client = page.context.new_cdp_session(page)  # type: ignore[attr-defined]
 
         case ActionTypes.SELECT_OPTION:
             if action["pw_code"]:
@@ -1835,7 +1849,7 @@ def create_id_based_action(action_str: str):
     return False
 
 def create_id_based_actions(action_str: str):
-    valid_actions = ["click", "hover", "type", "press", "scroll", "goto", "new_tab", "go_back", "go_forward", "tab_focus", "close tab", "stop", "select", "record", "branch", "prune", "note"]
+    valid_actions = ["click", "hover", "type", "press", "scroll", "goto", "new_tab", "go_back", "go_forward", "tab_focus", "close_tab", "stop", "select", "record", "branch", "prune", "note"]
     def parse_str_to_action_list(text:str, actions: list):
         remain_text = text
         action_list = []
@@ -1927,7 +1941,7 @@ def create_id_based_actions(action_str: str):
                     raise ActionParsingError(
                         f"Invalid tab_focus action {raw_action_str}"
                     )
-                page_number = int(match.group(1))
+                page_number = int(match.group(1))  # Already 0-indexed from observation
                 action_cmds.append(create_page_focus_action(page_number))
             case "close_tab":
                 action_cmds.append(create_page_close_action())
