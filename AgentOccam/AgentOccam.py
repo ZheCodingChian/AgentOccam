@@ -358,8 +358,8 @@ class Actor(Agent):
         self.navigation_specifications = None
         self.criticism_element_list = None
 
-        self.output_play_path = os.path.join(CURRENT_DIR, f"play-{self.config.others.logname}.txt") if getattr(self.config.others, "logname", "") != "" else os.path.join(CURRENT_DIR, f"play.txt")
-        self.output_trash_path = os.path.join(CURRENT_DIR, f"trash-{self.config.others.logname}.txt") if getattr(self.config.others, "logname", "") != "" else os.path.join(CURRENT_DIR, f"trash.txt")
+        self.output_play_path = os.path.join(self.config.output_dir, "agent_current_step.txt")
+        self.output_trace_path = os.path.join(self.config.output_dir, "agent_trace.txt")
 
         self.identities = []
         if hasattr(self.config, "identities"):
@@ -609,11 +609,11 @@ class Actor(Agent):
         }
 
         if self.config.others.verbose > 0 and self.config.verbose > 0:
-            with open(self.output_trash_path, "a") as af:
+            with open(self.output_trace_path, "a") as af:
                 af.write("-"*32+"ACTOR"+"-"*32+"\n")
             for t in self.config.trash:
                 content = VERBOSE_TO_CONTENT_MAP.get(t, "")
-                with open(self.output_trash_path, "a") as af:
+                with open(self.output_trace_path, "a") as af:
                     af.write(f"{t.upper()}:\n{content}\n\n")
             with open(self.output_play_path, "w") as _:
                 pass
@@ -1003,8 +1003,8 @@ class Critic(Agent):
         self.instruction = None
         self.actor_basic_info_dict = None
 
-        self.output_play_path = os.path.join(CURRENT_DIR, f"play-{self.config.others.logname}.txt") if getattr(self.config.others, "logname", "") != "" else os.path.join(CURRENT_DIR, f"play.txt")
-        self.output_trash_path = os.path.join(CURRENT_DIR, f"trash-{self.config.others.logname}.txt") if getattr(self.config.others, "logname", "") != "" else os.path.join(CURRENT_DIR, f"trash.txt")
+        self.output_play_path = os.path.join(self.config.output_dir, "agent_current_step.txt")
+        self.output_trace_path = os.path.join(self.config.output_dir, "agent_trace.txt")
 
     def verbose(self, instruction, online_input, model_response):
         VERBOSE_TO_CONTENT_MAP = {
@@ -1015,11 +1015,11 @@ class Critic(Agent):
             "response": model_response
         }
         if self.config.others.verbose > 0 and self.config.verbose > 0:
-            with open(self.output_trash_path, "a") as af:
+            with open(self.output_trace_path, "a") as af:
                 af.write("-"*32+"CRITIC"+"-"*32+"\n")
             for t in self.config.trash:
                 content = VERBOSE_TO_CONTENT_MAP[t]
-                with open(self.output_trash_path, "a") as af:
+                with open(self.output_trace_path, "a") as af:
                     af.write(f"{t.upper()}:\n{content}\n\n")
 
     def update_actor_basic_info(self, **actor_basic_info_dict):
@@ -1100,9 +1100,9 @@ class Judge(Agent):
         self.instruction = None
         self.actor_basic_info_dict = None
 
-        self.output_play_path = os.path.join(CURRENT_DIR, f"play-{self.config.others.logname}.txt") if getattr(self.config.others, "logname", "") != "" else os.path.join(CURRENT_DIR, f"play.txt")
-        self.output_trash_path = os.path.join(CURRENT_DIR, f"trash-{self.config.others.logname}.txt") if getattr(self.config.others, "logname", "") != "" else os.path.join(CURRENT_DIR, f"trash.txt")
-    
+        self.output_play_path = os.path.join(self.config.output_dir, "agent_current_step.txt")
+        self.output_trace_path = os.path.join(self.config.output_dir, "agent_trace.txt")
+
     def update_actor_basic_info(self, **actor_basic_info_dict):
         self.actor_basic_info_dict = actor_basic_info_dict
 
@@ -1150,11 +1150,11 @@ class Judge(Agent):
             "response": model_response
         }
         if self.config.others.verbose > 0 and self.config.verbose > 0:
-            with open(self.output_trash_path, "a") as af:
+            with open(self.output_trace_path, "a") as af:
                 af.write("-"*32+"JUDGE"+"-"*32+"\n")
             for t in self.config.trash:
                 content = VERBOSE_TO_CONTENT_MAP[t]
-                with open(self.output_trash_path, "a") as af:
+                with open(self.output_trace_path, "a") as af:
                     af.write(f"{t.upper()}:\n{content}\n\n")
 
     def flatten_action_element_list(self, action_element_list):
@@ -1296,7 +1296,7 @@ class AgentOccam:
             prompt_template=self.prompt_dict["actor"],
             plan_tree_node=PlanTreeNode(id=0, type="branch", text=f"Find the solution to \"{self.objective}\"", level=0, url=self.online_url, step=0)
         )
-        with open(self.actor.output_trash_path, "w") as _:
+        with open(self.actor.output_trace_path, "w") as _:
             pass
 
     def init_critic(self):

@@ -12,6 +12,9 @@ from AgentOccam.AgentOccam import AgentOccam
 from AgentOccam.prompts import AgentOccam_prompt
 
 
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
 class DotDict(dict):
     """Dot notation access to dictionary attributes"""
     __getattr__ = dict.get
@@ -25,18 +28,10 @@ class DotDict(dict):
             self[key] = value
 
 
-def log_run(log_file, log_data, summary_file, summary_data):
-    """Save trajectory and summary"""
+def log_run(log_file, log_data):
+    """Save trajectory"""
     with open(log_file, "w") as f:
         json.dump(log_data, f, indent=2)
-
-    import csv
-    file_exists = os.path.exists(summary_file)
-    with open(summary_file, "a", newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=summary_data.keys())
-        if not file_exists:
-            writer.writeheader()
-        writer.writerow(summary_data)
 
 
 def run():
@@ -50,14 +45,6 @@ def run():
 
     with open(args.config, "r") as file:
         config = DotDict(yaml.safe_load(file))
-
-    if config.logging:
-        if config.logname:
-            dstdir = f"{config.logdir}/{config.logname}"
-        else:
-            dstdir = f"{config.logdir}/{time.strftime('%Y%m%d-%H%M%S')}"
-        os.makedirs(dstdir, exist_ok=True)
-        shutil.copyfile(args.config, os.path.join(dstdir, args.config.split("/")[-1]))
 
     random.seed(42)
 
@@ -79,9 +66,13 @@ def run():
     current_viewport_only = not fullpage
 
     def agent_init():
+        agent_config = config.agent
+        agent_config.actor.output_dir = task_output_dir
+        agent_config.critic.output_dir = task_output_dir
+        agent_config.judge.output_dir = task_output_dir
         return AgentOccam(
             prompt_dict={k: v for k, v in AgentOccam_prompt.__dict__.items() if isinstance(v, dict)},
-            config=config.agent,
+            config=agent_config,
         )
 
     for config_file in config_file_list:
@@ -91,9 +82,9 @@ def run():
             print(f"Task {task_config['task_id']}: {task_config['intent'][:100]}...")
             print(f"{'='*80}")
 
-        if config.logging and os.path.exists(os.path.join(dstdir, f"{task_config['task_id']}.json")):
-            print(f"Skipping {task_config['task_id']} (already completed).")
-            continue
+        timestamp = time.strftime('%y%m%d_%H%M%S')
+        task_output_dir = os.path.join(CURRENT_DIR, "output", task_config['task_id'], timestamp)
+        os.makedirs(task_output_dir, exist_ok=True)
 
         env = WebArenaEnvironmentWrapper(
             config_file=config_file,
@@ -104,7 +95,8 @@ def run():
             current_viewport_only=current_viewport_only,
             viewport_size={"width": 1920, "height": 1080},
             headless=config.env.headless,
-            global_config=config
+            global_config=config,
+            output_dir=task_output_dir
         )
 
         agent = agent_init()
@@ -113,7 +105,7 @@ def run():
         env.close()
 
         if config.logging:
-            log_file = os.path.join(dstdir, f"{task_config['task_id']}.json")
+            log_file = os.path.join(task_output_dir, "trajectory.json")
             log_data = {
                 "task": config_file,
                 "id": task_config['task_id'],
@@ -121,21 +113,10 @@ def run():
                 "type": "AgentOccam",
                 "trajectory": agent.get_trajectory(),
             }
-            summary_data = {
-                "task": config_file,
-                "task_id": task_config['task_id'],
-                "model": config.agent.actor.model,
-                "type": "AgentOccam",
-                "logfile": re.search(r"/([^/]+/[^/]+\.json)$", log_file).group(1) if "/" in log_file else log_file,
-            }
-            if status:
-                summary_data.update(status)
 
             log_run(
                 log_file=log_file,
                 log_data=log_data,
-                summary_file=os.path.join(dstdir, "summary.csv"),
-                summary_data=summary_data,
             )
 
             print(f"\n✓ Trajectory saved to: {log_file}")

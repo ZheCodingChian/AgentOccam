@@ -86,6 +86,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         save_trace_enabled: bool = False,
         sleep_after_execution: float = 5.0,
         global_config = None,
+        output_dir: str = None,
     ):
         # TODO: make Space[Action] = ActionSpace
         self.action_space = get_action_space()  # type: ignore[assignment]
@@ -97,6 +98,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         self.save_trace_enabled = save_trace_enabled
         self.sleep_after_execution = sleep_after_execution
         self.global_config = global_config
+        self.output_dir = output_dir
 
         match observation_type:
             case "html" | "accessibility_tree":
@@ -172,9 +174,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                 client.send("Accessibility.enable")
             self.page.client = client  # type: ignore
 
-        from datetime import datetime
-        log_filename = f"network_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
-        log_path = Path("network_log") / log_filename
+        log_path = Path(self.output_dir) / "network_log.txt"
         self.network_logger = NetworkLogger(log_path)
         
         # Attach to all existing pages and listen for new ones

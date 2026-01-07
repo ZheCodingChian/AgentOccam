@@ -59,3 +59,5 @@ config_files/
 config/AgentOccam.yml
 
 network_log/
+
+./output/

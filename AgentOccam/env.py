@@ -15,14 +15,15 @@ from AgentOccam.obs_opt import (
 
 
 class WebArenaEnvironmentWrapper():
-    def __init__(self, config_file, max_browser_rows=300, max_steps=50, slow_mo=1, observation_type="accessibility_tree", current_viewport_only=False, viewport_size={"width": 1280, "height": 720}, headless=False, global_config=None):
+    def __init__(self, config_file, max_browser_rows=300, max_steps=50, slow_mo=1, observation_type="accessibility_tree", current_viewport_only=False, viewport_size={"width": 1280, "height": 720}, headless=False, global_config=None, output_dir=None):
         self.webarena_env = ScriptBrowserEnv(
                     headless=headless,
                     slow_mo=slow_mo,
                     observation_type=observation_type,
                     current_viewport_only=current_viewport_only,
                     viewport_size=viewport_size,
-                    global_config=global_config
+                    global_config=global_config,
+                    output_dir=output_dir
                 )
         self.config_file = config_file
         with open(self.config_file, "r") as f:
