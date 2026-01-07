@@ -1259,9 +1259,11 @@ def execute_action(
     page: Page,
     browser_ctx: BrowserContext,
     obseration_processor: ObservationProcessor,
-) -> Page:
+) -> tuple[Page, dict[str, str]]:
     """Execute the action on the ChromeDriver."""
     action_type = action["action_type"]
+    element_info = {}
+
     def is_at_bottom_of_page(page):
         result = page.evaluate('(window.scrollY + window.innerHeight) >= document.documentElement.scrollHeight')
         return result
@@ -1272,6 +1274,14 @@ def execute_action(
     if "element_id" in action.keys() and action["element_id"]:
         element_id = action["element_id"]
         node = obseration_processor.get_node_info_by_element_id(int(element_id))
+
+        if node:
+            element_info = {
+                'id': str(element_id),
+                'role': node.role if hasattr(node, 'role') else '',
+                'name': node.name if hasattr(node, 'name') else ''
+            }
+
         while not obseration_processor.element_is_visible(page, element_id) and not is_at_bottom_of_page(page):
             execute_scroll("down", page)
         while not obseration_processor.element_is_visible(page, element_id) and not is_at_top_of_page(page):
@@ -1448,7 +1458,7 @@ def execute_action(
         case _:
             raise ValueError(f"Unknown action type: {action_type}")
 
-    return page
+    return page, element_info
 
 
 async def aexecute_action(

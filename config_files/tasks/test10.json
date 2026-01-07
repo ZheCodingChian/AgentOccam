@@ -1,0 +1,20 @@
+{
+  "sites": [
+    "custom-site"
+  ],
+  "task_id": "test10",
+  "require_login": false,
+  "storage_state": null,
+    "start_url": "https://www.straitstimes.com/singapore/",
+  "geolocation": null,
+  "intent": "Navigate to the index page of property section and click on the load more button to load more news. Extract the first news headline after clicking load more..",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "exact_match": "https://wwww.straitstimes.com/singapore/"
+    }
+  }
+}

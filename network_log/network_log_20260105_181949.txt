@@ -1,0 +1,2856 @@
+
+====================================================================================================
+Network Activity Log
+Started: 2026-01-06 13:19:49
+====================================================================================================
+
+[2026-01-06 13:19:54.722] NETWORK REQUEST #1
+Method: GET
+URL: https://js-agent.newrelic.com/nr-spa-1.290.1.min.js
+Headers: {
+  "origin": "https://www.straitstimes.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:19:54.729] NETWORK RESPONSE #2
+Status: 200 
+URL: https://s.yimg.com/wi/config/10191792.json
+Headers: {
+  "access-control-max-age": "0",
+  "access-control-expose-headers": "",
+  "age": "1930",
+  "access-control-allow-methods": "GET",
+  "x-content-type-options": "nosniff",
+  "date": "Mon, 05 Jan 2026 09:47:40 GMT",
+  "content-type": "application/json",
+  "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method",
+  "x-amz-id-2": "tg9YfXKkwU2K4BzIF4rhSVD5FFLN7V3f0wLrSEfYQDTFiFTLZLUrdzQVLa1QSREtq50O7x/xiBA=",
+  "strict-transport-security": "max-age=31536000",
+  "cache-control": "public,max-age=3600",
+  "ats-carp-promotion": "1, 1",
+  "referrer-policy": "no-referrer-when-downgrade",
+  "x-amz-request-id": "BJH0Z3CR137DEX5F",
+  "access-control-allow-origin": "*",
+  "content-length": "2",
+  "server": "ATS"
+}
+Body: {}
+====================================================================================================
+
+[2026-01-06 13:19:54.724] NETWORK RESPONSE #1
+Status: 200 
+URL: https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js
+Headers: {
+  "content-encoding": "gzip",
+  "age": "451060",
+  "report-to": "{\"group\":\"recaptcha-scs\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha-scs\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Thu, 31 Dec 2026 05:02:08 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 31 Dec 2025 05:02:08 GMT",
+  "last-modified": "Mon, 08 Dec 2025 05:00:52 GMT",
+  "content-type": "text/javascript",
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000",
+  "timing-allow-origin": "*",
+  "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"recaptcha-scs\"",
+  "cross-origin-resource-policy": "cross-origin",
+  "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/recaptcha-scs",
+  "accept-ranges": "bytes",
+  "access-control-allow-origin": "*",
+  "content-length": "362552",
+  "x-xss-protection": "0",
+  "server": "sffe"
+}
+Body: (function(){/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+
+ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applic... [TRUNCATED - Total size: 849489 chars]
+====================================================================================================
+
+[2026-01-06 13:19:58.505] NETWORK REQUEST #2
+Method: POST
+URL: https://highway.cablecar.sph.com.sg/?api-key=xAKXBzNmErQO6OVuChS4K2CHT2ppmyL0u6ugVI3Q
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "application/json",
+  "sec-ch-ua-mobile": "?0"
+}
+Body: {"browserEvents":[{"eventType":"load","meta":{"trigger":"track view time load","article":{"adBlocker":"true","abVariant":"ST-DEFAULT","articleId":null,"articleCount":"0","author":null,"cueArticleId":null,"keyword":null,"page":null,"chapter1":"singapore","chapter2":null,"chapter3":null,"chapter1En":null,"chapter2En":null,"chapter3En":null,"gs_channels":null,"level2":"7","level2Ga":null,"level2Local":null,"contentCat":"1","contentType":null,"pubDate":null,"content_publication_utc":null,"content_la... [TRUNCATED - Total size: 6456 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:18.576] NETWORK REQUEST #3
+Method: GET
+URL: https://accounts.google.com/gsi/client
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:18.579] NETWORK REQUEST #4
+Method: GET
+URL: https://google.com/.well-known/web-identity
+Headers: {
+  "accept": "application/json"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:18.580] NETWORK REQUEST #5
+Method: GET
+URL: https://accounts.google.com/gsi/fedcm.json
+Headers: {
+  "accept": "application/json"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:18.583] NETWORK REQUEST #6
+Method: GET
+URL: https://accounts.google.com/gsi/fedcm/listaccounts
+Headers: {
+  "accept": "application/json"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:18.581] NETWORK RESPONSE #4 (Request #5)
+Status: 200 
+URL: https://accounts.google.com/gsi/fedcm.json
+Headers: {
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cache-control": "private, max-age=3600",
+  "content-encoding": "gzip",
+  "content-security-policy": "require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http\nscript-src 'report-sample' 'nonce-kOLu-Cx-ljm9FiEwt-082g' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http",
+  "content-type": "application/json; charset=utf-8",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_dd7de8473bddc59c6b748810a67a39b1\"",
+  "date": "Mon, 05 Jan 2026 10:19:59 GMT",
+  "expires": "Mon, 05 Jan 2026 10:19:59 GMT",
+  "report-to": "{\"group\":\"coop_dd7de8473bddc59c6b748810a67a39b1\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/dd7de8473bddc59c6b748810a67a39b1\"}]}",
+  "server": "ESF",
+  "x-content-type-options": "nosniff",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "0"
+}
+Body: {
+"idtoken_endpoint": "https://accounts.google.com/gsi/fedcm/issue",
+"id_token_endpoint": "https://accounts.google.com/gsi/fedcm/issue",
+"id_assertion_endpoint": "https://accounts.google.com/gsi/fedcm/issue",
+"metrics_endpoint": "https://accounts.google.com/gsi/fedcm/metrics",
+"accounts_endpoint": "https://accounts.google.com/gsi/fedcm/listaccounts",
+"client_metadata_endpoint": "https://accounts.google.com/gsi/fedcm/clientmetadata",
+"client_id_metadata_endpoint": "https://accounts.google.com/gsi... [TRUNCATED - Total size: 1436 chars]
+====================================================================================================
+
+[2026-01-06 13:20:18.582] NETWORK RESPONSE #5 (Request #4)
+Status: 200 
+URL: https://google.com/.well-known/web-identity
+Headers: {
+  "accept-ranges": "bytes",
+  "age": "62375",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cache-control": "public, max-age=86400",
+  "content-encoding": "br",
+  "content-length": "107",
+  "content-type": "application/json",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"static-on-bigtable\"",
+  "date": "Sun, 04 Jan 2026 17:00:24 GMT",
+  "expires": "Mon, 05 Jan 2026 17:00:24 GMT",
+  "last-modified": "Thu, 06 Jun 2024 18:30:00 GMT",
+  "report-to": "{\"group\":\"static-on-bigtable\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/static-on-bigtable\"}]}",
+  "server": "sffe",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-xss-protection": "0"
+}
+Body: {
+  "provider_urls": [
+    "https://accounts.google.com/gsi/fedcm.json"
+  ],
+  "accounts_endpoint": "https://accounts.google.com/gsi/fedcm/listaccounts",
+  "login_url": "https://accounts.google.com/gsi/fedcm/signin"
+}
+
+====================================================================================================
+
+[2026-01-06 13:20:18.583] NETWORK RESPONSE #6 (Request #6)
+Status: 200 
+URL: https://accounts.google.com/gsi/fedcm/listaccounts
+Headers: {
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+  "content-disposition": "attachment; filename=\"json.txt\"; filename*=UTF-8''json.txt",
+  "content-encoding": "gzip",
+  "content-security-policy": "require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http\nscript-src 'report-sample' 'nonce-Qajk4S8ax5ZljadpNnLBQw' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http",
+  "content-type": "application/json; charset=utf-8",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_dd7de8473bddc59c6b748810a67a39b1\"",
+  "date": "Mon, 05 Jan 2026 10:19:59 GMT",
+  "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+  "pragma": "no-cache",
+  "report-to": "{\"group\":\"coop_dd7de8473bddc59c6b748810a67a39b1\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/dd7de8473bddc59c6b748810a67a39b1\"}]}",
+  "server": "ESF",
+  "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+  "x-content-type-options": "nosniff",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "0"
+}
+Body: {"accounts":[]}
+====================================================================================================
+
+[2026-01-06 13:20:18.578] NETWORK RESPONSE #3 (Request #3)
+Status: 200 
+URL: https://accounts.google.com/gsi/client
+Headers: {
+  "content-security-policy": "require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http, script-src 'report-sample' 'nonce-ChQxC_MiG6eIgz8fuhEp-g' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http",
+  "cache-control": "private, max-age=1800",
+  "content-encoding": "gzip",
+  "cross-origin-resource-policy": "cross-origin",
+  "report-to": "{\"group\":\"coop_dd7de8473bddc59c6b748810a67a39b1\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/dd7de8473bddc59c6b748810a67a39b1\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_dd7de8473bddc59c6b748810a67a39b1\"",
+  "date": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "x-xss-protection": "0",
+  "content-type": "application/javascript; charset=utf-8",
+  "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+  "server": "ESF",
+  "x-frame-options": "SAMEORIGIN"
+}
+Body: "use strict";this.default_gsi=this.default_gsi||{};(function(_){var window=this;
+try{
+_._F_toggles_initialize=function(a){(typeof globalThis!=="undefined"?globalThis:typeof self!=="undefined"?self:this)._F_toggles_default_gsi=a||[]};(0,_._F_toggles_initialize)([0x20800000, 0x15311, ]);
+var ba,ca,da,t,ea,ka,la,ma;_.aa=typeof Object.create=="function"?Object.create:function(a){var b=function(){};b.prototype=a;return new b};ba=typeof Object.defineProperties=="function"?Object.defineProperty:functio... [TRUNCATED - Total size: 244830 chars]
+====================================================================================================
+
+[2026-01-06 13:20:18.909] NETWORK REQUEST #7
+Method: GET
+URL: https://www.straitstimes.com/singapore/housing?ref=top-navbar
+Headers: {
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:18.909] NETWORK REQUEST #8
+Method: POST
+URL: https://highway.cablecar.sph.com.sg/?api-key=xAKXBzNmErQO6OVuChS4K2CHT2ppmyL0u6ugVI3Q
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "text/plain;charset=UTF-8",
+  "sec-ch-ua-mobile": "?0"
+}
+Body: {"browserEvents":[{"eventType":"click","data":{"targetUrl":"/singapore/housing?ref=top-navbar","elementId":"","elementClasses":["flex","select-none","gap-x-04","items-center","text-primary","w-max"],"elementTarget":"_self","elementText":"Housing","currentWindowUrl":"https://www.straitstimes.com/singapore/","xCoordinate":401.28125,"yCoordinate":344,"fullDOMPath":"html > body > div:nth-child(5) > main > div > div > div > div > div > div:nth-child(2) > div:nth-child(2) > a","campaignAttributes":{"a... [TRUNCATED - Total size: 3600 chars]
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+[2026-01-06 13:20:18.910] ACTION #1
+Action: click [2054]
+Element: link "link" [ID: 2054]
+====================================================================================================
+
+[2026-01-06 13:20:23.919] NETWORK REQUEST #9
+Method: POST
+URL: https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "accept": "*",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "text/plain;charset=UTF-8",
+  "sec-ch-ua-mobile": "?0"
+}
+Body: H4sIAAAAAAAAE5VUUW/bOAz+KwYf7klanTZNUwPD0AW3rbhiDxejL0UfaJuJicqSTqLbFEX++0F22ku627o+WRSpjx/Jz3wCz02E4mZ6mp9Pp+e3CmId2Ms1hcjOQnE8P1Ug3BEUk7PZ2SyfTyfz83yioHEdsoUCogRkiSkofqhdBwr6YKCAVsTH4ujodcBRZLtG7wIdgQKPaypZDEEBVygUJVs++7Pv9BCzP7JvhI1hS1FlpfPZUlxgilnpGnzMdFa2lC3HJFmZsoCCB6oiCy15bdH8Tf/0FOWygQJWWNVNPpvp/HSe6wabmT6rTnJ9cjxHwrMcTyYnoIBjGdBGg0INFCs0kRQY/oIjCiTjK6OV0eg41lA8gY/VUlAICj3dJpQrtnfUXNoL719gWuqgsL0xCuLAr3z0qfzF1eXiL1DQBlpBAXt9al2fjE+BVh/FeW3xvsIAwxQuRAJXvVBMBMhQR1aW1KEVrkfkMdfOdY2mf323Hya4... [TRUNCATED - Total size: 984 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.920] NETWORK REQUEST #10
+Method: POST
+URL: https://px.ads.linkedin.com/wa/?medium=beacon&fmt=g
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "text/plain;charset=utf-8",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.924] NETWORK REQUEST #11
+Method: POST
+URL: https://tagweb.straitstimes.com/g/collect?v=2&tid=G-MQEMTJBF6J&gtm=45je5ca1v881704368za20gzb78946930zd78946930&_p=1767608388127&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=123847561.1767608389&ecid=450869572&ul=en-us&sr=1920x1080&ur=SG&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&sst.etld=google.com.sg&sst.tft=1767608388127&sst.lpc=158363896&sst.navt=n&sst.ude=1&sst.sw_exp=1&_s=3&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115583767~115938466~115938469~116184927~116184929~116251938~116251940&sid=1767608388&sct=1&seg=1&dl=https%3A%2F%2Fwww.straitstimes.com%2Fsingapore%2F&dt=Latest%20Singapore%20News%20%26%20Headlines%2C%20Top%20Stories%20Today%20-%20The%20Straits%20Times&_tu=BA&en=user_engagement&ep.articleId=&ep.articleAuthorName=&ep.contentCategory=free&ep.keyword=&ep.pageName=singapore%20Index&ep.pagination=1&ep.publicationDate=&ep.url=https%3A%2F%2Fwww.straitstimes.com%2Fsingapore%2F&ep.visitorCategory=anonymous&ep.level2SiteName=News&ep.chapter1=singapore&ep.chapter2=&ep.chapter3=&ep.contentType=listing&ep.gsKeyword=(not%20set)&ep.cd_referral_url=&ep.permutive_id=&ep.abVariant=ST-DEFAULT&ep.permutive_segment=&ep.suid=2b454d57331647b0ae3cf3f0b3ad1a72&ep.sph_bs=&ep.sph_iab=&ep.user_agent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20HeadlessChrome%2F143.0.7499.4%20Safari%2F537.36&ep.svc=(not%20set)&ep.event_id=1767608519018_176760852105815&ep.cue_articleid=&ep.article_source=&ep.click_reference=(not%20set)&ep.cd_version=st2&ep.virtual_pv=false&ep.content_group=singapore&ep.content_id=&ep.content_type=listing&ep.client_id_referral=(not%20set)&ep.container_id=GTM-W22QHZ9&ep.container_version=368&ep.hostname=www.straitstimes.com&_et=30281&tfd=31127
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.925] NETWORK REQUEST #12
+Method: POST
+URL: https://o4505130366140416.ingest.sentry.io/api/4506779620671488/envelope/?sentry_version=7&sentry_key=f56a481f86a20b607efc6bc783a05663&sentry_client=sentry.javascript.react%2F8.47.0
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "text/plain;charset=UTF-8",
+  "sec-ch-ua-mobile": "?0"
+}
+Body: {}
+{"type":"client_report"}
+{"timestamp":1767608418.967,"discarded_events":[{"reason":"before_send","category":"error","quantity":1}]}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.927] NETWORK REQUEST #13
+Method: GET
+URL: https://adtag.sphdigital.com/pub/st/prebid.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.927] NETWORK REQUEST #14
+Method: GET
+URL: https://cdp.sph.com.sg/activation/activation.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.929] NETWORK REQUEST #15
+Method: GET
+URL: https://cdn.sphlabs.com/suid/suid.min.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.931] NETWORK REQUEST #16
+Method: GET
+URL: https://www.straitstimes.com/assets/nr-loader-spa-1.290.1.min-CWmC8H94.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/singapore/housing?ref=top-navbar",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.931] NETWORK REQUEST #17
+Method: GET
+URL: https://www.straitstimes.com/assets/index-DNv4wS0v.js
+Headers: {
+  "origin": "https://www.straitstimes.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/singapore/housing?ref=top-navbar",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.932] NETWORK REQUEST #18
+Method: GET
+URL: https://adtag.sphdigital.com/pub/st/apm-init.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.933] NETWORK REQUEST #19
+Method: GET
+URL: https://static.chartbeat.com/js/chartbeat_mab.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.936] NETWORK REQUEST #20
+Method: GET
+URL: https://cdp.sph.com.sg/activation/jquery-3.7.1.min.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.951] NETWORK REQUEST #21
+Method: GET
+URL: https://www.straitstimes.com/login_details.php?1767608419061
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/singapore/housing?ref=top-navbar",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjIyNTAyMyIsImFwIjoiMTEwMzMxMjUzMiIsImlkIjoiM2NkY2M4YTg3Yjk5ZWM0ZCIsInRyIjoiYmQyZDg1MGU0Njg0YzkxNTJiODhkZGMyMzg3ZDNkMWYiLCJ0aSI6MTc2NzYwODQxOTA2MX19",
+  "traceparent": "00-bd2d850e4684c9152b88ddc2387d3d1f-3cdcc8a87b99ec4d-01",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "tracestate": "225023@nr=0-1-225023-1103312532-3cdcc8a87b99ec4d----1767608419061"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.951] NETWORK REQUEST #22
+Method: GET
+URL: https://static.mysph.sph.com.sg/mysph/js/mySPHIdentityLightbox.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.952] NETWORK REQUEST #23
+Method: GET
+URL: https://static.mysph.sph.com.sg/mysph/js/mysph-googleonetap.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "if-none-match": "\"dcff73ce75db0841cc3d6c240631edf9\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "if-modified-since": "Fri, 22 Aug 2025 03:59:45 GMT",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.952] NETWORK REQUEST #24
+Method: POST
+URL: https://cdp.activation.sph.com.sg/api/activation
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "x-api-key": "c9875acb-576c-44bb-9484-aafb59ace74c",
+  "sec-ch-ua-mobile": "?0",
+  "access-control-allow-origin": "*",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "content-type": "application/json"
+}
+Body: {"propensity_score":"-1","site_id":"st_sg","access_flag":1,"visitor_category":1,"url":"https://www.straitstimes.com/singapore/housing","keyword":["."],"mysph_id":"00000000000000000000000000000000","section":["singapore","singapore/housing"],"device":"desktop","geography":"Singapore","article_id":"","free_article_pageview":0,"suid":"2b454d57331647b0ae3cf3f0b3ad1a72","module_id":"51","api_key":"c9875acb-576c-44bb-9484-aafb59ace74c"}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.952] NETWORK REQUEST #25
+Method: GET
+URL: https://neuron.platform.sphdigital.com.sg/config/default.config.json
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.953] NETWORK REQUEST #26
+Method: POST
+URL: https://highway.cablecar.sph.com.sg/?api-key=xAKXBzNmErQO6OVuChS4K2CHT2ppmyL0u6ugVI3Q
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "application/json",
+  "sec-ch-ua-mobile": "?0"
+}
+Body: {"browserEvents":[{"eventType":"initSession","data":{"pageTitle":"Latest Housing News & Headlines, Top Stories Today - The Straits Times"},"eventDateTime":"2026-01-05T10:20:19.068Z","eventId":"6156b16f-9057-4afd-b1a0-78ac590583e3","meta":{"article":{"adBlocker":null,"abVariant":"ST-DEFAULT","articleId":null,"articleCount":"0","author":null,"cueArticleId":null,"keyword":null,"page":null,"chapter1":"Singapore","chapter2":"Housing","chapter3":null,"chapter1En":null,"chapter2En":null,"chapter3En":nu... [TRUNCATED - Total size: 1543 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.953] NETWORK REQUEST #27
+Method: GET
+URL: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.953] NETWORK REQUEST #28
+Method: GET
+URL: https://public-api.segmento.sphdigital.com.sg/downstream/segments/users/2b454d57331647b0ae3cf3f0b3ad1a72
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "x-signature": "02a0b299f8c59dd54cdedfa6b7413336cd41dc472a910461b46b14a56201cd74",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "x-timestamp": "1767608419081"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.954] NETWORK REQUEST #29
+Method: GET
+URL: https://www.youtube.com/iframe_api
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.955] NETWORK REQUEST #30
+Method: GET
+URL: https://static.chartbeat.com/js/chartbeat_video.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.955] NETWORK REQUEST #31
+Method: GET
+URL: https://static.chartbeat.com/js/chartbeat_mab.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.956] NETWORK REQUEST #32
+Method: GET
+URL: https://sb.scorecardresearch.com/cs/6288331/beacon.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.956] NETWORK REQUEST #33
+Method: GET
+URL: https://s.yimg.com/wi/ytc.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.957] NETWORK REQUEST #34
+Method: GET
+URL: https://widgets.outbrain.com/outbrain.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.957] NETWORK REQUEST #35
+Method: GET
+URL: https://sg-config.sensic.net/s2s-web.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.958] NETWORK REQUEST #36
+Method: GET
+URL: https://amplify.outbrain.com/cp/obtp.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.960] NETWORK REQUEST #37
+Method: GET
+URL: https://www.straitstimes.com/p/login.php
+Headers: {
+  "referer": "https://www.straitstimes.com/singapore/housing?ref=top-navbar",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.962] NETWORK REQUEST #38
+Method: GET
+URL: https://cdp.sph.com.sg/creatives/1495/preview.html
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "x-api-key": "c9875acb-576c-44bb-9484-aafb59ace74c",
+  "sec-ch-ua-mobile": "?0",
+  "access-control-allow-origin": "*",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "content-type": "application/json"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.963] NETWORK REQUEST #39
+Method: GET
+URL: https://www.youtube.com/s/player/50cc0679/www-widgetapi.vflset/www-widgetapi.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.964] NETWORK REQUEST #40
+Method: POST
+URL: https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "accept": "*",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "text/plain;charset=UTF-8",
+  "sec-ch-ua-mobile": "?0"
+}
+Body: H4sIAAAAAAAAE12PT0vkQBBHv0pTB08d519iZhqWZQ67OiAiJnhZlqWS1MwU2+luu2oUEb+7xAEPHh883q/qDRIPAu5PWc03Zbn5a0H6zEkfKQvHAG65riwojwRuUV/VV/N1udgslnMLQxyRAzgQzcgqkySXfRzBwil7cHBUTeJms+/CTDgcMMVMs2M8TfAz0/6HxlQEfO4wg4WEB2pZPYGDW1QSNTdn19zRi5gLc0M4eA4k1rQxmUZjZhLTxgFfTWHaI5nmPGzaaRksvFAnrNTwIaB/oKcTie4GcNDXqz1SVxZDXWGBq35VVHVPxbped329rOZ12YEFljZjEI9KA7g9eiELnn/juQITXDMGPcPI0oN7gyRdo6gErijfp8oth/807MI2pa/MkUZw4eS9Bfm8r31N0/P32+tf/x53za6F9w9sNlu1rwEAAA==
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.964] NETWORK REQUEST #41
+Method: GET
+URL: https://px.ads.linkedin.com/attribution_trigger?pid=4509449&time=1767608419123&url=https%3A%2F%2Fwww.straitstimes.com%2Fsingapore%2Fhousing%3Fref%3Dtop-navbar&tm=gtmv2
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "accept": "*",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.964] NETWORK REQUEST #42
+Method: POST
+URL: https://px.ads.linkedin.com/wa/?medium=beacon&fmt=g
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "text/plain;charset=utf-8",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.964] NETWORK REQUEST #43
+Method: GET
+URL: https://s.yimg.com/wi/config/10191792.json
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.966] NETWORK REQUEST #44
+Method: GET
+URL: https://idp.mysph.sph.com.sg/app/sph_stwebsite_1/exk3u9w9qw54XJxYH4x7/sso/saml?SAMLRequest=fVLRbtowFP2VyO%2FEdkICsQCJFU1l6lpU6LTuBTnJTbGW2MHXWeDva8LWdQ%2Frg2X5%2BJ5z7j26M5RN3Ypl5w76EY4doAtOTa1RDB9z0lktjESFQssGULhCbJdf70QUMtFa40xhavKO8jFDIoJ1ymgSrFdzspc5m1bjmKUsSorpdAxTqDIOMY%2BziLMk5VWapyWfJBUJvoFFz5wTL%2BTpiB2sNTqpnYdYlI4YH7Fkx5mImODZDxKs%2FDRKSzewDs61KChVZRs2Z2wP4eUUpgnxhcq2pf65R9dDjsrBnlM4%2FYy7rM%2BOfTL%2B%2FuX0fDs%2BTSiioZcxSbD8M8qN0dg1YLdgf6kCnh7v%2Fpr1fR%2Bis1I534kP4%2BJHjyyf1Pr8nNDGlF0NYXtoB1HfwnBHI1nggJ6z%2B7h8yHlOgs3vsD8pXSr98nHO%2BbUIxe1utxltHrY7sphdpMWQm128Cc%2Foe3h2XYd7L7hebUytinPw2dhGuv%2F78ZAPiCpH1VAqOo0tFKpSUPqc6tr0NxakgzlxtgNCF1fTf9du8Qo%3D&RelayState=https%3A%2F%2Fwww.straitstimes.com%2Fp%2Flogin.php
+Headers: {
+  "referer": "https://www.straitstimes.com/",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.966] NETWORK REQUEST #45
+Method: GET
+URL: https://tagweb.straitstimes.com/g/collect?v=2&tid=G-MQEMTJBF6J&gtm=45je5ca1v881704368z878946930za20gzb78946930zd78946930&_p=1767608418991&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=123847561.1767608389&ecid=450869572&ul=en-us&sr=1920x1080&ur=SG&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=a&_eu=AAAAAAQ&sst.etld=google.com.sg&sst.tft=1767608418991&sst.lpc=72864977&sst.navt=n&sst.ude=1&sst.sw_exp=1&_s=1&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115583767~115616986~115938466~115938469~116184927~116184929~116251938~116251940&sid=1767608388&sct=1&seg=1&dl=https%3A%2F%2Fwww.straitstimes.com%2Fsingapore%2Fhousing%3Fref%3Dtop-navbar&dt=Latest%20Housing%20News%20%26%20Headlines%2C%20Top%20Stories%20Today%20-%20The%20Straits%20Times&_tu=BA&en=page_view&ep.articleId=&ep.articleAuthorName=&ep.contentCategory=free&ep.keyword=&ep.pageName=Housing%20Index&ep.pagination=1&ep.publicationDate=&ep.url=https%3A%2F%2Fwww.straitstimes.com%2Fsingapore%2Fhousing%3Fref%3Dtop-navbar&ep.visitorCategory=anonymous&ep.level2SiteName=News&ep.chapter1=Singapore&ep.chapter2=Housing&ep.chapter3=&ep.contentType=listing&ep.gsKeyword=(not%20set)&ep.cd_referral_url=&ep.permutive_id=&ep.abVariant=ST-DEFAULT&ep.permutive_segment=&ep.suid=2b454d57331647b0ae3cf3f0b3ad1a72&ep.sph_bs=&ep.sph_iab=&ep.user_agent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20HeadlessChrome%2F143.0.7499.4%20Safari%2F537.36&ep.svc=(not%20set)&ep.client_id_event=123847561.1767608389.&ep.event_id=1767608714755_176760867783214&ep.cue_articleid=&ep.article_source=&ep.click_reference=top-navbar&ep.cd_version=st2&ep.virtual_pv=false&ep.content_group=singapore&ep.content_group2=housing&ep.content_id=&ep.content_type=listing&ep.client_id_referral=(not%20set)&ep.container_id=GTM-W22QHZ9&ep.container_version=368&ep.hostname=www.straitstimes.com&tfd=224&richsstsse
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.966] NETWORK REQUEST #46
+Method: GET
+URL: https://tagweb.straitstimes.com/g/collect?v=2&tid=G-MQEMTJBF6J&gtm=45je5ca1v881704368z878946930za20gzb78946930zd78946930&_p=1767608418991&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=123847561.1767608389&ecid=450869572&ul=en-us&sr=1920x1080&ur=SG&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&sst.etld=google.com.sg&sst.tft=1767608418991&sst.lpc=72864977&sst.navt=n&sst.ude=1&sst.sw_exp=1&_s=2&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115583767~115616986~115938466~115938469~116184927~116184929~116251938~116251940&sid=1767608388&sct=1&seg=1&dl=https%3A%2F%2Fwww.straitstimes.com%2Fsingapore%2Fhousing%3Fref%3Dtop-navbar&dt=Latest%20Housing%20News%20%26%20Headlines%2C%20Top%20Stories%20Today%20-%20The%20Straits%20Times&_tu=BA&en=ViewContent&ep.articleId=&ep.articleAuthorName=&ep.contentCategory=free&ep.keyword=&ep.pageName=Housing%20Index&ep.pagination=1&ep.publicationDate=&ep.url=https%3A%2F%2Fwww.straitstimes.com%2Fsingapore%2Fhousing%3Fref%3Dtop-navbar&ep.visitorCategory=anonymous&ep.level2SiteName=News&ep.chapter1=Singapore&ep.chapter2=Housing&ep.chapter3=&ep.contentType=listing&ep.gsKeyword=(not%20set)&ep.cd_referral_url=&ep.permutive_id=&ep.abVariant=ST-DEFAULT&ep.permutive_segment=&ep.suid=2b454d57331647b0ae3cf3f0b3ad1a72&ep.sph_bs=&ep.sph_iab=&ep.user_agent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20HeadlessChrome%2F143.0.7499.4%20Safari%2F537.36&ep.svc=(not%20set)&ep.client_id_event=123847561.1767608389.&ep.event_id=fb-1767608714755_176760867783214&ep.cue_articleid=&ep.article_source=&ep.click_reference=top-navbar&ep.cd_version=st2&ep.virtual_pv=false&ep.content_group=singapore&ep.content_group2=housing&ep.content_id=&ep.content_type=listing&ep.client_id_referral=(not%20set)&ep.container_id=GTM-W22QHZ9&ep.container_version=368&ep.hostname=www.straitstimes.com&_et=1&tfd=226&richsstsse
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.967] NETWORK REQUEST #47
+Method: GET
+URL: https://tagweb.straitstimes.com/_/service_worker/5c20/sw_iframe.html?origin=https%3A%2F%2Fwww.straitstimes.com&1p=1
+Headers: {
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.969] NETWORK REQUEST #48
+Method: GET
+URL: https://static.mysph.sph.com.sg/mysph/locales/en/translation.json
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.970] NETWORK REQUEST #49
+Method: POST
+URL: https://o4505130366140416.ingest.sentry.io/api/4506779620671488/envelope/?sentry_version=7&sentry_key=f56a481f86a20b607efc6bc783a05663&sentry_client=sentry.javascript.react%2F8.47.0
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "text/plain;charset=UTF-8",
+  "sec-ch-ua-mobile": "?0"
+}
+Body: {"sent_at":"2026-01-05T10:20:19.167Z","sdk":{"name":"sentry.javascript.react","version":"8.47.0"}}
+{"type":"session"}
+{"sid":"7befafa5f0234478bfdaefa3b39a0230","init":true,"started":"2026-01-05T10:20:19.167Z","timestamp":"2026-01-05T10:20:19.167Z","status":"ok","errors":0,"attrs":{"release":"5989929e2a23219aaa2fb1699b0893678b6fa41a","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/53... [TRUNCATED - Total size: 507 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.970] NETWORK REQUEST #50
+Method: GET
+URL: https://www.straitstimes.com/concurrencyCheck.html
+Headers: {
+  "referer": "https://www.straitstimes.com/singapore/housing?ref=top-navbar",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.972] NETWORK REQUEST #51
+Method: GET
+URL: https://www.google.com/recaptcha/api.js?render=6LdChQIoAAAAADXAalfxU8zaPs_ObUziMcna2rsY
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.972] NETWORK REQUEST #52
+Method: GET
+URL: https://accounts.google.com/gsi/client
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.979] NETWORK REQUEST #53
+Method: GET
+URL: https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js
+Headers: {
+  "origin": "https://www.straitstimes.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.979] NETWORK REQUEST #54
+Method: GET
+URL: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdChQIoAAAAADXAalfxU8zaPs_ObUziMcna2rsY&co=aHR0cHM6Ly93d3cuc3RyYWl0c3RpbWVzLmNvbTo0NDM.&hl=en&v=7gg7H51Q-naNfhmCP3_R47ho&size=invisible&anchor-ms=20000&execute-ms=30000&cb=aw6al81vawdr
+Headers: {
+  "referer": "https://www.straitstimes.com/",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.980] NETWORK REQUEST #55
+Method: GET
+URL: https://sb.scorecardresearch.com/internal-cs/default/beacon.js
+Headers: {
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "referer": "https://www.straitstimes.com/"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.982] NETWORK REQUEST #56
+Method: GET
+URL: https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.google.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.982] NETWORK REQUEST #57
+Method: GET
+URL: https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=7gg7H51Q-naNfhmCP3_R47ho
+Headers: {
+  "accept": "*/*"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.988] NETWORK REQUEST #58
+Method: GET
+URL: https://static.mysph.sph.com.sg/mysph/standalone/login.html?pubName=st&stateToken=00U6vaT-J6hZkvYkKx0mZXbN5vPBdNGpd74XUp3165
+Headers: {
+  "referer": "https://www.straitstimes.com/",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.989] NETWORK REQUEST #59
+Method: GET
+URL: https://static.mysph.sph.com.sg/mysph/js/bootstrap_5.2.3.min.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "if-none-match": "W/\"b0794583ec020a7852f0fc04d5cefc52\"",
+  "referer": "https://static.mysph.sph.com.sg/mysph/standalone/login.html?pubName=st&stateToken=00U6vaT-J6hZkvYkKx0mZXbN5vPBdNGpd74XUp3165",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "if-modified-since": "Fri, 22 Aug 2025 03:59:45 GMT",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.989] NETWORK REQUEST #60
+Method: GET
+URL: https://static.mysph.sph.com.sg/mysph/js/sanitize-url.min.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "if-none-match": "W/\"bccdfef6065b77f97bf414c9ac52c515\"",
+  "referer": "https://static.mysph.sph.com.sg/mysph/standalone/login.html?pubName=st&stateToken=00U6vaT-J6hZkvYkKx0mZXbN5vPBdNGpd74XUp3165",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "if-modified-since": "Fri, 22 Aug 2025 03:59:45 GMT",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.990] NETWORK REQUEST #61
+Method: GET
+URL: https://static.mysph.sph.com.sg/mysph/js/mySPHIdentityLightbox.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://static.mysph.sph.com.sg/mysph/standalone/login.html?pubName=st&stateToken=00U6vaT-J6hZkvYkKx0mZXbN5vPBdNGpd74XUp3165",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.992] NETWORK REQUEST #62
+Method: GET
+URL: https://static.mysph.sph.com.sg/mysph/locales/en/translation.json
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://static.mysph.sph.com.sg/mysph/standalone/login.html?pubName=st&stateToken=00U6vaT-J6hZkvYkKx0mZXbN5vPBdNGpd74XUp3165",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.993] NETWORK REQUEST #63
+Method: POST
+URL: https://o4505130366140416.ingest.sentry.io/api/4506779620671488/envelope/?sentry_version=7&sentry_key=f56a481f86a20b607efc6bc783a05663&sentry_client=sentry.javascript.react%2F8.47.0
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://static.mysph.sph.com.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "text/plain;charset=UTF-8",
+  "sec-ch-ua-mobile": "?0"
+}
+Body: {"sent_at":"2026-01-05T10:20:19.883Z","sdk":{"name":"sentry.javascript.react","version":"8.47.0"}}
+{"type":"session"}
+{"sid":"ebb9b27846314337bda47cdc027f3605","init":true,"started":"2026-01-05T10:20:19.883Z","timestamp":"2026-01-05T10:20:19.883Z","status":"ok","errors":0,"attrs":{"release":"5989929e2a23219aaa2fb1699b0893678b6fa41a","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/53... [TRUNCATED - Total size: 507 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.993] NETWORK REQUEST #64
+Method: GET
+URL: https://www.straitstimes.com/concurrencyCheck.html
+Headers: {
+  "referer": "https://static.mysph.sph.com.sg/",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.994] NETWORK REQUEST #65
+Method: GET
+URL: https://www.google.com/recaptcha/api.js?render=6LdChQIoAAAAADXAalfxU8zaPs_ObUziMcna2rsY
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://static.mysph.sph.com.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.994] NETWORK REQUEST #66
+Method: GET
+URL: https://accounts.google.com/gsi/client
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://static.mysph.sph.com.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.996] NETWORK REQUEST #67
+Method: GET
+URL: https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js
+Headers: {
+  "origin": "https://static.mysph.sph.com.sg",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://static.mysph.sph.com.sg/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.999] NETWORK REQUEST #68
+Method: GET
+URL: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdChQIoAAAAADXAalfxU8zaPs_ObUziMcna2rsY&co=aHR0cHM6Ly9zdGF0aWMubXlzcGguc3BoLmNvbS5zZzo0NDM.&hl=en&v=7gg7H51Q-naNfhmCP3_R47ho&size=invisible&anchor-ms=20000&execute-ms=30000&cb=97b4mfmvwaya
+Headers: {
+  "referer": "https://static.mysph.sph.com.sg/",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:24.000] NETWORK REQUEST #69
+Method: GET
+URL: https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.google.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:24.001] NETWORK REQUEST #70
+Method: GET
+URL: https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=7gg7H51Q-naNfhmCP3_R47ho
+Headers: {
+  "accept": "*/*"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:24.004] NETWORK REQUEST #71
+Method: GET
+URL: https://js-agent.newrelic.com/nr-spa-1.290.1.min.js
+Headers: {
+  "origin": "https://www.straitstimes.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:24.004] NETWORK REQUEST #72
+Method: GET
+URL: https://cdn.taboola.com/libtrc/unip/1009627/tfa.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:24.004] NETWORK REQUEST #73
+Method: GET
+URL: https://cdn.taboola.com/libtrc/unip/1070961/tfa.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:24.005] NETWORK REQUEST #74
+Method: GET
+URL: https://js-agent.newrelic.com/nr-spa-1.290.1.min.js
+Headers: {
+  "origin": "https://www.straitstimes.com",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:23.922] NETWORK RESPONSE #7 (Request #7)
+Status: 200 
+URL: https://www.straitstimes.com/singapore/housing?ref=top-navbar
+Headers: {
+  "access-control-allow-credentials": "true",
+  "age": "95",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "cache-control": "max-age=120, stale-while-revalidate=30",
+  "content-encoding": "br",
+  "content-type": "text/html; charset=utf8",
+  "date": "Mon, 05 Jan 2026 10:18:44 GMT",
+  "etag": "W/\"3efecd5bde6764fd011f0cdba9eb1099\"",
+  "last-modified": "Mon, 05 Jan 2026 10:06:02 GMT",
+  "referrer-policy": "strict-origin-when-cross-origin",
+  "server": "AmazonS3",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "vary": "Accept-Encoding\nCookie",
+  "via": "1.1 f6a003d0ac39dd4960506f9ca113dde8.cloudfront.net (CloudFront)",
+  "x-amz-cf-id": "O2ctshlyKDLT5tTvCC-yl4meSsbZdiXZsBeqHnRPQxeL7qTYkXhAyg==",
+  "x-amz-cf-pop": "SIN2-P2",
+  "x-amz-meta-webcore-pub-version": "0c968cc6318992686bd6936eb9d0de0b033be408",
+  "x-amz-meta-webcore-regenerate-interval": "259200",
+  "x-amz-server-side-encryption": "AES256",
+  "x-cache": "Hit from cloudfront",
+  "x-content-type-options": "nosniff",
+  "x-xss-protection": "1; mode=block"
+}
+Body: <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <meta content="width" name="MobileOptimized" />
+    <meta content="true" name="HandheldFriendly" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="ie=edge" http-equiv="x-ua-compatible" />
+    <script src="https://adtag.sphdigital.com/pub/st/prebid.js" defer></script>
+    <script src="https://cdp.sph.com.sg/activa... [TRUNCATED - Total size: 121716 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.928] NETWORK RESPONSE #8 (Request #14)
+Status: 200 
+URL: https://cdp.sph.com.sg/activation/activation.js
+Headers: {
+  "vary": "accept-encoding, Origin",
+  "cache-control": "max-age=60",
+  "content-encoding": "gzip",
+  "etag": "W/\"9dded7370caed2981ed03048ce058f6a\"",
+  "age": "8",
+  "via": "1.1 919c1cf6445ad4c37fa4d418864abc1a.cloudfront.net (CloudFront)",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "k_93emf6VT938Vt5aVQr7XSv1dcEhZlDIP6bVvsNTzn1CnGicy3wag==",
+  "date": "Mon, 05 Jan 2026 10:19:41 GMT",
+  "content-type": "application/javascript",
+  "last-modified": "Tue, 25 Nov 2025 05:28:54 GMT",
+  "server": "AmazonS3",
+  "x-amz-cf-pop": "SIN3-P1",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: /**
+Summary.     Customer Data Platform Plugin for showing campaign in SPH products
+Description. Customer Data Platform(CDP) is a platform that provides the campaign for various publication for ST,BT ,ZB
+Copyright : Singapore Press Holdings Limited
+@author Anurup Borah <anuborah@sph.com.sg>
+@version 1.0.0
+*/
+
+// Create a synchronous XMLHttpRequest to load jQuery if it's not existed
+if (!window.jQuery) {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://cdp.sph.com.sg/activa... [TRUNCATED - Total size: 62906 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.929] NETWORK RESPONSE #9 (Request #15)
+Status: 200 
+URL: https://cdn.sphlabs.com/suid/suid.min.js
+Headers: {
+  "etag": "\"13134cfa91933a3f5b3d17cd83dcacfc\"",
+  "via": "1.1 eb8215a251a93ff43013c00c3a39ac52.cloudfront.net (CloudFront)",
+  "accept-ranges": "bytes",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "x-cache": "RefreshHit from cloudfront",
+  "content-length": "1273",
+  "x-amz-cf-id": "92wWeLm-5NrtMTXFOp8XgY8DJTx6DVGknpVn5LJq5Ojpz10rjrSpDA==",
+  "date": "Mon, 05 Jan 2026 10:19:49 GMT",
+  "content-type": "application/javascript",
+  "last-modified": "Sun, 02 Feb 2025 12:27:49 GMT",
+  "server": "AmazonS3",
+  "x-amz-cf-pop": "SIN3-P1",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: function get_sph_uid(){var e=Date.now(),r=performance&&performance.now&&1e3*performance.now()||0;return"xxxxxxxxxxxx4xxxyxxxxxxxxxxxxxxx".replace(/[xy]/g,function(t){var o=16*Math.random();return e>0?(o=(e+o)%16|0,e=Math.floor(e/16)):(o=(r+o)%16|0,r=Math.floor(r/16)),("x"===t?o:3&o|8).toString(16)})}function get_cookie(e){return document.cookie.match("(^|;)\\s*"+e+"\\s*=\\s*([^;]+)")?.pop()||""}function set_cookie(e,r,t){var o=new Date;o.setTime(o.getTime()+63072e6);var s=o.toUTCString();documen... [TRUNCATED - Total size: 1273 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.936] NETWORK RESPONSE #10 (Request #20)
+Status: 200 
+URL: https://cdp.sph.com.sg/activation/jquery-3.7.1.min.js
+Headers: {
+  "content-encoding": "gzip",
+  "etag": "W/\"2c872dbe60f4ba70fb85356113d8b35e\"",
+  "age": "56051",
+  "access-control-allow-methods": "GET",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "mwtxPdvQ0C45IR9Na_BoxjbSBzx0f6O9gLpZ0OeTixHk05ZCB-7RrQ==",
+  "date": "Sun, 04 Jan 2026 18:46:08 GMT",
+  "content-type": "application/javascript",
+  "last-modified": "Mon, 27 Nov 2023 09:11:31 GMT",
+  "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method,accept-encoding",
+  "cache-control": "max-age=60",
+  "via": "1.1 9b6bf6ed1da992e0fb0dd057ae69b014.cloudfront.net (CloudFront)",
+  "access-control-allow-origin": "*",
+  "x-amz-cf-pop": "SIN3-P1",
+  "server": "AmazonS3",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: /*! jQuery v3.7.1 | (c) OpenJS Foundation and other contributors | jquery.org/license */
+!function(e,t){"use strict";"object"==typeof module&&"object"==typeof module.exports?module.exports=e.document?t(e,!0):function(e){if(!e.document)throw new Error("jQuery requires a window with a document");return t(e)}:t(e)}("undefined"!=typeof window?window:this,function(ie,e){"use strict";var oe=[],r=Object.getPrototypeOf,ae=oe.slice,g=oe.flat?function(e){return oe.flat.call(e)}:function(e){return oe.conca... [TRUNCATED - Total size: 87533 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.940] NETWORK RESPONSE #11 (Request #16)
+Status: 200 
+URL: https://www.straitstimes.com/assets/nr-loader-spa-1.290.1.min-CWmC8H94.js
+Headers: {
+  "content-encoding": "gzip",
+  "etag": "W/\"45e0f525a4572f09584803225fd984a1\"",
+  "age": "2230962",
+  "x-content-type-options": "nosniff",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "y3aFDV5WTT1Nai17CuC97w0Zv0JES3uxNhLUYb92EUThhKgHAXJt2w==",
+  "date": "Wed, 10 Dec 2025 14:37:06 GMT",
+  "content-type": "application/javascript; charset=utf-8",
+  "vary": "accept-encoding, Origin",
+  "last-modified": "Mon, 10 Nov 2025 11:00:58 GMT",
+  "x-frame-options": "SAMEORIGIN",
+  "cache-control": "max-age=2592000",
+  "referrer-policy": "strict-origin-when-cross-origin",
+  "via": "1.1 17da3580ac51ce2ae5123bc46728adb2.cloudfront.net (CloudFront)",
+  "x-xss-protection": "1; mode=block",
+  "x-amz-cf-pop": "SIN2-P2",
+  "server": "AmazonS3",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: (() => {
+  var e,
+    t,
+    r = {
+      8122: (e, t, r) => {
+        "use strict";
+        r.d(t, { a: () => i });
+        var n = r(944);
+        function i(e, t) {
+          try {
+            if (!e || "object" != typeof e) return (0, n.R)(3);
+            if (!t || "object" != typeof t) return (0, n.R)(4);
+            const r = Object.create(
+                Object.getPrototypeOf(t),
+                Object.getOwnPropertyDescriptors(t),
+              ),
+              o = 0 === Object.keys(r).l... [TRUNCATED - Total size: 122609 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.954] NETWORK RESPONSE #14 (Request #23)
+Status: 304 
+URL: https://static.mysph.sph.com.sg/mysph/js/mysph-googleonetap.js
+Headers: {
+  "cache-control": "s-maxage=604800,max-age=0",
+  "x-amz-version-id": "AiZctCRkFceGzrBByX8utJkQIW8zIkUY",
+  "etag": "\"dcff73ce75db0841cc3d6c240631edf9\"",
+  "age": "497486",
+  "via": "1.1 f9390503c7a4b12a3096ea9cb549012e.cloudfront.net (CloudFront)",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "4wAbyXRXcdd6Jp1VGOkKId2YoYs-vPCNoL0h3m4KG5FrXm-oTLcCmQ==",
+  "date": "Sun, 04 Jan 2026 13:11:58 GMT",
+  "last-modified": "Fri, 22 Aug 2025 03:59:45 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "AmazonS3",
+  "x-amz-cf-pop": "SIN2-P11",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: [Unable to retrieve response body: Response.text: Response body is unavailable for redirect responses]
+====================================================================================================
+
+[2026-01-06 13:20:23.966] NETWORK RESPONSE #22 (Request #37)
+Status: 303 
+URL: https://www.straitstimes.com/p/login.php
+Headers: {
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "cache-control": "max-age=0, no-cache, no-store",
+  "content-type": "text/html; charset=UTF-8",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "expires": "Mon, 05 Jan 2026 10:20:18 GMT",
+  "location": "https://idp.mysph.sph.com.sg/app/sph_stwebsite_1/exk3u9w9qw54XJxYH4x7/sso/saml?SAMLRequest=fVLRbtowFP2VyO%2FEdkICsQCJFU1l6lpU6LTuBTnJTbGW2MHXWeDva8LWdQ%2Frg2X5%2BJ5z7j26M5RN3Ypl5w76EY4doAtOTa1RDB9z0lktjESFQssGULhCbJdf70QUMtFa40xhavKO8jFDIoJ1ymgSrFdzspc5m1bjmKUsSorpdAxTqDIOMY%2BziLMk5VWapyWfJBUJvoFFz5wTL%2BTpiB2sNTqpnYdYlI4YH7Fkx5mImODZDxKs%2FDRKSzewDs61KChVZRs2Z2wP4eUUpgnxhcq2pf65R9dDjsrBnlM4%2FYy7rM%2BOfTL%2B%2FuX0fDs%2BTSiioZcxSbD8M8qN0dg1YLdgf6kCnh7v%2Fpr1fR%2Bis1I534kP4%2BJHjyyf1Pr8nNDGlF0NYXtoB1HfwnBHI1nggJ6z%2B7h8yHlOgs3vsD8pXSr98nHO%2BbUIxe1utxltHrY7sphdpMWQm128Cc%2Foe3h2XYd7L7hebUytinPw2dhGuv%2F78ZAPiCpH1VAqOo0tFKpSUPqc6tr0NxakgzlxtgNCF1fTf9du8Qo%3D&RelayState=https%3A%2F%2Fwww.straitstimes.com%2Fp%2Flogin.php",
+  "pragma": "no-cache",
+  "referrer-policy": "no-referrer-when-downgrade",
+  "server": "CloudFront",
+  "server-timing": "cdn-upstream-layer;desc=\"Origin Shield\",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=2,cdn-upstream-fbl;dur=10,cdn-cache-miss,cdn-pop;desc=\"SIN2-P2\",cdn-rid;desc=\"M83N_DY3MiqX3RhAQUC63P9cD8j_aZdEMaJcjuGa05gXVVeIEi_OOg==\",cdn-downstream-fbl;dur=16",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "vary": "Origin",
+  "via": "1.1 31d603b763553e4238110d07f30c186e.cloudfront.net (CloudFront)",
+  "x-amz-cf-id": "M83N_DY3MiqX3RhAQUC63P9cD8j_aZdEMaJcjuGa05gXVVeIEi_OOg==",
+  "x-amz-cf-pop": "SIN2-P2",
+  "x-cache": "Miss from cloudfront",
+  "x-oag-host": "a6d30d5c82393bae828b1c1c1c59e3153a57caeef27b9a8029e178bdd59a8519"
+}
+Body: [Unable to retrieve response body: Response.text: Response body is unavailable for redirect responses]
+====================================================================================================
+
+[2026-01-06 13:20:23.977] NETWORK RESPONSE #31
+Status: 304 
+URL: https://cdp.sph.com.sg/creatives/1495/PSLEEI.jpg
+Headers: {
+  "cache-control": "max-age=60",
+  "etag": "\"30e1aca59c8b3e1a68886ddc80d7d918\"",
+  "age": "6221",
+  "via": "1.1 919c1cf6445ad4c37fa4d418864abc1a.cloudfront.net (CloudFront)",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "TmqmPLxmNbJuYGvxX0KtCKumA3okKj_Lp6mpHIuzgMs2-XUiy_wsPA==",
+  "date": "Mon, 05 Jan 2026 08:36:39 GMT",
+  "last-modified": "Tue, 16 Dec 2025 04:27:47 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "AmazonS3",
+  "x-amz-cf-pop": "SIN3-P1",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: [Unable to retrieve response body: Response.text: Response body is unavailable for redirect responses]
+====================================================================================================
+
+[2026-01-06 13:20:23.980] NETWORK RESPONSE #34 (Request #32)
+Status: 302 
+URL: https://sb.scorecardresearch.com/cs/6288331/beacon.js
+Headers: {
+  "location": "/internal-cs/default/beacon.js",
+  "accept-ch": "UA, Platform, Arch, Model, Mobile",
+  "via": "1.1 a7cc1d4538d5c3a4d8d572fbc8e0b6fe.cloudfront.net (CloudFront)",
+  "x-cache": "Miss from cloudfront",
+  "content-length": "0",
+  "x-amz-cf-id": "2XrIYHCINTqGgUriHkaOK3FOyLWbhsu6YJ0rWmP0oF061K3SGyTEUQ==",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "x-amz-cf-pop": "SIN2-P6"
+}
+Body: [Unable to retrieve response body: Response.text: Response body is unavailable for redirect responses]
+====================================================================================================
+
+[2026-01-06 13:20:23.983] NETWORK RESPONSE #38 (Request #57)
+Status: 200 
+URL: https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=7gg7H51Q-naNfhmCP3_R47ho
+Headers: {
+  "cache-control": "private, max-age=300",
+  "content-encoding": "gzip",
+  "cross-origin-resource-policy": "same-site",
+  "report-to": "{\"group\":\"recaptcha\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha\"}]}, {\"group\":\"coop_38fac9d5b82543fc4729580d18ff2d3d\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\"}]}",
+  "x-content-type-options": "nosniff",
+  "cross-origin-embedder-policy": "require-corp",
+  "expires": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_38fac9d5b82543fc4729580d18ff2d3d\"",
+  "date": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "x-xss-protection": "0",
+  "content-type": "text/javascript; charset=utf-8",
+  "server": "ESF",
+  "x-frame-options": "SAMEORIGIN"
+}
+Body: importScripts('https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js');
+====================================================================================================
+
+[2026-01-06 13:20:23.987] NETWORK RESPONSE #42 (Request #44)
+Status: 302 
+URL: https://idp.mysph.sph.com.sg/app/sph_stwebsite_1/exk3u9w9qw54XJxYH4x7/sso/saml?SAMLRequest=fVLRbtowFP2VyO%2FEdkICsQCJFU1l6lpU6LTuBTnJTbGW2MHXWeDva8LWdQ%2Frg2X5%2BJ5z7j26M5RN3Ypl5w76EY4doAtOTa1RDB9z0lktjESFQssGULhCbJdf70QUMtFa40xhavKO8jFDIoJ1ymgSrFdzspc5m1bjmKUsSorpdAxTqDIOMY%2BziLMk5VWapyWfJBUJvoFFz5wTL%2BTpiB2sNTqpnYdYlI4YH7Fkx5mImODZDxKs%2FDRKSzewDs61KChVZRs2Z2wP4eUUpgnxhcq2pf65R9dDjsrBnlM4%2FYy7rM%2BOfTL%2B%2FuX0fDs%2BTSiioZcxSbD8M8qN0dg1YLdgf6kCnh7v%2Fpr1fR%2Bis1I534kP4%2BJHjyyf1Pr8nNDGlF0NYXtoB1HfwnBHI1nggJ6z%2B7h8yHlOgs3vsD8pXSr98nHO%2BbUIxe1utxltHrY7sphdpMWQm128Cc%2Foe3h2XYd7L7hebUytinPw2dhGuv%2F78ZAPiCpH1VAqOo0tFKpSUPqc6tr0NxakgzlxtgNCF1fTf9du8Qo%3D&RelayState=https%3A%2F%2Fwww.straitstimes.com%2Fp%2Flogin.php
+Headers: {
+  "accept-ch": "Sec-CH-UA-Platform-Version",
+  "cache-control": "no-cache, no-store",
+  "content-language": "en",
+  "content-length": "0",
+  "content-security-policy": "default-src 'self' sph.okta.com idp.mysph.sph.com.sg *.oktacdn.com; connect-src 'self' sph.okta.com sph-admin.okta.com idp.mysph.sph.com.sg *.oktacdn.com *.mixpanel.com *.mapbox.com sph.kerberos.okta.com https://oinmanager.okta.com data: *.ingest.sentry.io; script-src 'unsafe-inline' 'nonce-aPOS8Vr0RTufCoLlMUTLTw' 'unsafe-eval' 'self' 'report-sample' sph.okta.com idp.mysph.sph.com.sg *.oktacdn.com; style-src 'unsafe-inline' 'self' 'report-sample' sph.okta.com idp.mysph.sph.com.sg *.oktacdn.com; frame-src 'self' sph.okta.com sph-admin.okta.com idp.mysph.sph.com.sg login.okta.com *.vidyard.com https://static.mysph.sph.com.sg; img-src 'self' sph.okta.com idp.mysph.sph.com.sg *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: blob:; font-src 'self' sph.okta.com idp.mysph.sph.com.sg data: *.oktacdn.com fonts.gstatic.com",
+  "content-security-policy-report-only": "default-src 'self' sph.okta.com idp.mysph.sph.com.sg *.oktacdn.com; connect-src 'self' sph.okta.com sph-admin.okta.com idp.mysph.sph.com.sg *.oktacdn.com *.mixpanel.com *.mapbox.com sph.kerberos.okta.com https://oinmanager.okta.com data: *.ingest.sentry.io; script-src 'unsafe-inline' 'nonce-aPOS8Vr0RTufCoLlMUTLTw' 'unsafe-eval' 'self' 'report-sample' sph.okta.com idp.mysph.sph.com.sg *.oktacdn.com; style-src 'unsafe-inline' 'nonce-aPOS8Vr0RTufCoLlMUTLTw' 'self' 'report-sample' sph.okta.com idp.mysph.sph.com.sg *.oktacdn.com; frame-src 'self' sph.okta.com sph-admin.okta.com idp.mysph.sph.com.sg login.okta.com *.vidyard.com https://static.mysph.sph.com.sg; img-src 'self' sph.okta.com idp.mysph.sph.com.sg *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: blob:; font-src 'self' sph.okta.com idp.mysph.sph.com.sg data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "expires": "0",
+  "location": "https://static.mysph.sph.com.sg/mysph/standalone/login.html?pubName=st&stateToken=00U6vaT-J6hZkvYkKx0mZXbN5vPBdNGpd74XUp3165",
+  "p3p": "CP=\"HONK\"",
+  "pragma": "no-cache",
+  "referrer-policy": "strict-origin-when-cross-origin",
+  "server": "nginx",
+  "strict-transport-security": "max-age=315360000; includeSubDomains",
+  "x-okta-request-id": "aVuQY87PyqclVf7BH9zHLgAGxlE",
+  "x-rate-limit-limit": "6000",
+  "x-rate-limit-remaining": "4945",
+  "x-rate-limit-reset": "1767608440",
+  "x-robots-tag": "noindex,nofollow",
+  "x-xss-protection": "0"
+}
+Body: [Unable to retrieve response body: Response.text: Response body is unavailable for redirect responses]
+====================================================================================================
+
+[2026-01-06 13:20:23.991] NETWORK RESPONSE #44 (Request #59)
+Status: 304 
+URL: https://static.mysph.sph.com.sg/mysph/js/bootstrap_5.2.3.min.js
+Headers: {
+  "cache-control": "s-maxage=604800,max-age=0",
+  "etag": "\"b0794583ec020a7852f0fc04d5cefc52\"",
+  "x-amz-version-id": "8p7NpDznGC1B_3xn0BTa.ZpGW9nIDlU_",
+  "via": "1.1 211fe35abbab9b1bc859d17d3778cc9e.cloudfront.net (CloudFront)",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "x-cache": "Miss from cloudfront",
+  "x-amz-cf-id": "-t2K0gTlhqimvfkbnpEAsoR_9UbsrBPe4mTTQcKtln0TSs7rQ0MSVA==",
+  "date": "Mon, 05 Jan 2026 10:20:20 GMT",
+  "last-modified": "Fri, 22 Aug 2025 03:59:45 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "AmazonS3",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: Response.text: Response body is unavailable for redirect responses]
+====================================================================================================
+
+[2026-01-06 13:20:23.991] NETWORK RESPONSE #45 (Request #60)
+Status: 304 
+URL: https://static.mysph.sph.com.sg/mysph/js/sanitize-url.min.js
+Headers: {
+  "cache-control": "s-maxage=604800,max-age=0",
+  "etag": "\"bccdfef6065b77f97bf414c9ac52c515\"",
+  "x-amz-version-id": "Bq0ptP6CXtqT98b7YLwiBGA42mkFqgmw",
+  "via": "1.1 211fe35abbab9b1bc859d17d3778cc9e.cloudfront.net (CloudFront)",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "x-cache": "Miss from cloudfront",
+  "x-amz-cf-id": "NCtc3worQEVBXnBxFfZRRNe2Smk7kvRMKmQuqv2-7fapNEAFHVp5pg==",
+  "date": "Mon, 05 Jan 2026 10:20:20 GMT",
+  "last-modified": "Fri, 22 Aug 2025 03:59:45 GMT",
+  "vary": "accept-encoding, Origin",
+  "server": "AmazonS3",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: [Unable to retrieve response body: Response.text: Response body is unavailable for redirect responses]
+====================================================================================================
+
+[2026-01-06 13:20:24.002] NETWORK RESPONSE #55 (Request #57)
+Status: 200 
+URL: https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=7gg7H51Q-naNfhmCP3_R47ho
+Headers: {
+  "cache-control": "private, max-age=300",
+  "content-encoding": "gzip",
+  "cross-origin-resource-policy": "same-site",
+  "report-to": "{\"group\":\"recaptcha\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha\"}]}, {\"group\":\"coop_38fac9d5b82543fc4729580d18ff2d3d\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\"}]}",
+  "x-content-type-options": "nosniff",
+  "cross-origin-embedder-policy": "require-corp",
+  "expires": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_38fac9d5b82543fc4729580d18ff2d3d\"",
+  "date": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "x-xss-protection": "0",
+  "content-type": "text/javascript; charset=utf-8",
+  "server": "ESF",
+  "x-frame-options": "SAMEORIGIN"
+}
+Body: importScripts('https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js');
+====================================================================================================
+
+[2026-01-06 13:20:23.984] NETWORK RESPONSE #39 (Request #53)
+Status: 200 
+URL: https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js
+Headers: {
+  "content-encoding": "gzip",
+  "age": "451060",
+  "report-to": "{\"group\":\"recaptcha-scs\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha-scs\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Thu, 31 Dec 2026 05:02:08 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 31 Dec 2025 05:02:08 GMT",
+  "last-modified": "Mon, 08 Dec 2025 05:00:52 GMT",
+  "content-type": "text/javascript",
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000",
+  "timing-allow-origin": "*",
+  "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"recaptcha-scs\"",
+  "cross-origin-resource-policy": "cross-origin",
+  "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/recaptcha-scs",
+  "accept-ranges": "bytes",
+  "access-control-allow-origin": "*",
+  "content-length": "362552",
+  "x-xss-protection": "0",
+  "server": "sffe"
+}
+Body: (function(){/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+
+ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applic... [TRUNCATED - Total size: 849489 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.950] NETWORK RESPONSE #12 (Request #17)
+Status: 200 
+URL: https://www.straitstimes.com/assets/index-DNv4wS0v.js
+Headers: {
+  "access-control-expose-headers": "*",
+  "content-encoding": "br",
+  "etag": "W/\"56d1cfbb0204678d981ef880fe0bdfa8\"",
+  "age": "8817",
+  "x-content-type-options": "nosniff",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "I05TS6kMKFJPpFC5NlKoF6wu7x126M5RazkLObZBfpkXMohbr7d40w==",
+  "date": "Mon, 05 Jan 2026 07:52:52 GMT",
+  "content-type": "application/javascript; charset=utf-8",
+  "vary": "accept-encoding",
+  "last-modified": "Mon, 05 Jan 2026 07:52:30 GMT",
+  "x-frame-options": "SAMEORIGIN",
+  "server-timing": "cdn-cache-hit,cdn-pop;desc=\"SIN2-P2\",cdn-rid;desc=\"I05TS6kMKFJPpFC5NlKoF6wu7x126M5RazkLObZBfpkXMohbr7d40w==\",cdn-hit-layer;desc=\"EDGE\",cdn-downstream-fbl;dur=5",
+  "cache-control": "max-age=2592000",
+  "referrer-policy": "strict-origin-when-cross-origin",
+  "via": "1.1 f6a003d0ac39dd4960506f9ca113dde8.cloudfront.net (CloudFront)",
+  "access-control-allow-origin": "*",
+  "x-xss-protection": "1; mode=block",
+  "x-amz-cf-pop": "SIN2-P2",
+  "server": "AmazonS3",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: var oz=Object.defineProperty;var lz=(e,t,r)=>t in e?oz(e,t,{enumerable:!0,configurable:!0,writable:!0,value:r}):e[t]=r;var J=(e,t,r)=>lz(e,typeof t!="symbol"?t+"":t,r);function uz(e,t){for(var r=0;r<t.length;r++){const n=t[r];if(typeof n!="string"&&!Array.isArray(n)){for(const a in n)if(a!=="default"&&!(a in e)){const i=Object.getOwnPropertyDescriptor(n,a);i&&Object.defineProperty(e,a,i.get?i:{enumerable:!0,get:()=>n[a]})}}}return Object.freeze(Object.defineProperty(e,Symbol.toStringTag,{value:"... [TRUNCATED - Total size: 2004731 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.952] NETWORK RESPONSE #13 (Request #25)
+Status: 200 
+URL: https://neuron.platform.sphdigital.com.sg/config/default.config.json
+Headers: {
+  "access-control-max-age": "3000",
+  "content-encoding": "gzip",
+  "x-amz-version-id": "5.Qjqc3pf0JTxhIvn9TcNrd58_I3h_wh",
+  "etag": "W/\"59d0c707643746f19fbe6ce1a455647a\"",
+  "age": "521",
+  "access-control-allow-methods": "GET",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "ii34-j2W1CL0gU1ku3PaTWqmYRKkP6qDq_mPTtyLGUd-3-QMyzdFGA==",
+  "date": "Mon, 05 Jan 2026 10:11:08 GMT",
+  "content-type": "application/json",
+  "vary": "accept-encoding",
+  "last-modified": "Fri, 28 Nov 2025 07:26:50 GMT",
+  "via": "1.1 9683b5745ef5870755379e861e3a7520.cloudfront.net (CloudFront)",
+  "access-control-allow-origin": "*",
+  "x-amz-cf-pop": "SIN2-P3",
+  "server": "AmazonS3",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: {
+  "modules": [
+    {
+      "plugin": "browser",
+      "name": "Browser"
+    },
+    {
+      "plugin": "core",
+      "name": "Cache"
+    },
+    {
+      "plugin": "browser",
+      "name": "SessionStorage",
+      "identifier": "sessionStorage",
+      "args": [
+        {
+          "browser": "Browser"
+        }
+      ]
+    },
+    {
+      "plugin": "browser",
+      "name": "LocalStorage",
+      "identifier": "localStorage",
+      "args": [
+        {
+          "browser": "Browser"
+        }
+      ]
+ ... [TRUNCATED - Total size: 22636 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.956] NETWORK RESPONSE #15 (Request #33)
+Status: 200 
+URL: https://s.yimg.com/wi/ytc.js
+Headers: {
+  "content-encoding": "gzip",
+  "etag": "\"cca96295b6201a4ce80988bdae868775-df\"",
+  "x-amz-version-id": "S368G.On_HD5kCG8tTyFviJgJpLggMJN",
+  "age": "2227",
+  "x-content-type-options": "nosniff",
+  "date": "Mon, 05 Jan 2026 09:42:43 GMT",
+  "last-modified": "Mon, 10 Feb 2025 13:55:37 GMT",
+  "vary": "Origin, Accept-Encoding",
+  "x-amz-expiration": "expiry-date=\"Wed, 18 Mar 2026 00:00:00 GMT\", rule-id=\"standard-lifecycle\"",
+  "content-type": "application/javascript",
+  "x-amz-id-2": "vZt4J+p50Irn+XDTxWkbC1GkYgWARkFkqPSYTfbqkZRrBqr2ZQBRJiEeY8mImwjOLuf3zoBMIPatJrJbZYZorw==",
+  "strict-transport-security": "max-age=31536000",
+  "cache-control": "public,max-age=3600",
+  "ats-carp-promotion": "1, 1",
+  "referrer-policy": "no-referrer-when-downgrade",
+  "x-amz-request-id": "36AHR4V7NYW5X0GG",
+  "accept-ranges": "bytes",
+  "content-length": "6810",
+  "server": "ATS",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: !function(e){var t={};function n(r){if(t[r])return t[r].exports;var i=t[r]={i:r,l:!1,exports:{}};return e[r].call(i.exports,i,i.exports,n),i.l=!0,i.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e... [TRUNCATED - Total size: 19829 chars]
+====================================================================================================
+
+[2026-01-06 13:20:24.003] NETWORK RESPONSE #56 (Request #53)
+Status: 200 
+URL: https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js
+Headers: {
+  "content-encoding": "gzip",
+  "age": "451060",
+  "report-to": "{\"group\":\"recaptcha-scs\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha-scs\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Thu, 31 Dec 2026 05:02:08 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 31 Dec 2025 05:02:08 GMT",
+  "last-modified": "Mon, 08 Dec 2025 05:00:52 GMT",
+  "content-type": "text/javascript",
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000",
+  "timing-allow-origin": "*",
+  "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"recaptcha-scs\"",
+  "cross-origin-resource-policy": "cross-origin",
+  "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/recaptcha-scs",
+  "accept-ranges": "bytes",
+  "access-control-allow-origin": "*",
+  "content-length": "362552",
+  "x-xss-protection": "0",
+  "server": "sffe"
+}
+Body: (function(){/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+
+ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applic... [TRUNCATED - Total size: 849489 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.958] NETWORK RESPONSE #16 (Request #22)
+Status: 200 
+URL: https://static.mysph.sph.com.sg/mysph/js/mySPHIdentityLightbox.js
+Headers: {
+  "content-encoding": "gzip",
+  "x-amz-version-id": "_D1oUNZqSRubXNrJA_IcSvY3FkR92iP1",
+  "age": "497460",
+  "etag": "\"a4fc85983ceea005aef03313946f82b8\"",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "NSTowwOY6d93gwrT3L384F1jU4HuqPjg_ZW2IV9BxDYbSXtM3fa1eA==",
+  "date": "Tue, 30 Dec 2025 16:09:20 GMT",
+  "content-type": "application/javascript; charset=utf-8",
+  "last-modified": "Thu, 13 Nov 2025 07:49:48 GMT",
+  "vary": "accept-encoding, Origin",
+  "cache-control": "s-maxage=604800,max-age=0",
+  "via": "1.1 f9390503c7a4b12a3096ea9cb549012e.cloudfront.net (CloudFront)",
+  "accept-ranges": "bytes",
+  "content-length": "353230",
+  "x-amz-cf-pop": "SIN2-P11",
+  "server": "AmazonS3",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: /*! For license information please see bundle.js.LICENSE.txt */
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},t=(new e.Error).stack;t&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[t]="14c39100-1364-40be-b593-68e7629b209e",e._sentryDebugIdIdentifier="sentry-dbid-14c39100-1364-40be-b593-68e7629b209e")}catch(e){}}();var _global="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=t... [TRUNCATED - Total size: 1529167 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.960] NETWORK RESPONSE #17 (Request #21)
+Status: 200 
+URL: https://www.straitstimes.com/login_details.php?1767608419061
+Headers: {
+  "x-content-type-options": "nosniff",
+  "x-oag-host": "a6d30d5c82393bae828b1c1c1c59e3153a57caeef27b9a8029e178bdd59a8519",
+  "server-timing": "cdn-upstream-layer;desc=\"Origin Shield\",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=15,cdn-cache-miss,cdn-pop;desc=\"SIN2-P2\",cdn-rid;desc=\"zEnJfTMorY4m7SHCrNFOwi-gKOORVmSwkfZmE-1CEj4NsogVEl8tyQ==\",cdn-downstream-fbl;dur=23",
+  "x-cache": "Miss from cloudfront",
+  "x-auth-group-type": "y-anoy",
+  "p3p": "CP=HONK",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "content-type": "text/html;charset=UTF-8",
+  "vary": "Accept-Encoding, Origin",
+  "x-amz-cf-id": "zEnJfTMorY4m7SHCrNFOwi-gKOORVmSwkfZmE-1CEj4NsogVEl8tyQ==",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "cache-control": "max-age=0, no-cache, no-store",
+  "pragma": "no-cache",
+  "referrer-policy": "no-referrer-when-downgrade",
+  "x-download-options": "noopen",
+  "via": "1.1 31d603b763553e4238110d07f30c186e.cloudfront.net (CloudFront)",
+  "x-xss-protection": "1; mode=block",
+  "x-amz-cf-pop": "SIN2-P2",
+  "server": "CloudFront"
+}
+Body: {"usertype":"anoy","service_type":"","service_type_value":1,"seamless_login_from_app":"no"}
+====================================================================================================
+
+[2026-01-06 13:20:23.961] NETWORK RESPONSE #18 (Request #24)
+Status: 200 
+URL: https://cdp.activation.sph.com.sg/api/activation
+Headers: {
+  "x-content-type-options": "nosniff",
+  "access-control-allow-methods": "POST, OPTIONS",
+  "x-cache": "Miss from cloudfront",
+  "x-amz-cf-id": "2usHavfJOJCV-rzQ08It9sp4xssMIC2LBzIWqdt9Sn92ki5xaRvCZw==",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "content-type": "application/json",
+  "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+  "x-frame-options": "DENY",
+  "access-control-allow-headers": "Content-Type,x-api-key,access-control-allow-origin",
+  "strict-transport-security": "max-age=31536000; includeSubDomains",
+  "cache-control": "no-store, no-cache",
+  "via": "1.1 483f6222189119ccc15a44c29b486534.cloudfront.net (CloudFront)",
+  "access-control-allow-origin": "*",
+  "x-xss-protection": "1; mode=block",
+  "x-amz-cf-pop": "SIN2-P9",
+  "x-powered-by": "SPH"
+}
+Body: {"campaign_id":1380,"campaign_link":"https://cdp.sph.com.sg/creatives/1495/preview.html","campaign_name":"STAD_PSLE_Dec'25","campaign_type":"exit_intervention","x":null,"y":null,"preview_html":null,"campaign_priority":4,"module_name":"[prod] Exit intervention check on all pages","variant":null}
+====================================================================================================
+
+[2026-01-06 13:20:23.962] NETWORK RESPONSE #19 (Request #29)
+Status: 200 
+URL: https://www.youtube.com/iframe_api
+Headers: {
+  "content-encoding": "br",
+  "origin-trial": "AmhMBR6zCLzDDxpW+HfpP67BqwIknWnyMOXOQGfzYswFmJe+fgaI6XZgAzcxOrzNtP7hEDsOo1jdjFnVr2IdxQ4AAAB4eyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJXZWJWaWV3WFJlcXVlc3RlZFdpdGhEZXByZWNhdGlvbiIsImV4cGlyeSI6MTc1ODA2NzE5OSwiaXNTdWJkb21haW4iOnRydWV9, AiDEBptUfVeO93q48VdVMe/ubupazdAl8AaHP+NBzdnW8quUcHdzJUyGSfrmtpKJu7EOvwRp9ug2rEo3XU+WMAMAAAB2eyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJEZXZpY2VCb3VuZFNlc3Npb25DcmVkZW50aWFsczIiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlfQ==, ApTXX1w2dkJZuuxlV9csQYg+9ZVXekg+mOu8mS9vb7/V2oeMLKqGC8blgR6ech+eqbhGAgLKPthyai7z89MdTAgAAACLeyJvcmlnaW4iOiJodHRwczovL3d3dy55b3V0dWJlLmNvbTo0NDMiLCJmZWF0dXJlIjoiRG9jdW1lbnRQb2xpY3lJbmNsdWRlSlNDYWxsU3RhY2tzSW5DcmFzaFJlcG9ydHMiLCJleHBpcnkiOjE3NDk1MTM2MDAsImlzU3ViZG9tYWluIjp0cnVlfQ==",
+  "x-content-type-options": "nosniff",
+  "report-to": "{\"group\":\"youtube_main\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/youtube_main\"}]}",
+  "expires": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "p3p": "CP=\"This is not a P3P policy! See http://support.google.com/accounts/answer/151657?hl=en-GB for more info.\"",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "content-type": "text/javascript; charset=utf-8",
+  "x-frame-options": "SAMEORIGIN",
+  "strict-transport-security": "max-age=31536000",
+  "content-security-policy": "script-src 'unsafe-eval' 'self' 'unsafe-inline' https://www.google.com https://apis.google.com https://ssl.gstatic.com https://www.gstatic.com https://www.googletagmanager.com https://www.google-analytics.com https://*.youtube.com https://*.google.com https://*.gstatic.com https://youtube.com https://www.youtube.com https://google.com https://*.doubleclick.net https://*.googleapis.com https://www.googleadservices.com https://tpc.googlesyndication.com https://www.youtubekids.com https://www.youtube-nocookie.com https://www.youtubeeducation.com https://www-onepick-opensocial.googleusercontent.com;report-uri https://csp.withgoogle.com/csp/youtube_main/allowlist, require-trusted-types-for 'script'",
+  "cache-control": "private, max-age=0",
+  "cross-origin-resource-policy": "cross-origin",
+  "content-security-policy-report-only": "report-uri https://csp.withgoogle.com/csp/youtube_main/strict;base-uri 'self';object-src 'none';script-src 'report-sample' 'nonce-p_I9wGW8xamqwA3GeT4vGw' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval'",
+  "permissions-policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"youtube_main\"",
+  "x-xss-protection": "0",
+  "server": "ESF"
+}
+Body: var scriptUrl = 'https:\/\/www.youtube.com\/s\/player\/50cc0679\/www-widgetapi.vflset\/www-widgetapi.js';try{var ttPolicy=window.trustedTypes.createPolicy("youtube-widget-api",{createScriptURL:function(x){return x}});scriptUrl=ttPolicy.createScriptURL(scriptUrl)}catch(e){}var YT;if(!window["YT"])YT={loading:0,loaded:0};var YTConfig;if(!window["YTConfig"])YTConfig={"host":"https://www.youtube.com"};
+if(!YT.loading){YT.loading=1;(function(){var l=[];YT.ready=function(f){if(YT.loaded)f();else l.pus... [TRUNCATED - Total size: 993 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.963] NETWORK RESPONSE #20 (Request #39)
+Status: 200 
+URL: https://www.youtube.com/s/player/50cc0679/www-widgetapi.vflset/www-widgetapi.js
+Headers: {
+  "content-encoding": "br",
+  "age": "22020",
+  "report-to": "{\"group\":\"youtube\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/youtube\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Tue, 05 Jan 2027 04:12:48 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Mon, 05 Jan 2026 04:12:48 GMT",
+  "last-modified": "Wed, 17 Dec 2025 05:29:22 GMT",
+  "content-type": "text/javascript",
+  "vary": "Accept-Encoding, Origin",
+  "cache-control": "public, max-age=31536000",
+  "cross-origin-resource-policy": "cross-origin",
+  "accept-ranges": "bytes",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"youtube\"",
+  "content-length": "10138",
+  "x-xss-protection": "0",
+  "server": "sffe"
+}
+Body: (function(){'use strict';var n,ca=typeof Object.create=="function"?Object.create:function(a){function b(){}
+b.prototype=a;return new b},p=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;
+a[b]=c.value;return a};
+function da(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math... [TRUNCATED - Total size: 30432 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.965] NETWORK RESPONSE #21 (Request #43)
+Status: 200 
+URL: https://s.yimg.com/wi/config/10191792.json
+Headers: {
+  "access-control-max-age": "0",
+  "access-control-expose-headers": "",
+  "age": "1930",
+  "access-control-allow-methods": "GET",
+  "x-content-type-options": "nosniff",
+  "date": "Mon, 05 Jan 2026 09:47:40 GMT",
+  "content-type": "application/json",
+  "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method",
+  "x-amz-id-2": "tg9YfXKkwU2K4BzIF4rhSVD5FFLN7V3f0wLrSEfYQDTFiFTLZLUrdzQVLa1QSREtq50O7x/xiBA=",
+  "cache-control": "public,max-age=3600",
+  "ats-carp-promotion": "1, 1",
+  "referrer-policy": "no-referrer-when-downgrade",
+  "x-amz-request-id": "BJH0Z3CR137DEX5F",
+  "access-control-allow-origin": "*",
+  "content-length": "2",
+  "server": "ATS"
+}
+Body: {}
+====================================================================================================
+
+[2026-01-06 13:20:23.967] NETWORK RESPONSE #23 (Request #47)
+Status: 200 
+URL: https://tagweb.straitstimes.com/_/service_worker/5c20/sw_iframe.html?origin=https%3A%2F%2Fwww.straitstimes.com&1p=1
+Headers: {
+  "cache-control": "public, max-age=31536000",
+  "content-encoding": "gzip",
+  "content-type": "text/html",
+  "date": "Mon, 05 Jan 2026 10:19:49 GMT",
+  "expires": "Tue, 05 Jan 2027 10:19:49 GMT",
+  "last-modified": "Tue, 02 Dec 2025 09:58:00 GMT",
+  "vary": "Accept-Encoding",
+  "via": "1.1 google"
+}
+Body: <!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+</head>
+<body>
+  <script>
+'use strict';var m={};class n{constructor(a){this.j=a;this.g={};this.h={};this.i=0;this.id=String(Math.floor(Number.MAX_SAFE_INTEGER*Math.random()))}}function p(a){return a.performance&&a.performance.now()||Date.now()}
+var q=function(a,c){class d{constructor(b,f,g){this.failureType=b;this.data=f;this.g=g;this.h=new n(p(g))}u(b,f){const g=b.clientId;if(b.type===0){b.... [TRUNCATED - Total size: 3554 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.968] NETWORK RESPONSE #24 (Request #28)
+Status: 200 
+URL: https://public-api.segmento.sphdigital.com.sg/downstream/segments/users/2b454d57331647b0ae3cf3f0b3ad1a72
+Headers: {
+  "x-amz-apigw-id": "WtN_jGAkyQ0EXcA=",
+  "x-amzn-trace-id": "Root=1-695b9063-541cb0f4065e5ccc11b1d1fe",
+  "x-amzn-requestid": "ab1a5dd9-97da-49db-9000-2a5a6df2c337",
+  "via": "1.1 37df296942e9799685d22e45cbe1788e.cloudfront.net (CloudFront)",
+  "access-control-allow-origin": "https://www.straitstimes.com",
+  "x-cache": "Miss from cloudfront",
+  "content-length": "2",
+  "x-amz-cf-id": "rOblp7xzCGXZI5tplp9Vh3NqDLv2XvflsmXYVrdLjuaVQXA69IS4rw==",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "content-type": "application/json",
+  "x-amz-cf-pop": "SIN2-P11"
+}
+Body: []
+====================================================================================================
+
+[2026-01-06 13:20:23.971] NETWORK RESPONSE #25 (Request #38)
+Status: 200 
+URL: https://cdp.sph.com.sg/creatives/1495/preview.html
+Headers: {
+  "content-encoding": "gzip",
+  "etag": "W/\"b47bdf17a9ec47a06b8a199349aa19c7\"",
+  "age": "43234",
+  "access-control-allow-methods": "GET",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "EbyoC1-dc389LFbHnC243AVFAIRqNr09OUREJDdOB6k_MBVB9te7VA==",
+  "date": "Sun, 04 Jan 2026 22:19:46 GMT",
+  "content-type": "text/html",
+  "last-modified": "Tue, 16 Dec 2025 04:27:46 GMT",
+  "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method,accept-encoding",
+  "cache-control": "max-age=60",
+  "via": "1.1 9b6bf6ed1da992e0fb0dd057ae69b014.cloudfront.net (CloudFront)",
+  "access-control-allow-origin": "*",
+  "x-amz-cf-pop": "SIN3-P1",
+  "server": "AmazonS3",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: <html>
+        <head>
+           <style>
+           .exit-intervention {
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1050;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.exit-intervention.fade .modal-dialog {
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier... [TRUNCATED - Total size: 20080 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.973] NETWORK RESPONSE #26 (Request #3)
+Status: 200 
+URL: https://accounts.google.com/gsi/client
+Headers: {
+  "content-security-policy": "require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http, script-src 'report-sample' 'nonce-ChQxC_MiG6eIgz8fuhEp-g' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http",
+  "cache-control": "private, max-age=1800",
+  "content-encoding": "gzip",
+  "cross-origin-resource-policy": "cross-origin",
+  "report-to": "{\"group\":\"coop_dd7de8473bddc59c6b748810a67a39b1\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/dd7de8473bddc59c6b748810a67a39b1\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_dd7de8473bddc59c6b748810a67a39b1\"",
+  "date": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "x-xss-protection": "0",
+  "content-type": "application/javascript; charset=utf-8",
+  "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+  "server": "ESF",
+  "x-frame-options": "SAMEORIGIN"
+}
+Body: "use strict";this.default_gsi=this.default_gsi||{};(function(_){var window=this;
+try{
+_._F_toggles_initialize=function(a){(typeof globalThis!=="undefined"?globalThis:typeof self!=="undefined"?self:this)._F_toggles_default_gsi=a||[]};(0,_._F_toggles_initialize)([0x20800000, 0x15311, ]);
+var ba,ca,da,t,ea,ka,la,ma;_.aa=typeof Object.create=="function"?Object.create:function(a){var b=function(){};b.prototype=a;return new b};ba=typeof Object.defineProperties=="function"?Object.defineProperty:functio... [TRUNCATED - Total size: 244830 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.974] NETWORK RESPONSE #27 (Request #45)
+Status: 200 
+URL: https://tagweb.straitstimes.com/g/collect?v=2&tid=G-MQEMTJBF6J&gtm=45je5ca1v881704368z878946930za20gzb78946930zd78946930&_p=1767608418991&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=123847561.1767608389&ecid=450869572&ul=en-us&sr=1920x1080&ur=SG&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=a&_eu=AAAAAAQ&sst.etld=google.com.sg&sst.tft=1767608418991&sst.lpc=72864977&sst.navt=n&sst.ude=1&sst.sw_exp=1&_s=1&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115583767~115616986~115938466~115938469~116184927~116184929~116251938~116251940&sid=1767608388&sct=1&seg=1&dl=https%3A%2F%2Fwww.straitstimes.com%2Fsingapore%2Fhousing%3Fref%3Dtop-navbar&dt=Latest%20Housing%20News%20%26%20Headlines%2C%20Top%20Stories%20Today%20-%20The%20Straits%20Times&_tu=BA&en=page_view&ep.articleId=&ep.articleAuthorName=&ep.contentCategory=free&ep.keyword=&ep.pageName=Housing%20Index&ep.pagination=1&ep.publicationDate=&ep.url=https%3A%2F%2Fwww.straitstimes.com%2Fsingapore%2Fhousing%3Fref%3Dtop-navbar&ep.visitorCategory=anonymous&ep.level2SiteName=News&ep.chapter1=Singapore&ep.chapter2=Housing&ep.chapter3=&ep.contentType=listing&ep.gsKeyword=(not%20set)&ep.cd_referral_url=&ep.permutive_id=&ep.abVariant=ST-DEFAULT&ep.permutive_segment=&ep.suid=2b454d57331647b0ae3cf3f0b3ad1a72&ep.sph_bs=&ep.sph_iab=&ep.user_agent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20HeadlessChrome%2F143.0.7499.4%20Safari%2F537.36&ep.svc=(not%20set)&ep.client_id_event=123847561.1767608389.&ep.event_id=1767608714755_176760867783214&ep.cue_articleid=&ep.article_source=&ep.click_reference=top-navbar&ep.cd_version=st2&ep.virtual_pv=false&ep.content_group=singapore&ep.content_group2=housing&ep.content_id=&ep.content_type=listing&ep.client_id_referral=(not%20set)&ep.container_id=GTM-W22QHZ9&ep.container_version=368&ep.hostname=www.straitstimes.com&tfd=224&richsstsse
+Headers: {
+  "cache-control": "no-cache",
+  "content-encoding": "gzip",
+  "access-control-allow-credentials": "true",
+  "x-content-type-options": "nosniff",
+  "via": "1.1 google",
+  "access-control-allow-origin": "https://www.straitstimes.com",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "content-type": "text/plain",
+  "vary": "Accept-Encoding"
+}
+Body: event: message
+data: {"send_pixel":["https://www.google.com.sg/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&dma=0&npa=0&gcd=13l3l3l3l1l1&tid=G-MQEMTJBF6J&cid=123847561.1767608389&gtm=45j91e5ca1v881704368z878946930z9848002509za20gzb78946930zd78946930&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115583767~115616986~115938466~115938469~116184927~116184929~116251938~116251940&_is_sw=0&_tu=BA&aip=1&z=1541050170"],"options":{}}
+
+event: message
+data: {"response":{"status_cod... [TRUNCATED - Total size: 520 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.974] NETWORK RESPONSE #28 (Request #48)
+Status: 200 
+URL: https://static.mysph.sph.com.sg/mysph/locales/en/translation.json
+Headers: {
+  "access-control-max-age": "0",
+  "content-encoding": "gzip",
+  "x-amz-version-id": "a57kFquGBubOXWQWccsjdyKMI6_k4.tp",
+  "age": "445463",
+  "etag": "W/\"dbc58887bc7af59a719c3175644c8ec4\"",
+  "access-control-allow-methods": "GET",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "MiAEkfwOJrFn0jwVX5eH9uPKYZTarda22vrUwwBgvy2_PTVkaemzhw==",
+  "date": "Wed, 31 Dec 2025 06:35:56 GMT",
+  "last-modified": "Fri, 22 Aug 2025 03:59:45 GMT",
+  "vary": "accept-encoding",
+  "content-type": "application/json",
+  "cache-control": "s-maxage=604800,max-age=0",
+  "via": "1.1 99593f4af61be34fdb409aabe600d200.cloudfront.net (CloudFront)",
+  "access-control-allow-origin": "*",
+  "x-amz-cf-pop": "SIN2-P11",
+  "server": "AmazonS3",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: {
+  "logo_text":"For seamless access across SPH Media products",
+  "login_title_welcome": "Log into your account",
+  "login_msg_heading":"You are logging in to",
+  "login_msg_heading_part2":"",
+  "login_title_login": "Login to continue",
+  "login_email_or_username":"Your email or username",
+  "login_password":"Password",
+  "login_forgot_password":"Forgot your password",
+  "login_not_subscriber":"Not a subscriber yet",
+  "login_dont_have_acc": "Don’t have an account",
+  "login_subscribe_link":"Su... [TRUNCATED - Total size: 14574 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.975] NETWORK RESPONSE #29 (Request #12)
+Status: 200 
+URL: https://o4505130366140416.ingest.sentry.io/api/4506779620671488/envelope/?sentry_version=7&sentry_key=f56a481f86a20b607efc6bc783a05663&sentry_client=sentry.javascript.react%2F8.47.0
+Headers: {
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+  "cross-origin-resource-policy": "cross-origin",
+  "via": "1.1 google",
+  "access-control-allow-origin": "*",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "content-length": "2",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "content-type": "application/json",
+  "vary": "origin, access-control-request-method, access-control-request-headers",
+  "server": "nginx"
+}
+Body: {}
+====================================================================================================
+
+[2026-01-06 13:20:23.975] NETWORK RESPONSE #30 (Request #51)
+Status: 200 
+URL: https://www.google.com/recaptcha/api.js?render=6LdChQIoAAAAADXAalfxU8zaPs_ObUziMcna2rsY
+Headers: {
+  "cache-control": "private, max-age=300",
+  "content-encoding": "gzip",
+  "cross-origin-resource-policy": "cross-origin",
+  "report-to": "{\"group\":\"coop_38fac9d5b82543fc4729580d18ff2d3d\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_38fac9d5b82543fc4729580d18ff2d3d\"",
+  "date": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "x-xss-protection": "0",
+  "content-type": "text/javascript; charset=utf-8",
+  "server": "ESF",
+  "x-frame-options": "SAMEORIGIN"
+}
+Body: /* PLEASE DO NOT COPY AND PASTE THIS CODE. */(function(){var w=window,C='___grecaptcha_cfg',cfg=w[C]=w[C]||{},N='grecaptcha';var gr=w[N]=w[N]||{};gr.ready=gr.ready||function(f){(cfg['fns']=cfg['fns']||[]).push(f);};w['__recaptcha_api']='https://www.google.com/recaptcha/api2/';(cfg['render']=cfg['render']||[]).push('6LdChQIoAAAAADXAalfxU8zaPs_ObUziMcna2rsY');(cfg['clr']=cfg['clr']||[]).push('true');(cfg['anchor-ms']=cfg['anchor-ms']||[]).push(20000);(cfg['execute-ms']=cfg['execute-ms']||[]).push(... [TRUNCATED - Total size: 1623 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.978] NETWORK RESPONSE #32 (Request #50)
+Status: 200 
+URL: https://www.straitstimes.com/concurrencyCheck.html
+Headers: {
+  "accept-ranges": "bytes",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "cache-control": "max-age=0, no-cache, no-store",
+  "content-length": "0",
+  "content-type": "text/html",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "etag": "\"0-6459359101840\"",
+  "last-modified": "Wed, 10 Dec 2025 06:43:37 GMT",
+  "p3p": "CP=HONK",
+  "referrer-policy": "no-referrer-when-downgrade",
+  "server": "CloudFront",
+  "server-timing": "cdn-upstream-layer;desc=\"Origin Shield\",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=20,cdn-cache-miss,cdn-pop;desc=\"SIN2-P2\",cdn-rid;desc=\"iYgcD6IWC79Qa4LhOHy9eJLL9TZiooNcU9B9RWcI6l00HV79IXNyvA==\",cdn-downstream-fbl;dur=28",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "vary": "Origin",
+  "via": "1.1 31d603b763553e4238110d07f30c186e.cloudfront.net (CloudFront)",
+  "x-amz-cf-id": "iYgcD6IWC79Qa4LhOHy9eJLL9TZiooNcU9B9RWcI6l00HV79IXNyvA==",
+  "x-amz-cf-pop": "SIN2-P2",
+  "x-auth-group-type": "y-anoy",
+  "x-cache": "Miss from cloudfront",
+  "x-content-type-options": "nosniff",
+  "x-download-options": "noopen",
+  "x-oag-host": "a6d30d5c82393bae828b1c1c1c59e3153a57caeef27b9a8029e178bdd59a8519",
+  "x-xss-protection": "1; mode=block"
+}
+====================================================================================================
+
+[2026-01-06 13:20:23.979] NETWORK RESPONSE #33 (Request #53)
+Status: 200 
+URL: https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js
+Headers: {
+  "content-encoding": "gzip",
+  "age": "451060",
+  "report-to": "{\"group\":\"recaptcha-scs\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha-scs\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Thu, 31 Dec 2026 05:02:08 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 31 Dec 2025 05:02:08 GMT",
+  "last-modified": "Mon, 08 Dec 2025 05:00:52 GMT",
+  "content-type": "text/javascript",
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000",
+  "timing-allow-origin": "*",
+  "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"recaptcha-scs\"",
+  "cross-origin-resource-policy": "cross-origin",
+  "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/recaptcha-scs",
+  "accept-ranges": "bytes",
+  "access-control-allow-origin": "*",
+  "content-length": "362552",
+  "x-xss-protection": "0",
+  "server": "sffe"
+}
+Body: (function(){/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+
+ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applic... [TRUNCATED - Total size: 849489 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.980] NETWORK RESPONSE #35 (Request #55)
+Status: 200 
+URL: https://sb.scorecardresearch.com/internal-cs/default/beacon.js
+Headers: {
+  "vary": "accept-encoding",
+  "cache-control": "max-age=86400",
+  "content-encoding": "gzip",
+  "etag": "W/\"3f6dea365716e8ba82711013483c4d83\"",
+  "age": "50307",
+  "via": "1.1 a7cc1d4538d5c3a4d8d572fbc8e0b6fe.cloudfront.net (CloudFront)",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "piXGlGBAHiKTB3_Lhfet-WppN_CKkZ0Atn4C55GPHMgmbstGwwqcxQ==",
+  "date": "Sun, 04 Jan 2026 23:12:46 GMT",
+  "content-type": "text/javascript",
+  "last-modified": "Mon, 08 Sep 2025 12:31:10 GMT",
+  "server": "AmazonS3",
+  "x-amz-cf-pop": "SIN2-P6",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: var COMSCORE=function(n){var e=function(){return e=Object.assign||function(n){for(var e,t=1,r=arguments.length;t<r;t++)for(var i in e=arguments[t])Object.prototype.hasOwnProperty.call(e,i)&&(n[i]=e[i]);return n},e.apply(this,arguments)};"function"==typeof SuppressedError&&SuppressedError;var t=["co.uk","com.br","com.ar","com.tw","com.mx","co.jp","com.au","com.my","gob.mx","co.id","com.hk","mus.br","com.co","com.sg","com.tr","co.in","net.tw","com.pe","com.ve","co.es"];function r(n,e,t){-1==n.inde... [TRUNCATED - Total size: 21373 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.981] NETWORK RESPONSE #36 (Request #54)
+Status: 200 
+URL: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdChQIoAAAAADXAalfxU8zaPs_ObUziMcna2rsY&co=aHR0cHM6Ly93d3cuc3RyYWl0c3RpbWVzLmNvbTo0NDM.&hl=en&v=7gg7H51Q-naNfhmCP3_R47ho&size=invisible&anchor-ms=20000&execute-ms=30000&cb=aw6al81vawdr
+Headers: {
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+  "content-encoding": "gzip",
+  "content-security-policy": "script-src 'report-sample' 'nonce-MLuAiLtE_cC5pBwEpglwjQ' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/recaptcha/1",
+  "content-type": "text/html; charset=utf-8",
+  "cross-origin-embedder-policy": "require-corp",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_38fac9d5b82543fc4729580d18ff2d3d\"",
+  "cross-origin-resource-policy": "cross-origin",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+  "pragma": "no-cache",
+  "report-to": "{\"group\":\"recaptcha\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha\"}]}\n{\"group\":\"coop_38fac9d5b82543fc4729580d18ff2d3d\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\"}]}",
+  "server": "ESF",
+  "x-content-type-options": "nosniff",
+  "x-xss-protection": "0"
+}
+Body: <!DOCTYPE HTML><html dir="ltr" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>reCAPTCHA</title>
+<style type="text/css">
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBHMdazTgWw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+2... [TRUNCATED - Total size: 91860 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.982] NETWORK RESPONSE #37 (Request #53)
+Status: 200 
+URL: https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js
+Headers: {
+  "content-encoding": "gzip",
+  "age": "451060",
+  "report-to": "{\"group\":\"recaptcha-scs\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha-scs\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Thu, 31 Dec 2026 05:02:08 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 31 Dec 2025 05:02:08 GMT",
+  "last-modified": "Mon, 08 Dec 2025 05:00:52 GMT",
+  "content-type": "text/javascript",
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000",
+  "timing-allow-origin": "*",
+  "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"recaptcha-scs\"",
+  "cross-origin-resource-policy": "cross-origin",
+  "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/recaptcha-scs",
+  "accept-ranges": "bytes",
+  "access-control-allow-origin": "*",
+  "content-length": "362552",
+  "x-xss-protection": "0",
+  "server": "sffe"
+}
+Body: (function(){/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+
+ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applic... [TRUNCATED - Total size: 849489 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.985] NETWORK RESPONSE #40 (Request #46)
+Status: 200 
+URL: https://tagweb.straitstimes.com/g/collect?v=2&tid=G-MQEMTJBF6J&gtm=45je5ca1v881704368z878946930za20gzb78946930zd78946930&_p=1767608418991&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=123847561.1767608389&ecid=450869572&ul=en-us&sr=1920x1080&ur=SG&uaa=arm&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.1.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&sst.etld=google.com.sg&sst.tft=1767608418991&sst.lpc=72864977&sst.navt=n&sst.ude=1&sst.sw_exp=1&_s=2&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115583767~115616986~115938466~115938469~116184927~116184929~116251938~116251940&sid=1767608388&sct=1&seg=1&dl=https%3A%2F%2Fwww.straitstimes.com%2Fsingapore%2Fhousing%3Fref%3Dtop-navbar&dt=Latest%20Housing%20News%20%26%20Headlines%2C%20Top%20Stories%20Today%20-%20The%20Straits%20Times&_tu=BA&en=ViewContent&ep.articleId=&ep.articleAuthorName=&ep.contentCategory=free&ep.keyword=&ep.pageName=Housing%20Index&ep.pagination=1&ep.publicationDate=&ep.url=https%3A%2F%2Fwww.straitstimes.com%2Fsingapore%2Fhousing%3Fref%3Dtop-navbar&ep.visitorCategory=anonymous&ep.level2SiteName=News&ep.chapter1=Singapore&ep.chapter2=Housing&ep.chapter3=&ep.contentType=listing&ep.gsKeyword=(not%20set)&ep.cd_referral_url=&ep.permutive_id=&ep.abVariant=ST-DEFAULT&ep.permutive_segment=&ep.suid=2b454d57331647b0ae3cf3f0b3ad1a72&ep.sph_bs=&ep.sph_iab=&ep.user_agent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20HeadlessChrome%2F143.0.7499.4%20Safari%2F537.36&ep.svc=(not%20set)&ep.client_id_event=123847561.1767608389.&ep.event_id=fb-1767608714755_176760867783214&ep.cue_articleid=&ep.article_source=&ep.click_reference=top-navbar&ep.cd_version=st2&ep.virtual_pv=false&ep.content_group=singapore&ep.content_group2=housing&ep.content_id=&ep.content_type=listing&ep.client_id_referral=(not%20set)&ep.container_id=GTM-W22QHZ9&ep.container_version=368&ep.hostname=www.straitstimes.com&_et=1&tfd=226&richsstsse
+Headers: {
+  "cache-control": "no-cache",
+  "content-encoding": "gzip",
+  "access-control-allow-credentials": "true",
+  "x-content-type-options": "nosniff",
+  "via": "1.1 google",
+  "access-control-allow-origin": "https://www.straitstimes.com",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "content-type": "text/plain",
+  "vary": "Accept-Encoding"
+}
+Body: event: message
+data: {"response":{"status_code":200,"body":""}}
+
+
+====================================================================================================
+
+[2026-01-06 13:20:23.985] NETWORK RESPONSE #41
+Status: 204 
+URL: https://sb.scorecardresearch.com/b?c1=2&c2=6288331&cs_fpcu=bc44971ddefc4fc3872ec68bc7052560&cs_it=b1&cv=4.13.1%2B2508250908&ns__t=1767608419251&ns_c=UTF-8&cs_cfg=1111110&c7=https%3A%2F%2Fwww.straitstimes.com%2Fsingapore%2Fhousing%3Fref%3Dtop-navbar&c8=Latest%20Housing%20News%20%26%20Headlines%2C%20Top%20Stories%20Today%20-%20The%20Straits%20Times&c9=
+Headers: {
+  "via": "1.1 a7cc1d4538d5c3a4d8d572fbc8e0b6fe.cloudfront.net (CloudFront)",
+  "x-cache": "Miss from cloudfront",
+  "x-amz-cf-id": "zbEKgiBxN1YsltK30fsOchUfbmY2LUIiqKKn3mdUTPFxXzsq6VMfAQ==",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "accept-ch": "UA, Platform, Arch, Model, Mobile",
+  "x-amz-cf-pop": "SIN2-P6"
+}
+====================================================================================================
+
+[2026-01-06 13:20:23.988] NETWORK RESPONSE #43 (Request #58)
+Status: 200 
+URL: https://static.mysph.sph.com.sg/mysph/standalone/login.html?pubName=st&stateToken=00U6vaT-J6hZkvYkKx0mZXbN5vPBdNGpd74XUp3165
+Headers: {
+  "age": "44559",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "cache-control": "max-age=86400,public",
+  "content-encoding": "gzip",
+  "content-type": "text/html",
+  "date": "Mon, 05 Jan 2026 01:14:01 GMT",
+  "etag": "W/\"d628cd702921d80e7291c8aee93a4df5\"",
+  "last-modified": "Fri, 22 Aug 2025 03:59:45 GMT",
+  "server": "AmazonS3",
+  "vary": "accept-encoding\nOrigin",
+  "via": "1.1 211fe35abbab9b1bc859d17d3778cc9e.cloudfront.net (CloudFront)",
+  "x-amz-cf-id": "PrIWk3Y1NuL6S6D7B0eG4Huilp5hv_j1N5W9Nm7SdLhUnetZW94sSw==",
+  "x-amz-cf-pop": "SIN2-P11",
+  "x-amz-server-side-encryption": "AES256",
+  "x-amz-version-id": "WI8TJQwsD2kDEn6LvyRzCxDJ3Kj1ySJ1",
+  "x-cache": "Hit from cloudfront"
+}
+Body: <!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta charset="UTF-8" />
+	<title>mySPH Login</title>
+
+	<!-- Libs added to make page responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+
+	<script src="/mysph/js/bootstrap_5.2.3.min.js"></script>
+	<link rel="stylesheet" href="/mysph/css/bootstrap_5.2.3.min.css">
+	
+	<style type="text/css">
+		.popup-overlay {
+			background: rgba(0, 0, 0, 0.5) !important;
+			pointer-events: none;
+		}
+		.popu... [TRUNCATED - Total size: 15087 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.991] NETWORK RESPONSE #46 (Request #22)
+Status: 200 
+URL: https://static.mysph.sph.com.sg/mysph/js/mySPHIdentityLightbox.js
+Headers: {
+  "content-encoding": "gzip",
+  "x-amz-version-id": "_D1oUNZqSRubXNrJA_IcSvY3FkR92iP1",
+  "age": "497460",
+  "etag": "\"a4fc85983ceea005aef03313946f82b8\"",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "x-cache": "Miss from cloudfront",
+  "x-amz-cf-id": "dvmEL3_GR-fmlKNqG-qy5Khh6Gel5-ANv6AdRJihW98dyqbMqBvm7g==",
+  "date": "Mon, 05 Jan 2026 10:20:20 GMT",
+  "content-type": "application/javascript; charset=utf-8",
+  "last-modified": "Thu, 13 Nov 2025 07:49:48 GMT",
+  "vary": "accept-encoding, Origin",
+  "cache-control": "s-maxage=604800,max-age=0",
+  "via": "1.1 211fe35abbab9b1bc859d17d3778cc9e.cloudfront.net (CloudFront)",
+  "accept-ranges": "bytes",
+  "content-length": "353230",
+  "x-amz-cf-pop": "SIN2-P11",
+  "server": "AmazonS3",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: /*! For license information please see bundle.js.LICENSE.txt */
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},t=(new e.Error).stack;t&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[t]="14c39100-1364-40be-b593-68e7629b209e",e._sentryDebugIdIdentifier="sentry-dbid-14c39100-1364-40be-b593-68e7629b209e")}catch(e){}}();var _global="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=t... [TRUNCATED - Total size: 1529167 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.995] NETWORK RESPONSE #47 (Request #51)
+Status: 200 
+URL: https://www.google.com/recaptcha/api.js?render=6LdChQIoAAAAADXAalfxU8zaPs_ObUziMcna2rsY
+Headers: {
+  "cache-control": "private, max-age=300",
+  "content-encoding": "gzip",
+  "cross-origin-resource-policy": "cross-origin",
+  "report-to": "{\"group\":\"coop_38fac9d5b82543fc4729580d18ff2d3d\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_38fac9d5b82543fc4729580d18ff2d3d\"",
+  "date": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "x-xss-protection": "0",
+  "content-type": "text/javascript; charset=utf-8",
+  "server": "ESF",
+  "x-frame-options": "SAMEORIGIN"
+}
+Body: /* PLEASE DO NOT COPY AND PASTE THIS CODE. */(function(){var w=window,C='___grecaptcha_cfg',cfg=w[C]=w[C]||{},N='grecaptcha';var gr=w[N]=w[N]||{};gr.ready=gr.ready||function(f){(cfg['fns']=cfg['fns']||[]).push(f);};w['__recaptcha_api']='https://www.google.com/recaptcha/api2/';(cfg['render']=cfg['render']||[]).push('6LdChQIoAAAAADXAalfxU8zaPs_ObUziMcna2rsY');(cfg['clr']=cfg['clr']||[]).push('true');(cfg['anchor-ms']=cfg['anchor-ms']||[]).push(20000);(cfg['execute-ms']=cfg['execute-ms']||[]).push(... [TRUNCATED - Total size: 1623 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.996] NETWORK RESPONSE #48 (Request #3)
+Status: 200 
+URL: https://accounts.google.com/gsi/client
+Headers: {
+  "content-security-policy": "require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http, script-src 'report-sample' 'nonce-ChQxC_MiG6eIgz8fuhEp-g' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http",
+  "cache-control": "private, max-age=1800",
+  "content-encoding": "gzip",
+  "cross-origin-resource-policy": "cross-origin",
+  "report-to": "{\"group\":\"coop_dd7de8473bddc59c6b748810a67a39b1\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/dd7de8473bddc59c6b748810a67a39b1\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_dd7de8473bddc59c6b748810a67a39b1\"",
+  "date": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "x-xss-protection": "0",
+  "content-type": "application/javascript; charset=utf-8",
+  "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+  "server": "ESF",
+  "x-frame-options": "SAMEORIGIN"
+}
+Body: "use strict";this.default_gsi=this.default_gsi||{};(function(_){var window=this;
+try{
+_._F_toggles_initialize=function(a){(typeof globalThis!=="undefined"?globalThis:typeof self!=="undefined"?self:this)._F_toggles_default_gsi=a||[]};(0,_._F_toggles_initialize)([0x20800000, 0x15311, ]);
+var ba,ca,da,t,ea,ka,la,ma;_.aa=typeof Object.create=="function"?Object.create:function(a){var b=function(){};b.prototype=a;return new b};ba=typeof Object.defineProperties=="function"?Object.defineProperty:functio... [TRUNCATED - Total size: 244830 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.997] NETWORK RESPONSE #49 (Request #12)
+Status: 200 
+URL: https://o4505130366140416.ingest.sentry.io/api/4506779620671488/envelope/?sentry_version=7&sentry_key=f56a481f86a20b607efc6bc783a05663&sentry_client=sentry.javascript.react%2F8.47.0
+Headers: {
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+  "cross-origin-resource-policy": "cross-origin",
+  "via": "1.1 google",
+  "access-control-allow-origin": "*",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "content-length": "2",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "content-type": "application/json",
+  "vary": "origin, access-control-request-method, access-control-request-headers",
+  "server": "nginx"
+}
+Body: {}
+====================================================================================================
+
+[2026-01-06 13:20:23.998] NETWORK RESPONSE #50 (Request #48)
+Status: 200 
+URL: https://static.mysph.sph.com.sg/mysph/locales/en/translation.json
+Headers: {
+  "access-control-max-age": "0",
+  "content-encoding": "gzip",
+  "x-amz-version-id": "a57kFquGBubOXWQWccsjdyKMI6_k4.tp",
+  "age": "445463",
+  "etag": "W/\"dbc58887bc7af59a719c3175644c8ec4\"",
+  "access-control-allow-methods": "GET",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "x-cache": "Miss from cloudfront",
+  "x-amz-cf-id": "ew0Nb6o0ucyw4mlp_peDNDX1YH5r8tzszVNkjG096Q6f168NZibm2w==",
+  "date": "Mon, 05 Jan 2026 10:20:20 GMT",
+  "last-modified": "Fri, 22 Aug 2025 03:59:45 GMT",
+  "vary": "accept-encoding, Origin",
+  "content-type": "application/json",
+  "cache-control": "s-maxage=604800,max-age=0",
+  "via": "1.1 211fe35abbab9b1bc859d17d3778cc9e.cloudfront.net (CloudFront)",
+  "access-control-allow-origin": "*",
+  "x-amz-cf-pop": "SIN2-P11",
+  "server": "AmazonS3",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: {
+  "logo_text":"For seamless access across SPH Media products",
+  "login_title_welcome": "Log into your account",
+  "login_msg_heading":"You are logging in to",
+  "login_msg_heading_part2":"",
+  "login_title_login": "Login to continue",
+  "login_email_or_username":"Your email or username",
+  "login_password":"Password",
+  "login_forgot_password":"Forgot your password",
+  "login_not_subscriber":"Not a subscriber yet",
+  "login_dont_have_acc": "Don’t have an account",
+  "login_subscribe_link":"Su... [TRUNCATED - Total size: 14574 chars]
+====================================================================================================
+
+[2026-01-06 13:20:23.998] NETWORK RESPONSE #51 (Request #50)
+Status: 200 
+URL: https://www.straitstimes.com/concurrencyCheck.html
+Headers: {
+  "accept-ranges": "bytes",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "cache-control": "max-age=0, no-cache, no-store",
+  "content-length": "0",
+  "content-type": "text/html",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "etag": "\"0-6459359101840\"",
+  "last-modified": "Wed, 10 Dec 2025 06:43:37 GMT",
+  "p3p": "CP=HONK",
+  "referrer-policy": "no-referrer-when-downgrade",
+  "server": "CloudFront",
+  "server-timing": "cdn-upstream-layer;desc=\"Origin Shield\",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=11,cdn-cache-miss,cdn-pop;desc=\"SIN2-P2\",cdn-rid;desc=\"D-gGXOJDVscvtfOt6j_NydMPSrVXjB8CpnSZjDZ_qyTUjRBlOFLXEA==\",cdn-downstream-fbl;dur=18",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "vary": "Origin",
+  "via": "1.1 31d603b763553e4238110d07f30c186e.cloudfront.net (CloudFront)",
+  "x-amz-cf-id": "D-gGXOJDVscvtfOt6j_NydMPSrVXjB8CpnSZjDZ_qyTUjRBlOFLXEA==",
+  "x-amz-cf-pop": "SIN2-P2",
+  "x-auth-group-type": "y-anoy",
+  "x-cache": "Miss from cloudfront",
+  "x-content-type-options": "nosniff",
+  "x-download-options": "noopen",
+  "x-oag-host": "a6d30d5c82393bae828b1c1c1c59e3153a57caeef27b9a8029e178bdd59a8519",
+  "x-xss-protection": "1; mode=block"
+}
+====================================================================================================
+
+[2026-01-06 13:20:23.999] NETWORK RESPONSE #52 (Request #53)
+Status: 200 
+URL: https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js
+Headers: {
+  "content-encoding": "gzip",
+  "age": "451060",
+  "report-to": "{\"group\":\"recaptcha-scs\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha-scs\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Thu, 31 Dec 2026 05:02:08 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 31 Dec 2025 05:02:08 GMT",
+  "last-modified": "Mon, 08 Dec 2025 05:00:52 GMT",
+  "content-type": "text/javascript",
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000",
+  "timing-allow-origin": "*",
+  "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"recaptcha-scs\"",
+  "cross-origin-resource-policy": "cross-origin",
+  "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/recaptcha-scs",
+  "accept-ranges": "bytes",
+  "access-control-allow-origin": "*",
+  "content-length": "362552",
+  "x-xss-protection": "0",
+  "server": "sffe"
+}
+Body: (function(){/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+
+ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applic... [TRUNCATED - Total size: 849489 chars]
+====================================================================================================
+
+[2026-01-06 13:20:24.000] NETWORK RESPONSE #53 (Request #68)
+Status: 200 
+URL: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdChQIoAAAAADXAalfxU8zaPs_ObUziMcna2rsY&co=aHR0cHM6Ly9zdGF0aWMubXlzcGguc3BoLmNvbS5zZzo0NDM.&hl=en&v=7gg7H51Q-naNfhmCP3_R47ho&size=invisible&anchor-ms=20000&execute-ms=30000&cb=97b4mfmvwaya
+Headers: {
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+  "content-encoding": "gzip",
+  "content-security-policy": "script-src 'report-sample' 'nonce-nlW6WpJ0QiQDarTK-v2bkA' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/recaptcha/1",
+  "content-type": "text/html; charset=utf-8",
+  "cross-origin-embedder-policy": "require-corp",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_38fac9d5b82543fc4729580d18ff2d3d\"",
+  "cross-origin-resource-policy": "cross-origin",
+  "date": "Mon, 05 Jan 2026 10:20:19 GMT",
+  "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+  "pragma": "no-cache",
+  "report-to": "{\"group\":\"recaptcha\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha\"}]}\n{\"group\":\"coop_38fac9d5b82543fc4729580d18ff2d3d\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\"}]}",
+  "server": "ESF",
+  "x-content-type-options": "nosniff",
+  "x-xss-protection": "0"
+}
+Body: <!DOCTYPE HTML><html dir="ltr" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>reCAPTCHA</title>
+<style type="text/css">
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBHMdazTgWw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+2... [TRUNCATED - Total size: 91702 chars]
+====================================================================================================
+
+[2026-01-06 13:20:24.001] NETWORK RESPONSE #54 (Request #53)
+Status: 200 
+URL: https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js
+Headers: {
+  "content-encoding": "gzip",
+  "age": "451060",
+  "report-to": "{\"group\":\"recaptcha-scs\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha-scs\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Thu, 31 Dec 2026 05:02:08 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "date": "Wed, 31 Dec 2025 05:02:08 GMT",
+  "last-modified": "Mon, 08 Dec 2025 05:00:52 GMT",
+  "content-type": "text/javascript",
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=31536000",
+  "timing-allow-origin": "*",
+  "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"recaptcha-scs\"",
+  "cross-origin-resource-policy": "cross-origin",
+  "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/recaptcha-scs",
+  "accept-ranges": "bytes",
+  "access-control-allow-origin": "*",
+  "content-length": "362552",
+  "x-xss-protection": "0",
+  "server": "sffe"
+}
+Body: (function(){/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+
+ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applic... [TRUNCATED - Total size: 849489 chars]
+====================================================================================================
+
+[2026-01-06 13:20:47.688] NETWORK REQUEST #75
+Method: POST
+URL: https://highway.cablecar.sph.com.sg/?api-key=xAKXBzNmErQO6OVuChS4K2CHT2ppmyL0u6ugVI3Q
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "application/json",
+  "sec-ch-ua-mobile": "?0"
+}
+Body: {"browserEvents":[{"eventType":"load","meta":{"trigger":"track view time load","article":{"adBlocker":"true","abVariant":"ST-DEFAULT","articleId":null,"articleCount":"0","author":null,"cueArticleId":null,"keyword":null,"page":null,"chapter1":"Singapore","chapter2":"Housing","chapter3":null,"chapter1En":null,"chapter2En":null,"chapter3En":null,"gs_channels":null,"level2":"7","level2Ga":null,"level2Local":null,"contentCat":"1","contentType":null,"pubDate":null,"content_publication_utc":null,"conte... [TRUNCATED - Total size: 11574 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:47.689] NETWORK REQUEST #76
+Method: GET
+URL: https://accounts.google.com/gsi/client
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:47.689] NETWORK RESPONSE #57 (Request #3)
+Status: 200 
+URL: https://accounts.google.com/gsi/client
+Headers: {
+  "content-security-policy": "require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http, script-src 'report-sample' 'nonce-ChQxC_MiG6eIgz8fuhEp-g' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http",
+  "cache-control": "private, max-age=1800",
+  "content-encoding": "gzip",
+  "cross-origin-resource-policy": "cross-origin",
+  "report-to": "{\"group\":\"coop_dd7de8473bddc59c6b748810a67a39b1\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/dd7de8473bddc59c6b748810a67a39b1\"}]}",
+  "x-content-type-options": "nosniff",
+  "expires": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_dd7de8473bddc59c6b748810a67a39b1\"",
+  "date": "Mon, 05 Jan 2026 10:19:48 GMT",
+  "x-xss-protection": "0",
+  "content-type": "application/javascript; charset=utf-8",
+  "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+  "server": "ESF",
+  "x-frame-options": "SAMEORIGIN"
+}
+Body: "use strict";this.default_gsi=this.default_gsi||{};(function(_){var window=this;
+try{
+_._F_toggles_initialize=function(a){(typeof globalThis!=="undefined"?globalThis:typeof self!=="undefined"?self:this)._F_toggles_default_gsi=a||[]};(0,_._F_toggles_initialize)([0x20800000, 0x15311, ]);
+var ba,ca,da,t,ea,ka,la,ma;_.aa=typeof Object.create=="function"?Object.create:function(a){var b=function(){};b.prototype=a;return new b};ba=typeof Object.defineProperties=="function"?Object.defineProperty:functio... [TRUNCATED - Total size: 244830 chars]
+====================================================================================================
+
+[2026-01-06 13:20:47.948] NETWORK REQUEST #77
+Method: GET
+URL: https://www.straitstimes.com/_plat/api/v1/articlesListing?pageType=sub_section&searchParam=singapore_housing&page=2&maxDate=2026-01-02T02:25:00.000Z
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/singapore/housing?ref=top-navbar",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjIyNTAyMyIsImFwIjoiMTEwMzMxMjUzMiIsImlkIjoiMmI4MTc0ZGFiZTZkNGI3ZCIsInRyIjoiZDllNWMyOWQ1YzJmNjdkOWZkZTc5ODViNWQ4ZmQ3OWIiLCJ0aSI6MTc2NzYwODQ0NzkzNH19",
+  "traceparent": "00-d9e5c29d5c2f67d9fde7985b5d8fd79b-2b8174dabe6d4b7d-01",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "content-type": "application/json",
+  "tracestate": "225023@nr=0-1-225023-1103312532-2b8174dabe6d4b7d----1767608447934"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:47.948] NETWORK REQUEST #78
+Method: GET
+URL: https://www.straitstimes.com/comscore/pageview-candidate.txt?ts=1767608447939
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/singapore/housing?ref=top-navbar",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjIyNTAyMyIsImFwIjoiMTEwMzMxMjUzMiIsImlkIjoiZDk0MjFhNTIxYzU0ODhhMCIsInRyIjoiZjE2YjljNWIzMTBhZGUyY2MyN2Q4OThhYTEwY2I2YzgiLCJ0aSI6MTc2NzYwODQ0NzkzOX19",
+  "traceparent": "00-f16b9c5b310ade2cc27d898aa10cb6c8-d9421a521c5488a0-01",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "tracestate": "225023@nr=0-1-225023-1103312532-d9421a521c5488a0----1767608447939"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:47.948] NETWORK REQUEST #79
+Method: GET
+URL: https://static.chartbeat.com/js/chartbeat_video.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:47.949] NETWORK REQUEST #80
+Method: GET
+URL: https://static.chartbeat.com/js/chartbeat_mab.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:47.950] NETWORK REQUEST #81
+Method: POST
+URL: https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "accept": "*",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "text/plain;charset=UTF-8",
+  "sec-ch-ua-mobile": "?0"
+}
+Body: H4sIAAAAAAAAE5VUS2/jNhD+K8IceiIbv2MTKBbZoNsNGmSBWt1LkMNIHNuDUKRKjpIYgf97QckJnGAf2BM5nG8+zvsZWrYJzO1sPlrNZqs7BamO3MpXiomDBzNZzhUINwRmfL44X4yWs9n5ajpSYEOD7MFAkogsKYPS73VoQEEXHRjYibTJnJ29B5wl9ltsQ6SzXeiy8CHS5g8Jrfb4UGEEBS1uqWRxBAauUShJ8XnAFjf0mIrfis+E1rGnpIoytMVaQmRKRRks7gtdlDsq1sPHRZl/BgWPVCUWWvPWo/uH/usoyZUFA/MKl9N6udKTajzTs2pa6elovtDzzXKFo/lkuUACBZzKiD45FLJgNugSKXD8CQcWyMJfjF4GoeFUg3mGNlVrQSEwenbILNfs78le+Yu2faXZUQPGd84pSL1/5b7NwV9eX13+DQp2kTYDrQ3NhUjkqhNKmZ8cNeRlTQ164XowHKiOqq/ouvdvpzDB7Q3mGsPH... [TRUNCATED - Total size: 968 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:47.950] NETWORK REQUEST #82
+Method: POST
+URL: https://highway.cablecar.sph.com.sg/?api-key=xAKXBzNmErQO6OVuChS4K2CHT2ppmyL0u6ugVI3Q
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "application/json",
+  "sec-ch-ua-mobile": "?0"
+}
+Body: {"browserEvents":[{"eventType":"elementVisible","data":{"elementId":"dfp-ad-bn1","elementClasses":[],"elementAttributes":{"id":"dfp-ad-bn1","data-testid":"advertisement-block-test-id","_neuron-ad-impression-tracked":"","_neuron-element-visible-tracked":"","_neuron-element-visible-captured":""},"elementXCoordinate":256,"elementYCoordinate":1945.15625,"elementDOMPath":"html > body > div:nth-child(5) > main > div > div:nth-child(2) > div > div > div:nth-child(7) > div","timeToAppear":28889.40000000... [TRUNCATED - Total size: 7679 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:47.951] NETWORK REQUEST #83
+Method: POST
+URL: https://px.ads.linkedin.com/wa/?medium=beacon&fmt=g
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "text/plain;charset=utf-8",
+  "sec-ch-ua-mobile": "?0"
+}
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+[2026-01-06 13:20:47.953] ACTION #2
+Action: click [4998]
+Element: button "button for Load more" [ID: 4998]
+====================================================================================================
+
+[2026-01-06 13:20:52.976] NETWORK REQUEST #84
+Method: POST
+URL: https://highway.cablecar.sph.com.sg/?api-key=xAKXBzNmErQO6OVuChS4K2CHT2ppmyL0u6ugVI3Q
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "application/json",
+  "sec-ch-ua-mobile": "?0"
+}
+Body: {"browserEvents":[{"eventType":"dataLayer.virtualload","data":{"dataLayerIdentifier":"virtualload","event":"virtual_pv","contenttype":"listing","pagination":"2","gtm.uniqueEventId":91,"pageTitle":"Latest Housing News & Headlines, Top Stories Today - The Straits Times"},"meta":{"article":{"adBlocker":"true","abVariant":"ST-DEFAULT","articleId":null,"articleCount":"0","author":null,"cueArticleId":null,"keyword":null,"page":null,"chapter1":"Singapore","chapter2":"Housing","chapter3":null,"chapter1E... [TRUNCATED - Total size: 10982 chars]
+----------------------------------------------------------------------------------------------------
+
+[2026-01-06 13:20:52.965] NETWORK RESPONSE #58 (Request #78)
+Status: 200 
+URL: https://www.straitstimes.com/comscore/pageview-candidate.txt?ts=1767608447939
+Headers: {
+  "etag": "\"b69d3dd9718213da1d6a277a624fc7bc\"",
+  "age": "178",
+  "x-content-type-options": "nosniff",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "x-cache": "Hit from cloudfront",
+  "x-amz-cf-id": "_IPQ52o6iL6VJr0RTVpP4b5Y7gXvUSu8g7x1E6aWmNbPNcmvfWriHA==",
+  "date": "Mon, 05 Jan 2026 10:17:50 GMT",
+  "content-type": "text/plain; charset=utf-8",
+  "last-modified": "Mon, 05 Jan 2026 07:52:30 GMT",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "cache-control": "max-age=180, stale-while-revalidate=30",
+  "access-control-allow-credentials": "true",
+  "referrer-policy": "strict-origin-when-cross-origin",
+  "via": "1.1 31d603b763553e4238110d07f30c186e.cloudfront.net (CloudFront)",
+  "accept-ranges": "bytes",
+  "content-length": "18",
+  "x-xss-protection": "1; mode=block",
+  "x-amz-cf-pop": "SIN2-P2",
+  "server": "AmazonS3",
+  "x-amz-server-side-encryption": "AES256"
+}
+Body: pageview_candidate
+====================================================================================================
+
+[2026-01-06 13:20:52.967] NETWORK RESPONSE #59
+Status: 204 
+URL: https://sb.scorecardresearch.com/b?c1=2&c2=6288331&cs_it=b1&cv=4.13.1%2B2508250908&ns__t=1767608447939&ns_c=UTF-8&cs_cfg=1001110&c7=https%3A%2F%2Fwww.straitstimes.com%2Fsingapore%2Fhousing%3Fref%3Dtop-navbar&c8=Latest%20Housing%20News%20%26%20Headlines%2C%20Top%20Stories%20Today%20-%20The%20Straits%20Times&c9=
+Headers: {
+  "via": "1.1 a7cc1d4538d5c3a4d8d572fbc8e0b6fe.cloudfront.net (CloudFront)",
+  "x-cache": "Miss from cloudfront",
+  "x-amz-cf-id": "dDQUd605aOLIpWXRRz8lUZdNiHMNBSiHF-ms1ASFqkBDNzjIbPoutQ==",
+  "date": "Mon, 05 Jan 2026 10:20:48 GMT",
+  "accept-ch": "UA, Platform, Arch, Model, Mobile",
+  "x-amz-cf-pop": "SIN2-P6"
+}
+Body: [Unable to retrieve response body: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier]
+====================================================================================================
+
+[2026-01-06 13:20:52.969] NETWORK RESPONSE #60 (Request #77)
+Status: 200 
+URL: https://www.straitstimes.com/_plat/api/v1/articlesListing?pageType=sub_section&searchParam=singapore_housing&page=2&maxDate=2026-01-02T02:25:00.000Z
+Headers: {
+  "x-amzn-remapped-content-length": "10180",
+  "etag": "W/\"27c4-6GZZUHSj/ag9OZyDC4pEKUD3c44\"",
+  "x-content-type-options": "nosniff",
+  "x-amzn-requestid": "0a1b34a0-6127-4c10-9c81-6244df005a8c",
+  "alt-svc": "h3=\":443\"; ma=86400",
+  "x-cache": "Miss from cloudfront",
+  "server-timing": "cdn-upstream-layer;desc=\"REC\",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=2,cdn-upstream-fbl;dur=173,cdn-cache-miss,cdn-pop;desc=\"SIN2-P2\",cdn-rid;desc=\"9MHrsa9MMJEHC3xeed6JX-t0XdidApHD-x5GN3XvSqnMasBVOaQuUw==\",cdn-downstream-fbl;dur=190",
+  "date": "Mon, 05 Jan 2026 10:20:48 GMT",
+  "content-type": "application/json; charset=utf-8",
+  "vary": "Origin",
+  "x-amz-cf-id": "9MHrsa9MMJEHC3xeed6JX-t0XdidApHD-x5GN3XvSqnMasBVOaQuUw==",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "cache-control": "max-age=120, stale-while-revalidate=120, stale-if-error=86400",
+  "x-amz-apigw-id": "WtOEDErZSQ0EbEA=",
+  "x-amzn-trace-id": "Root=1-695b907f-3304bec56388253f4fb2ff1f",
+  "referrer-policy": "strict-origin-when-cross-origin",
+  "via": "1.1 31d603b763553e4238110d07f30c186e.cloudfront.net (CloudFront)",
+  "content-length": "10180",
+  "x-xss-protection": "1; mode=block",
+  "x-amz-cf-pop": "SIN2-P2"
+}
+Body: {"total":38,"page":"2","cards":[{"cardType":"featured-headline-lg-card","articleCard":{"kicker":"","title":"Tender for historic Moulmein Road site awarded to Dempsey Hill developer","urlPath":"/singapore/housing/historic-moulmein-road-site-awarded-to-dempsey-hill-developer","blurb":"","updatedDate":"2025-12-09T02:23:10.000Z","publishedDate":"2025-12-08T10:35:00.000Z","asset":"","media":[{"id":"","type":"image","image":{"src":"https://cassette.sphdigital.com.sg/image/straitstimes/714c47b5ab6b890d... [TRUNCATED - Total size: 10172 chars]
+====================================================================================================
+
+[2026-01-06 13:20:52.979] NETWORK REQUEST #85
+Method: POST
+URL: https://highway.cablecar.sph.com.sg/?api-key=xAKXBzNmErQO6OVuChS4K2CHT2ppmyL0u6ugVI3Q
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://www.straitstimes.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+  "content-type": "application/json",
+  "sec-ch-ua-mobile": "?0"
+}
+Body: {"browserEvents":[{"eventType":"adImpression","data":{"elementId":"dfp-ad-bn1","lineItemId":null,"advertiserId":null,"campaignId":null,"creativeId":null,"pageTitle":"Latest Housing News & Headlines, Top Stories Today - The Straits Times"},"meta":{"article":{"adBlocker":"true","abVariant":"ST-DEFAULT","articleId":null,"articleCount":"0","author":null,"cueArticleId":null,"keyword":null,"page":null,"chapter1":"Singapore","chapter2":"Housing","chapter3":null,"chapter1En":null,"chapter2En":null,"chap... [TRUNCATED - Total size: 1645 chars]
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+[2026-01-06 13:21:25.147] ACTION #3
+Action: stop
+====================================================================================================
+
+
+====================================================================================================
+Network Activity Log Ended
+Total Actions: 3
+Total Requests: 85
+Total Responses: 60
+Ended: 2026-01-06 13:21:30
+====================================================================================================

@@ -22,6 +22,7 @@ from playwright.sync_api import (
 )
 
 from .actions import Action, execute_action, get_action_space
+from .network_logger import NetworkLogger
 from .processors import ObservationHandler, ObservationMetadata
 from .utils import (
     AccessibilityTree,
@@ -117,6 +118,8 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             self.observation_handler.get_observation_space()
         )
 
+        self.network_logger: NetworkLogger | None = None
+
     @beartype
     def setup(self, config_file: Path | None = None) -> None:
         def handle_dialog(dialog):
@@ -168,6 +171,12 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             if self.text_observation_type == "accessibility_tree":
                 client.send("Accessibility.enable")
             self.page.client = client  # type: ignore
+
+        from datetime import datetime
+        log_filename = f"network_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+        log_path = Path("network_log") / log_filename
+        self.network_logger = NetworkLogger(log_path)
+        self.network_logger.attach_to_page(self.page)
 
     def get_page_client(self, page: Page) -> CDPSession:
         return page.client  # type: ignore
@@ -226,6 +235,8 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             self.context.tracing.stop(path=trace_path)
 
     def close(self) -> None:
+        if self.network_logger:
+            self.network_logger.close()
         if self.reset_finished:
             self.context_manager.__exit__()
 
@@ -238,12 +249,16 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         success = False
         fail_error = ""
         try:
-            self.page = execute_action(
+            self.page, element_info = execute_action(
                 action,
                 self.page,
                 self.context,
                 self.observation_handler.action_processor,
             )
+
+            if self.network_logger:
+                self.network_logger.log_action(action, element_info)
+
             success = True
         except Exception as e:
             fail_error = str(e)
