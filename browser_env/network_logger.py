@@ -202,6 +202,16 @@ Action: {action_str}{element_detail}
         url = request.url
         headers = dict(request.headers)
 
+        page_context = ""
+        try:
+            if request.frame and request.frame.page:
+                page = request.frame.page
+                page_title = page.title()
+                page_url = page.url
+                page_context = f"Page: \"{page_title}\" ({page_url})\n"
+        except Exception:
+            pass
+
         post_data = ""
         try:
             if request.post_data:
@@ -212,7 +222,7 @@ Action: {action_str}{element_detail}
             post_data = "[Unable to retrieve post data]"
 
         log_entry = f"""[{timestamp}] NETWORK REQUEST #{request_num}
-Method: {method}
+{page_context}Method: {method}
 URL: {url}
 Headers: {json.dumps(headers, indent=2)}"""
 
@@ -230,6 +240,16 @@ Headers: {json.dumps(headers, indent=2)}"""
         url = response.url
         headers = dict(response.headers)
 
+        page_context = ""
+        try:
+            if response.frame and response.frame.page:
+                page = response.frame.page
+                page_title = page.title()
+                page_url = page.url
+                page_context = f"Page: \"{page_title}\" ({page_url})\n"
+        except Exception:
+            pass
+
         body = ""
         try:
             body_text = response.text()
@@ -246,7 +266,7 @@ Headers: {json.dumps(headers, indent=2)}"""
             request_num_str = f" (Request #{pending_req['request_num']})"
 
         log_entry = f"""[{timestamp}] NETWORK RESPONSE #{response_num}{request_num_str}
-Status: {status} {status_text}
+{page_context}Status: {status} {status_text}
 URL: {url}
 Headers: {json.dumps(headers, indent=2)}"""
 

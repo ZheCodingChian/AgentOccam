@@ -176,7 +176,12 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         log_filename = f"network_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
         log_path = Path("network_log") / log_filename
         self.network_logger = NetworkLogger(log_path)
-        self.network_logger.attach_to_page(self.page)
+        
+        # Attach to all existing pages and listen for new ones
+        for page in self.context.pages:
+            self.network_logger.attach_to_page(page)
+        
+        self.context.on("page", lambda page: self.network_logger.attach_to_page(page))
 
     def get_page_client(self, page: Page) -> CDPSession:
         return page.client  # type: ignore
