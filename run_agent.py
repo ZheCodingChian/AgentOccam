@@ -7,7 +7,7 @@ import yaml
 import random
 import shutil
 
-from AgentOccam.env import WebArenaEnvironmentWrapper
+from AgentOccam.env import BrowserEnvironment
 from AgentOccam.AgentOccam import AgentOccam
 from AgentOccam.prompts import AgentOccam_prompt
 
@@ -86,7 +86,7 @@ def run():
         task_output_dir = os.path.join(CURRENT_DIR, "output", task_config['task_id'], timestamp)
         os.makedirs(task_output_dir, exist_ok=True)
 
-        env = WebArenaEnvironmentWrapper(
+        env = BrowserEnvironment(
             config_file=config_file,
             max_browser_rows=config.env.max_browser_rows,
             max_steps=config.max_steps,

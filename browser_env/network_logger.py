@@ -216,8 +216,8 @@ Action: {action_str}{element_detail}
         try:
             if request.post_data:
                 post_data = request.post_data
-                if len(post_data) > 500:
-                    post_data = f"{post_data[:500]}... [TRUNCATED - Total size: {len(request.post_data)} chars]"
+                if len(post_data) > 1000:
+                    post_data = f"{post_data[:1000]}... [TRUNCATED - Total size: {len(request.post_data)} chars]"
         except Exception:
             post_data = "[Unable to retrieve post data]"
 
@@ -254,8 +254,8 @@ Headers: {json.dumps(headers, indent=2)}"""
         try:
             body_text = response.text()
             if body_text:
-                if len(body_text) > 500:
-                    body = f"{body_text[:500]}... [TRUNCATED - Total size: {len(body_text)} chars]"
+                if len(body_text) > 1000:
+                    body = f"{body_text[:1000]}... [TRUNCATED - Total size: {len(body_text)} chars]"
                 else:
                     body = body_text
         except Exception as e:

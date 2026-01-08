@@ -14,9 +14,9 @@ from AgentOccam.obs_opt import (
 )
 
 
-class WebArenaEnvironmentWrapper():
+class BrowserEnvironment():
     def __init__(self, config_file, max_browser_rows=300, max_steps=50, slow_mo=1, observation_type="accessibility_tree", current_viewport_only=False, viewport_size={"width": 1280, "height": 720}, headless=False, global_config=None, output_dir=None):
-        self.webarena_env = ScriptBrowserEnv(
+        self.browser_env = ScriptBrowserEnv(
                     headless=headless,
                     slow_mo=slow_mo,
                     observation_type=observation_type,
@@ -30,7 +30,7 @@ class WebArenaEnvironmentWrapper():
             self.config = json.load(f)
         self.global_config = global_config
         
-        self.obs, self.info = self.webarena_env.reset(options={"config_file": self.config_file})
+        self.obs, self.info = self.browser_env.reset(options={"config_file": self.config_file})
         self.terminated = False
         self.objective = self.config["intent"]
         self.url = self.config["start_url"]
@@ -41,13 +41,13 @@ class WebArenaEnvironmentWrapper():
         self.reward = 0.0
         
         self.trajectory: Trajectory = []
-        self.update_webarena_metrics()
+        self.update_metrics()
         
     def reset(self):
-        self.obs, self.info = self.webarena_env.reset(options={"config_file": self.config_file})
+        self.obs, self.info = self.browser_env.reset(options={"config_file": self.config_file})
 
     def close(self):
-        self.webarena_env.close()
+        self.browser_env.close()
         
     def get_url(self):
         return self.url
@@ -60,14 +60,14 @@ class WebArenaEnvironmentWrapper():
         
     def observation(self):
         print("  [Env] Extracting DOM observation from browser...")
-        self.url = self.webarena_env.page.url
+        self.url = self.browser_env.page.url
         if self.global_config and self.global_config.env.prune:
             print("  [Env] Pruning DOM tree (may include LLM call)...")
             root_node = self.obs["text"][1]
             DOM_root_node = prune_tree(objective=self.objective, root_node=root_node, mode="node")
             DOM_str = translate_node_to_str(node=DOM_root_node, mode="concise")
             print(f"  [Env] Observation ready (pruned, {len(DOM_str)} chars)")
-            return {"text": DOM_str, "node": DOM_root_node, "page": self.webarena_env.page}
+            return {"text": DOM_str, "node": DOM_root_node, "page": self.browser_env.page}
         else:
             browser_content = self.obs["text"][0]
             browser_content = browser_content.split("\n")[:self.max_browser_rows]
@@ -92,7 +92,7 @@ class WebArenaEnvironmentWrapper():
             print(f"Steps {self.steps} exceeded maximum {self.max_steps}")
             self.is_done = True
             action_cmd = create_id_based_action(f"stop [Trajectory failed: Steps {self.steps} exceeded maximum {self.max_steps}.]")
-            self.update_webarena_metrics(action_cmd)
+            self.update_metrics(action_cmd)
             return self.status()
 
         if action is None or action == "":
@@ -108,14 +108,14 @@ class WebArenaEnvironmentWrapper():
 
         for action_cmd in action_cmds:
             try:
-                self.obs, _, self.terminated, _, self.info = self.webarena_env.step(action_cmd) 
-                self.update_webarena_metrics(action_cmd)
+                self.obs, _, self.terminated, _, self.info = self.browser_env.step(action_cmd) 
+                self.update_metrics(action_cmd)
             except Exception as e:
                 print(f"Error occurred while taking step: {e}")
             
         return self.status()
     
-    def update_webarena_metrics(self, action_cmd=None):
+    def update_metrics(self, action_cmd=None):
         # Append action (if any) and resulting sate
         if action_cmd:
             self.trajectory.append(action_cmd)
@@ -129,7 +129,7 @@ class WebArenaEnvironmentWrapper():
         if self.is_done:    
             try:
                 evaluator = evaluator_router(self.config_file)
-                self.reward = evaluator(trajectory=self.trajectory, config_file=self.config_file, page=self.webarena_env.page, client=self.webarena_env.get_page_client(self.webarena_env.page))
+                self.reward = evaluator(trajectory=self.trajectory, config_file=self.config_file, page=self.browser_env.page, client=self.browser_env.get_page_client(self.browser_env.page))
             except Exception as e:
                 print(f"Got excepetion: {e}")
                 self.reward = 0

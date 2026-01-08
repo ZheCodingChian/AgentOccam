@@ -12,27 +12,26 @@ from playwright.sync_api import sync_playwright
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from browser_env.env_config import (
-    ACCOUNTS,
-    GITLAB,
-    REDDIT,
-    SHOPPING,
-    SHOPPING_ADMIN,
-)
+# NOTE: This file is kept for future website login automation needs.
+# Configure the following variables for your specific websites before use:
+#
+# Example configuration:
+# ACCOUNTS = {
+#     "site1": {"username": "user1", "password": "pass1"},
+#     "site2": {"username": "user2", "password": "pass2"},
+# }
+# SITE1_URL = "http://localhost:8000"
+# SITE2_URL = "http://localhost:9000"
 
 HEADLESS = True
 SLOW_MO = 0
 
-
-SITES = ["gitlab", "shopping", "shopping_admin", "reddit"]
-URLS = [
-    f"{GITLAB}/-/profile",
-    f"{SHOPPING}/wishlist/",
-    f"{SHOPPING_ADMIN}/dashboard",
-    f"{REDDIT}/user/{ACCOUNTS['reddit']['username']}/account",
-]
-EXACT_MATCH = [True, True, True, True]
-KEYWORDS = ["", "", "Dashboard", "Delete"]
+# TODO: Configure these for your specific websites
+SITES = []  # e.g., ["site1", "site2"]
+URLS = []  # e.g., [f"{SITE1_URL}/profile", f"{SITE2_URL}/dashboard"]
+EXACT_MATCH = []  # e.g., [True, True]
+KEYWORDS = []  # e.g., ["ProfileKeyword", "DashboardKeyword"]
+ACCOUNTS = {}  # e.g., {"site1": {"username": "...", "password": "..."}}
 
 
 def is_expired(
